@@ -1,4 +1,4 @@
-:root{color-scheme:dark;--indigo:#172438;--surface:#1d2d44;--raised:#24364e;--gold:#d8b66a;--crimson:#aa3540;--green:#d8b66a;--line:#35435a;--muted:#b7c1d0;color:#f5f0e6;background:var(--indigo)}
+:root{color-scheme:dark;--indigo:#0e1624;--surface:#162235;--raised:#1d2d44;--gold:#d8b66a;--crimson:#aa3540;--green:#d8b66a;--line:#2b3a50;--muted:#b7c1d0;color:#f5f0e6;background:var(--indigo)}
 body,.app-shell,.main-shell{background:var(--indigo);color:#f5f0e6}
 .sidebar,.topbar,.sign-in-card,dialog{background:var(--surface);color:#f5f0e6;border-color:var(--line)}
 .brand{gap:11px;font-size:26px;font-weight:700;letter-spacing:-.7px}
@@ -21,7 +21,7 @@ nav a.active .nav-icon{background:#d8b66a20;color:var(--gold)}
 @media(max-width:800px){
   .sidebar{visibility:hidden}.sidebar.open{visibility:visible}
   .app-shell{padding-bottom:calc(82px + env(safe-area-inset-bottom,0px))}
-  .mobile-bottom-nav{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:2px;position:fixed;inset-inline:0;bottom:0;z-index:18;margin:0;padding:8px max(8px,env(safe-area-inset-right,0px)) calc(8px + env(safe-area-inset-bottom,0px)) max(8px,env(safe-area-inset-left,0px));background:#172438f5;border-top:1px solid #d8b66a26;backdrop-filter:blur(18px);box-shadow:0 -8px 30px #080f1d25}
+  .mobile-bottom-nav{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:2px;position:fixed;inset-inline:0;bottom:0;z-index:18;margin:0;padding:8px max(8px,env(safe-area-inset-right,0px)) calc(8px + env(safe-area-inset-bottom,0px)) max(8px,env(safe-area-inset-left,0px));background:#0e1624f5;border-top:1px solid #d8b66a26;backdrop-filter:blur(18px);box-shadow:0 -8px 30px #080f1d25}
   .mobile-bottom-nav a,.mobile-bottom-nav button{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;min-width:0;min-height:58px;padding:0 2px;background:none;color:#b7c1d0;border-radius:10px;font-size:10px;font-weight:600;line-height:1.5;text-align:center}
   .bottom-nav-icon{display:grid;place-items:center;width:45px;height:32px;border-radius:12px}
   .mobile-bottom-nav a[aria-current=page],.mobile-bottom-nav .is-current{color:var(--gold)}
@@ -30,16 +30,16 @@ nav a.active .nav-icon{background:#d8b66a20;color:var(--gold)}
   .mobile-bottom-nav[aria-hidden=true]{visibility:hidden}
 }
 @media print{.mobile-bottom-nav{display:none!important}.app-shell{padding-bottom:0}}
-.primary,.small-primary,.gold-button{background:var(--gold);color:#172438}
+.primary,.small-primary,.gold-button{background:var(--gold);color:#0e1624}
 .primary:hover,.small-primary:hover{background:#e7c982}
 .home-shortcut,.badge-card,.tool-panel,.patrol-card,.action-card,.empty,.requirement,.handbook-section,.attendance-stats>div,.map-toolbar,.viewer-controls,.search{background:var(--surface);color:#f5f0e6;border-color:var(--line)}
 .home-shortcut:hover,.badge-card:hover,.action-card:hover{background:var(--raised);border-color:#8e7953}
 .home-shortcut>svg,.back-link,.attendance-stats strong,.requirement-number{color:var(--gold)}
 .home-shortcut span,.badge-card small,.badge-card>span,.event-item time,.card-kicker,footer{color:var(--muted)}
-input,textarea,select{background:#152237;color:#f5f0e6;border-color:#46536a}
+input,textarea,select{background:#101a2b;color:#f5f0e6;border-color:#46536a}
 input::placeholder,textarea::placeholder{color:#aeb9c9}
 input:focus,textarea:focus,select:focus{outline-color:var(--gold)}
-.segmented,.morse-output,.morse-alphabet>div,.account-panel code,.import-results,.credential,.symbol-button,.symbol-options button,.avatar,.round-icon,.emblem,.dialog-mark,.empty-icon,.badge-mark,.role-tag{background:#2a3b52;color:#e4c787}
+.segmented,.morse-output,.morse-alphabet>div,.account-panel code,.import-results,.credential,.symbol-button,.symbol-options button,.avatar,.round-icon,.emblem,.dialog-mark,.empty-icon,.badge-mark,.role-tag{background:#213149;color:#e4c787}
 .dialog-mark{background:transparent;border-radius:0;width:48px;height:48px}
 .dialog-mark .app-icon{width:48px;height:48px}
 .segmented button{color:#c5cedc}.segmented .selected,.symbol-button[aria-pressed=true],.symbol-options .chosen,.requirement:has(input:checked){background:#34445b;color:#f5f0e6;border-color:#8e7953}
@@ -49,9 +49,9 @@ progress,progress::-webkit-progress-bar{background:#3a4658}
 .sign-in-screen{background:var(--indigo)}
 .sign-in-screen .sign-in-page{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(320px,420px);align-content:center;gap:36px;max-width:1320px;margin:auto;padding:32px 36px 80px}
 .sign-in-card{max-width:420px;box-shadow:0 18px 60px #080f1d33}
-.season-banner{position:relative;isolation:isolate;overflow:hidden;min-height:290px;display:flex;align-items:center;margin-bottom:28px;border:1px solid #d8b66a40;border-radius:16px;background:#172438}
+.season-banner{position:relative;isolation:isolate;overflow:hidden;min-height:290px;display:flex;align-items:center;margin-bottom:28px;border:1px solid #d8b66a40;border-radius:16px;background:#0e1624}
 .season-banner:after{content:'';position:absolute;inset:0;z-index:-2;background:url('/samurai-season.png') right center/cover no-repeat}
-.season-banner:before{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#172438cc 0%,#17243855 48%,transparent 78%)}
+.season-banner:before{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#0e1624cc 0%,#0e162455 48%,transparent 78%)}
 .season-banner-copy{padding:40px;max-width:65%}
 .season-kicker{font-size:10px;font-weight:700;letter-spacing:.2em;color:var(--gold)}
 .season-banner h2{font-size:clamp(28px,3.6vw,48px);line-height:1.15;letter-spacing:-.035em;margin:18px 0 14px;color:#f5f0e6}
@@ -59,10 +59,45 @@ progress,progress::-webkit-progress-bar{background:#3a4658}
 .season-rule{display:block;width:46px;height:3px;background:var(--gold);margin-top:26px}
 .sign-in-page .season-banner{min-height:420px;width:100%;margin:0}
 [dir=rtl] .season-banner:after{transform:scaleX(-1)}
-[dir=rtl] .season-banner:before{background:linear-gradient(270deg,#172438f5 0%,#172438b0 48%,#17243820 100%)}
+[dir=rtl] .season-banner:before{background:linear-gradient(270deg,#0e1624f5 0%,#0e1624b0 48%,#0e162420 100%)}
 [dir=rtl] .season-kicker{letter-spacing:0}[dir=rtl] .season-banner h2{letter-spacing:0}
 @media(max-width:900px){.sign-in-screen .sign-in-page{grid-template-columns:1fr;justify-items:center;max-width:700px;gap:24px}.sign-in-page .season-banner{min-height:260px}.season-banner h2{font-size:34px}}
 @media(max-width:560px){.sign-in-screen .sign-in-page{padding:12px 20px 40px}.season-banner,.sign-in-page .season-banner{min-height:230px;border-radius:12px;background-position:62% center}.season-banner-copy{padding:26px 22px;max-width:74%}.season-banner h2{font-size:30px}.season-banner p{font-size:12px}.season-kicker{font-size:9px;letter-spacing:.12em}.season-rule{margin-top:20px}}
 /* Keep touch-device fields large enough to avoid iOS focus zoom. */
+.badge-emblem{--badge-accent:#d8b66a;--badge-tint:#d8b66a1c;position:relative;display:inline-grid;place-items:center;width:var(--badge-size);height:var(--badge-size);flex-shrink:0;isolation:isolate;border:1px solid color-mix(in srgb,var(--badge-accent) 55%,transparent);border-radius:50%;background:radial-gradient(circle at 35% 25%,var(--badge-tint),#0e1624 85%);color:var(--badge-accent);box-shadow:inset 0 0 0 3px #0e1624,0 3px 10px #080f1d20}
+.badge-emblem:before{content:'';position:absolute;inset:5px;border:1px dashed color-mix(in srgb,var(--badge-accent) 35%,transparent);border-radius:50%;z-index:-1}
+.badge-emblem-rel{--badge-accent:#c8b4e8;--badge-tint:#c8b4e82c}.badge-emblem-sport{--badge-accent:#9ecfe0;--badge-tint:#9ecfe02c}.badge-emblem-art{--badge-accent:#e3a7b8;--badge-tint:#e3a7b82c}.badge-emblem-scout{--badge-accent:#b8cba2;--badge-tint:#b8cba22c}
+.badge-card>.badge-emblem{color:var(--badge-accent)}
+.badge-emblem .badge-level{position:absolute;bottom:-4px;inset-inline-end:-3px;display:grid;place-items:center;min-width:19px;height:19px;border:2px solid var(--surface);border-radius:50%;background:var(--badge-accent);color:#0e1624;font-size:9px;line-height:1;font-weight:800;letter-spacing:0;padding:0 2px}
+.badge-card h2,.badge-card h3{overflow-wrap:anywhere}.badge-card{min-width:0}
+@media(max-width:800px){
+  .main-shell{min-width:0}.app-shell{--bottom-bar-height:72px;padding-bottom:calc(var(--bottom-bar-height) + env(safe-area-inset-bottom,0px))}
+  .topbar{height:64px;gap:8px;padding-inline:16px}.top-actions{gap:8px}.breadcrumb{min-width:0;overflow:hidden;white-space:nowrap;margin-inline:0 auto;gap:6px}.breadcrumb strong{overflow:hidden;text-overflow:ellipsis}
+  .menu-toggle{padding:10px 4px}.top-actions .language{padding-inline:4px}.top-actions .subtle{padding-inline:4px}
+  .main-shell>main{padding:24px 20px 0;min-height:calc(100dvh - 200px)}
+  .main-shell>footer{margin-inline:20px;padding-block:20px}
+  .section-title{gap:12px;margin-bottom:20px}.section-title h1{font-size:28px;line-height:1.25}
+  .events-banner{padding:20px;margin-bottom:20px}.events-banner>.section-title{margin-bottom:14px}.events-banner h2{font-size:19px;gap:8px}
+  .event-actions{gap:8px;width:100%;justify-content:space-between}.event-actions button{font-size:12px}
+  .mobile-bottom-nav{height:calc(var(--bottom-bar-height,72px) + env(safe-area-inset-bottom,0px));padding-top:6px;padding-bottom:calc(6px + env(safe-area-inset-bottom,0px));gap:0}
+  .mobile-bottom-nav a,.mobile-bottom-nav button{min-height:0;height:60px;gap:2px;font-size:10px}
+  .bottom-nav-icon{height:30px;width:42px}
+  .badge-filters{gap:12px}.badge-filters label{min-width:0}.badge-filters select{width:100%}
+  .badge-grid{gap:12px}.badge-card{padding:18px 16px;gap:12px}.badge-card h2{font-size:17px;line-height:1.55}
+  .continue-section{margin-top:26px}.continue-section>h2{font-size:21px}
+}
+@media(max-width:560px){
+  .main-shell>main{padding:20px 16px 0}.main-shell>footer{margin-inline:16px}
+  .season-banner{min-height:190px;margin-bottom:24px}.season-banner-copy{padding:24px;max-width:75%}.season-banner h2{font-size:28px;margin-block:12px 10px}.season-rule{margin-top:16px}
+  .home-shortcuts{grid-template-columns:1fr;gap:10px}
+  .home-shortcut{display:grid;grid-template-columns:44px minmax(0,1fr);column-gap:14px;row-gap:3px;padding:16px;align-items:center}
+  .home-shortcut .shortcut-icon{grid-row:1/3;width:44px;height:44px;border-radius:12px}
+  .home-shortcut .shortcut-icon svg{width:24px;height:24px}
+  .home-shortcut h2{margin:0;font-size:17px;line-height:1.45;min-width:0}
+  .home-shortcut>span:last-child{font-size:12px;line-height:1.6;min-width:0;overflow-wrap:anywhere}
+  .badge-filters{grid-template-columns:1fr 1fr}.badge-filters .search{grid-column:1/-1}.badge-filters>label:last-child{grid-column:1/-1}
+  .badge-card{padding:18px 14px}.badge-card h2{font-size:16px}.badge-card small{font-size:11px}
+}
+@media(max-width:359px){.badge-grid{grid-template-columns:1fr}.topbar{padding-inline:10px}.breadcrumb{font-size:10px}.season-banner-copy{max-width:88%;padding:20px}.season-banner h2{font-size:26px}}
 @media(hover:none) and (pointer:coarse){input,textarea,select{font-size:16px}}
 @media print{:root{color-scheme:light;--muted:#555;--line:#ccc;--green:#254d3d}.season-banner{display:none}body,.app-shell,.main-shell,.tool-panel,.handbook-section,.requirement{background:white;color:black}}

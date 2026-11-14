@@ -19,8 +19,9 @@ for(const lang of ['en','ar'])test(`bottom navigation works in ${lang} without c
   await more.click();
   const menu=page.getByRole('navigation',{name:ar?'القائمة الرئيسية':'Main navigation'});
   await expect(menu).toBeVisible();
-  await menu.getByRole('link',{name:ar?'الإنجازات':'Achievements',exact:true}).click();
-  await expect(page).toHaveURL(/#progress$/);
+  await expect(menu.getByRole('link',{name:ar?'الإنجازات':'Achievements',exact:true})).toHaveCount(0);
+  await menu.getByRole('link',{name:ar?'الطلائع':'Patrouilles',exact:true}).click();
+  await expect(page).toHaveURL(/#patrouilles$/);
   await expect(bar).toBeVisible();
   await expect(more).toHaveClass('is-current');
   await more.click();await page.keyboard.press('Escape');await expect(bar).toBeVisible();

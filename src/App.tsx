@@ -189,7 +189,7 @@ export default function App() {
   function go(p:Page){location.hash=p;setMobile(false);}
   const myProfile=profiles.find(p=>p.id===session?.user.id);
   const displayName=myProfile?.display_name||session?.user.user_metadata?.display_name||t.account;
-  const nav = (['home','badges','tools','progress','attendance','patrouilles','account'] as const).map(id=>({id,icon:navigationIcons[id]}));
+  const nav = (['home','badges','tools','attendance','patrouilles','account'] as const).map(id=>({id,icon:navigationIcons[id]}));
   const mobileNav=nav.filter(({id})=>['home','badges','tools','attendance'].includes(id));
   const MoreIcon=navigationIcons.more;
   useEffect(()=>{if(!mobile)return;const close=(e:KeyboardEvent)=>{if(e.key==='Escape')setMobile(false);};window.addEventListener('keydown',close);return()=>window.removeEventListener('keydown',close);},[mobile]);
