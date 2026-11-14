@@ -1,0 +1,48 @@
+:root{color-scheme:dark;--indigo:#172438;--surface:#1d2d44;--raised:#24364e;--gold:#d8b66a;--crimson:#aa3540;--green:#d8b66a;--line:#35435a;--muted:#b7c1d0;color:#f5f0e6;background:var(--indigo)}
+body,.app-shell,.main-shell{background:var(--indigo);color:#f5f0e6}
+.sidebar,.topbar,.sign-in-card,dialog{background:var(--surface);color:#f5f0e6;border-color:var(--line)}
+.brand{gap:11px;font-size:26px;font-weight:700;letter-spacing:-.7px}
+.brand-icon{width:40px;height:40px;border-radius:0;background:transparent;color:var(--gold)}
+.brand-icon .app-icon{width:40px;height:40px}
+.app-icon{display:block;flex-shrink:0}.brand-icon,.dialog-mark{overflow:hidden}
+.event-actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.clear-events{min-height:44px;padding:10px 14px;border:1px solid #cb7d87;border-radius:6px;background:#4a2937;color:#ffd6d2;font-size:12px;font-weight:600}
+.clear-events:disabled{opacity:.55;cursor:default}
+.events-banner>.section-title{flex-wrap:wrap}
+nav a,.admin-nav,.breadcrumb,.breadcrumb strong,.language,.subtle,.icon-button,.account-button,.tool-tabs a{color:#c5cedc}
+nav a.active,nav a:hover,.admin-nav.active,.tool-tabs a[aria-current=page],.subtle[aria-pressed=true]{background:#344158;color:var(--gold)}
+.active-dot{background:var(--gold)}
+.primary,.small-primary,.gold-button{background:var(--gold);color:#172438}
+.primary:hover,.small-primary:hover{background:#e7c982}
+.home-shortcut,.badge-card,.tool-panel,.patrol-card,.action-card,.empty,.requirement,.handbook-section,.attendance-stats>div,.map-toolbar,.viewer-controls,.search{background:var(--surface);color:#f5f0e6;border-color:var(--line)}
+.home-shortcut:hover,.badge-card:hover,.action-card:hover{background:var(--raised);border-color:#8e7953}
+.home-shortcut>svg,.back-link,.attendance-stats strong,.requirement-number{color:var(--gold)}
+.home-shortcut span,.badge-card small,.badge-card>span,.event-item time,.card-kicker,footer{color:var(--muted)}
+input,textarea,select{background:#152237;color:#f5f0e6;border-color:#46536a}
+input::placeholder,textarea::placeholder{color:#aeb9c9}
+input:focus,textarea:focus,select:focus{outline-color:var(--gold)}
+.segmented,.morse-output,.morse-alphabet>div,.account-panel code,.import-results,.credential,.symbol-button,.symbol-options button,.avatar,.round-icon,.emblem,.dialog-mark,.empty-icon,.badge-mark,.role-tag{background:#2a3b52;color:#e4c787}
+.dialog-mark{background:transparent;border-radius:0;width:48px;height:48px}
+.dialog-mark .app-icon{width:48px;height:48px}
+.segmented button{color:#c5cedc}.segmented .selected,.symbol-button[aria-pressed=true],.symbol-options .chosen,.requirement:has(input:checked){background:#34445b;color:#f5f0e6;border-color:#8e7953}
+.event-item,.event-editor{border-color:var(--line)}
+.form-error,.error-banner{background:#4a2937;color:#ffd6d2}.success{background:#273e41;color:#c9e8d3}.notice{background:#413b2e;color:#f2dba8}.danger{color:#ffb0b0}
+progress,progress::-webkit-progress-bar{background:#3a4658}
+.sign-in-screen{background:var(--indigo)}
+.sign-in-screen .sign-in-page{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(320px,420px);align-content:center;gap:36px;max-width:1320px;margin:auto;padding:32px 36px 80px}
+.sign-in-card{max-width:420px;box-shadow:0 18px 60px #080f1d33}
+.season-banner{position:relative;isolation:isolate;overflow:hidden;min-height:290px;display:flex;align-items:center;margin-bottom:28px;border:1px solid #d8b66a40;border-radius:16px;background:#172438}
+.season-banner:after{content:'';position:absolute;inset:0;z-index:-2;background:url('/samurai-season.png') right center/cover no-repeat}
+.season-banner:before{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#172438cc 0%,#17243855 48%,transparent 78%)}
+.season-banner-copy{padding:40px;max-width:65%}
+.season-kicker{font-size:10px;font-weight:700;letter-spacing:.2em;color:var(--gold)}
+.season-banner h2{font-size:clamp(28px,3.6vw,48px);line-height:1.15;letter-spacing:-.035em;margin:18px 0 14px;color:#f5f0e6}
+.season-banner p{font-size:14px;line-height:1.8;color:#d0d5df}
+.season-rule{display:block;width:46px;height:3px;background:var(--gold);margin-top:26px}
+.sign-in-page .season-banner{min-height:420px;width:100%;margin:0}
+[dir=rtl] .season-banner:after{transform:scaleX(-1)}
+[dir=rtl] .season-banner:before{background:linear-gradient(270deg,#172438f5 0%,#172438b0 48%,#17243820 100%)}
+[dir=rtl] .season-kicker{letter-spacing:0}[dir=rtl] .season-banner h2{letter-spacing:0}
+@media(max-width:900px){.sign-in-screen .sign-in-page{grid-template-columns:1fr;justify-items:center;max-width:700px;gap:24px}.sign-in-page .season-banner{min-height:260px}.season-banner h2{font-size:34px}}
+@media(max-width:560px){.sign-in-screen .sign-in-page{padding:12px 20px 40px}.season-banner,.sign-in-page .season-banner{min-height:230px;border-radius:12px;background-position:62% center}.season-banner-copy{padding:26px 22px;max-width:74%}.season-banner h2{font-size:30px}.season-banner p{font-size:12px}.season-kicker{font-size:9px;letter-spacing:.12em}.season-rule{margin-top:20px}}
+@media print{:root{color-scheme:light;--muted:#555;--line:#ccc;--green:#254d3d}.season-banner{display:none}body,.app-shell,.main-shell,.tool-panel,.handbook-section,.requirement{background:white;color:black}}

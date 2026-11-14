@@ -1,0 +1,2352 @@
+[
+  {
+    "id": "b0",
+    "category": "rel",
+    "ar": "مؤرخ الكنيسة",
+    "en": "Church Historian",
+    "requirements": [
+      {
+        "ar": "أن تمتلك معلومات عن العصور (الفترات) العظيمة فى تاريخ الكنيسة",
+        "en": "Know the great periods in church history."
+      },
+      {
+        "ar": "ان تقوم بدراسة شخصية أو اثنان مهمان أو فترة معينة (على سبيل المثال الاضطهادات فى القرون الأولى – اعتناق البربر للمسيحية الحمالات الصليبية – باباوات افينيون. الكنيسة فى القرون الوسطى – الثورة الفرنسية – الباباوت الحاليين – فرنسا الرسولية إلخ ....)",
+        "en": "Study one or two important figures or a period (e.g. persecutions in the early centuries, barbarians converting to Christianity, the Crusades, the Avignon popes, the medieval church, the French Revolution, current popes, apostolic France…)."
+      },
+      {
+        "ar": "ان تقص على الفرقة بطريقة جذابة الخطوط العريضة لحياة أحد الأشخاص أو أحداث مأخوذة من العصر المختار",
+        "en": "Tell the troop in an engaging way the outline of a person's life or events from your chosen period."
+      },
+      {
+        "ar": "أن تستطيع الحكم على بعض الأحداث التاريخية مثل الحكم باعدام جاليلو – محاكم التفتيش، القديس برتلماوس الباباوات السيئين إلخ ....",
+        "en": "Be able to judge historical events such as Galileo's condemnation, the inquisitions, St Bartholomew, bad popes…"
+      },
+      {
+        "ar": "أن تستطيع شرح الدرجات المختلفة للسلم الكنسى وماهي سلطات كل منهم (حديثاوقديما ايام حكم الكنيسة).",
+        "en": "Explain the church hierarchy and the authority of each rank (today and in the past)."
+      },
+      {
+        "ar": "ان تعرف عقيدة الجسد الروحانى – الاتحاد مع القديسين عرض المظاهر فى التاريخ والحياة الكنسية (من خلال قصص مؤلفة أو محكية او معجزات)",
+        "en": "Know the doctrine of the spiritual body and communion with the saints, and show it in history and church life (through stories or miracles)."
+      }
+    ],
+    "source": "/badges/b0.jpg"
+  },
+  {
+    "id": "b1",
+    "category": "rel",
+    "ar": "قارئ إنجيلي",
+    "en": "Gospel Reader",
+    "requirements": [
+      {
+        "ar": "ان تعرف النبؤات الأساسية التى تعلن عن مجىء المسيح فى العهد القديم وأهم الشخصيات التى تشير إلى المسيح",
+        "en": "Know the main Old Testament prophecies of the Messiah and the key figures who point to Him."
+      },
+      {
+        "ar": "ان تقوم بتحديد على خريطة فلسطين الأماكن التى شاهدت الأحداث المهمة فى حياة المسيح",
+        "en": "Mark on a map of Palestine the places of the important events in Christ's life."
+      },
+      {
+        "ar": "ان تقوم بـإستخراج من الأنجيل بعض خصائص العادات الخاصة فى عهد المسيح",
+        "en": "Find in the Gospel some customs of Christ's time."
+      },
+      {
+        "ar": "أن تكون لديكانجيل كامل ومعتاد على استخدامه لتحديد أهم الأحداث فى حياة المسيح والعلاقة بينهم (المعجزات – الأحاديث (الأمثال))",
+        "en": "Own a complete Gospel and be used to it; place the main events of Christ's life and how they connect (miracles, parables)."
+      },
+      {
+        "ar": "أن تكون لديك معلومات موجزة عن تاريخ التأليف والطابع الخاص بكل انجيل",
+        "en": "Know briefly when each Gospel was written and its special character."
+      },
+      {
+        "ar": "ان تقوم بـإعداد وتقديم مع الطليعة أو الفرقة مشهد مأخوذ من الأنجيل",
+        "en": "Prepare and perform with the patrol or troop a scene from the Gospel."
+      },
+      {
+        "ar": "ان تتعهد بأن تكون معلماً لفرقتك لمختبارات الأنجيلية أو أن تقص على الفرقة بطريقة جذابة أحداث من الانجيل (وان تساعد فرقتك على قراءة الانجيل)",
+        "en": "Commit to teaching your troop (Gospel quizzes) or telling Gospel events engagingly, and help them read the Gospel."
+      }
+    ],
+    "source": "/badges/b1.jpg"
+  },
+  {
+    "id": "b2",
+    "category": "rel",
+    "ar": "خادم المذبح",
+    "en": "Altar Server",
+    "requirements": [
+      {
+        "ar": "ان تعرف وتقوم بخدمة القداس الغير مرتل عن ظهر قلب",
+        "en": "Know and serve the unchanted Mass by heart."
+      },
+      {
+        "ar": "ان تعرف فى القداس الأحتفالى وفى خدمة القربان المقدس القيام بدور خادم المذبح، حامل الشورية– حامل الشمع",
+        "en": "Know the roles in the festive Mass and Holy Communion: altar server, censer bearer, candle bearer."
+      },
+      {
+        "ar": "ان تقوم بـإعداد الأدوات والملابس الطقسية (الليتورجية) اللازمة للقداس فى السكريستية (الموهف) وعلى المذبح تحضير كتاب القداس حسب ارشادات التقويم الكنسى",
+        "en": "Prepare the liturgical tools and vestments in the sacristy and on the altar; prepare the Mass book according to the church calendar."
+      },
+      {
+        "ar": "ان تقوم ببناء هيكل (مذبح) فى المخيم ذو طابع بسيط وملائم",
+        "en": "Build a simple, suitable altar at camp."
+      },
+      {
+        "ar": "ان تعرف التقسيمات الكبرى للسنة الطقسية ومواعيد الأعياد ومعرفة الألوان المناسبة للملابس الطقسية والخصائص التى تبين مناسبة أقامة القداس الاحتفالى",
+        "en": "Know the main divisions of the liturgical year, feast dates, the colours of vestments and what suits a festive Mass."
+      },
+      {
+        "ar": "انتتعهد بخدمة القداس الإلهي إذا ما أستدعت حاجة الكاهن ولم يكن هناك من يقوم بخدمة القداس",
+        "en": "Commit to serve the Mass if the priest needs it and nobody else can."
+      }
+    ],
+    "source": "/badges/b2.jpg"
+  },
+  {
+    "id": "b3",
+    "category": "skill",
+    "ar": "صديق النباتات",
+    "en": "Plant Friend",
+    "requirements": [
+      {
+        "ar": "ان تقوم بـاعداد اصيص زرع وانماء ثمان انواع من الخضروات او الزهور بنجاح او ان تقوم بـالعناية بنوعين على الاقل من اشجار الفاكهة",
+        "en": "Prepare a pot and successfully grow eight kinds of vegetables or flowers, or care for at least two fruit trees."
+      },
+      {
+        "ar": "ان تقوم بـحماية حديقتك من الحيوانات الضارة",
+        "en": "Protect your garden from harmful animals."
+      },
+      {
+        "ar": "ان تعرف انواع الاسمدة المختلفة واستخدامتها",
+        "en": "Know the different fertilisers and their uses."
+      },
+      {
+        "ar": "ان تعرف عن طريق بحث مبسط اعمال الزراعة الرئيسية (الحرث – بذر – تسوية الارض – العزق – تقليب الارض – الحصد – تكويم الحشيش – درس القمح الخ...) حسب الفصول",
+        "en": "Through simple research, know the main farm work by season (ploughing, sowing, levelling, hoeing, turning soil, harvesting, stacking hay, threshing wheat…)."
+      },
+      {
+        "ar": "ان تكون قد استخدم/يعرف بيده كل الادوات الزراعية الرئيسية",
+        "en": "Have used and know all the main farm tools by hand."
+      },
+      {
+        "ar": "ان تقوم بـحصد الفاكهة ومعرفة حفظهاوطريقة نقلها",
+        "en": "Harvest fruit and know how to store and transport it."
+      }
+    ],
+    "source": "/badges/b3.jpg"
+  },
+  {
+    "id": "b4",
+    "category": "skill",
+    "ar": "مربي حيوانات",
+    "en": "Animal Keeper",
+    "requirements": [
+      {
+        "ar": "ان تعرف وتربى حيوان اليف لمدة سنة على الاقل",
+        "en": "Know and keep a tame animal for at least a year."
+      },
+      {
+        "ar": "عمل بحث عن الاعتناء وتغذية وتسكين الحيوان الاليف الذيتختاره مع اعطاء حقائق مثيرة عنه ولماذا اختارته بالذات",
+        "en": "Research the care, feeding and housing of your chosen pet, with interesting facts and why you chose it."
+      },
+      {
+        "ar": "ان تقوم بـاعداد شرح واف واضح ودقيق حول موضوع تربية الحيوانات وفصيلتهم ونوعية غذائهمومنتجاتهم وتكاثرهم (التناسل)",
+        "en": "Give a full, clear explanation of animal breeding: breeds, food, products and reproduction."
+      }
+    ],
+    "source": "/badges/b4.jpg"
+  },
+  {
+    "id": "b5",
+    "category": "skill",
+    "ar": "خياط أو مصمم أزياء",
+    "en": "Tailor / Fashion Designer",
+    "requirements": [
+      {
+        "ar": "ان تعرف كيف تأخذ المقاسات",
+        "en": "Know how to take measurements."
+      },
+      {
+        "ar": "ان تصمم وتضبط وتقوم بحياكة القميص والبنطلون للزى الكشفى",
+        "en": "Design, fit and sew the shirt and trousers of the scout uniform."
+      },
+      {
+        "ar": "ان تقوم بوضع بطانة وبوضع الجيوب",
+        "en": "Add a lining and pockets."
+      },
+      {
+        "ar": "ان تقوم بخياطة شراب، بترقيع الملابس، بوضع الازرار، كما تقوم بعمل عراوى",
+        "en": "Sew a sock, patch clothes, sew on buttons and make buttonholes."
+      },
+      {
+        "ar": "ان تقوم بكى زى الكشافة",
+        "en": "Iron the scout uniform."
+      },
+      {
+        "ar": "ان تعرف كيف تعتنى بالاقمشة",
+        "en": "Know how to care for fabrics."
+      }
+    ],
+    "source": "/badges/b5.jpg"
+  },
+  {
+    "id": "b6",
+    "category": "skill",
+    "ar": "مصور فوتوغرافي",
+    "en": "Photographer",
+    "requirements": [
+      {
+        "ar": "ان تشرح كيف يمكن أن تؤثر العناصر والمصطلحات التالية على جودة الصورة: الضوء -الضوء الطبيعي (المحيط / القائم)، والضوء المنخفض (مثل الليل)، والضوء الاصطناعي (مثل الفلاش(- زاوية الرؤية- - جساسية الكاميرا ( iso ) – فتحة العادسة – الطول البؤري للعدسة ( focal length ) –سرعة الغالق )shutter speed(",
+        "en": "Explain how light (natural, low, artificial/flash), angle of view, ISO, aperture, focal length and shutter speed affect picture quality."
+      },
+      {
+        "ar": "ان تشرح الأجزاء الأساسية وتشغيل الكاميرا.وتشرح كيفية إجراء التعرض عند التقاط صورة.",
+        "en": "Explain the camera's main parts and operation, and how exposure is set when taking a picture."
+      },
+      {
+        "ar": "ان تقوم بعمل اثنين مما يلي أ) تصوير موضوع واحد من زاويتين أو منظورين مختلفين. ب) تصوير موضوع واحد من مصدرين مختلفين للضوء -اصطناعي وطبيعي. ج) تصوير موضوع واحد له عمقان مختلفان. د)موضوع واحد بتكوينات فنية مختلفة (compositions)",
+        "en": "Do two of: (a) one subject from two angles, (b) one subject in natural and artificial light, (c) one subject at two depths, (d) one subject with different compositions."
+      },
+      {
+        "ar": "ان تصور ثلاثة مما يلي، يحصلون على اعجاب القائد صورة عن قرب لشخص ما-شخصان أو ثلاثة أشخاص يتفاعلون- صورة لعمل او حدث ما- صورة لحيوان- صورة للطبيعة",
+        "en": "Take three of these that impress your leader: a close-up of a person, two or three people interacting, a work or event, an animal, nature."
+      },
+      {
+        "ar": "ان تصف كيف يسمح لك البرنامج بتحسين صورتك بعد التقاطها. اختر صورة التقطتها، ثم تقوم بأحد الإجراءات التالية: أ) اقتصاص صورتك-ب) ضبط التعرض أو إجراء تصحيح",
+        "en": "Describe how software improves a photo after you take it; pick one of yours and crop it, or adjust the exposure or correct it."
+      }
+    ],
+    "source": "/badges/b6.jpg"
+  },
+  {
+    "id": "b7",
+    "category": "skill",
+    "ar": "نقاش",
+    "en": "Painter & Decorator",
+    "requirements": [
+      {
+        "ar": "ان تقوم باعداد لون بالغراء او بالزيت على ان يتحدد درجته مسبقا",
+        "en": "Prepare paint (glue-based or oil) in a pre-decided shade."
+      },
+      {
+        "ar": "ان تقوم بتكليس او دهان حائطة او سقف",
+        "en": "Whitewash or paint a wall or ceiling."
+      },
+      {
+        "ar": "ان تقوم بطلاء حسب الاختيار باب، نافذة أو قطعة اثاث",
+        "en": "Paint a door, window or piece of furniture of your choice."
+      },
+      {
+        "ar": "ان تقوم بعمل دقيق (تصميم شعار – افريز – علامة – لافتة – الخ.)",
+        "en": "Do careful work (design a logo, border, sign, signboard, etc.)."
+      }
+    ],
+    "source": "/badges/b7.jpg"
+  },
+  {
+    "id": "b8",
+    "category": "skill",
+    "ar": "متخصص طائرات",
+    "en": "Aircraft Specialist",
+    "requirements": [
+      {
+        "ar": "ان تعرف المعلومات الاولية عن مقاومة الهواء",
+        "en": "Know the basics of air resistance."
+      },
+      {
+        "ar": "ان تقوم بعمل وصف لتجربة يبين فيها تطبيقة على سطح جناح طائرة وتكسير الهواء فى صورة قوة ساحبة ”رسم كروكى لل air flow“",
+        "en": "Describe an experiment showing airflow over a wing surface and drag, with a sketch of the air flow."
+      },
+      {
+        "ar": "ان تمتلك معلومات موجزة عن العناصر الاساسية التى تتكون منها الطائرة مثل:جسم الطائرة( fuselage) وحجرة التحكم(cockpit) وأسطح التحكم في الطائرة(contolsurfaces) وعجلات الهبوط)under carridge( مكونات ذيل الطائرة)vertical and horizontal tail( انواع المحركات",
+        "en": "Know the main parts of an aircraft: fuselage, cockpit, control surfaces, undercarriage, tail (vertical and horizontal) and the types of engines."
+      },
+      {
+        "ar": "ان تقومبـبناء نموذج مصغر (طائرة شراعية او طائرة عادية) يمكنه الطيران معتمدا على وسائله الخاصة بدون استخدام العلب جاهزة التى على ان تكون اقل مسافة تقطع اثناء كل طيران هى10 م",
+        "en": "Build a model plane or glider that flies on its own, without ready-made kits, covering at least 10 m per flight."
+      }
+    ],
+    "source": "/badges/b8.jpg"
+  },
+  {
+    "id": "b9",
+    "category": "skill",
+    "ar": "نجار",
+    "en": "Carpenter",
+    "requirements": [
+      {
+        "ar": "ان تقوم بـتجميع الأخشاب من الأشجار المستخدمة فى النجارة (ثمان عينات على الأقل) ومعرفة مزايا وعيوب هذه الأنواع من الأخشاب واستخدامتهم الأساسية فى النجارة",
+        "en": "Collect wood samples from trees used in carpentry (at least eight) and know their pros, cons and main uses."
+      },
+      {
+        "ar": "ان تقوم بـعمل وصلة من الخشب طولها 75سم وتقوم بلصقها بغراء",
+        "en": "Make a 75 cm wood joint and glue it."
+      },
+      {
+        "ar": "ان تقوم بـعمل التجميعات الخشبية البسيطة مثل لسان وقرص (ذكروأنثى) مع يسار (قطعة خشب تستعمل لسد ثغره أو للجمع بين جسمين)",
+        "en": "Make simple wood joints such as tongue-and-groove (male and female)."
+      },
+      {
+        "ar": "ان تعرف أدوات النجارة وأستخدامتها بطريقة صحيحة مثل سن مقص، سلاح الفارة (المسحاج)والمنشار وأستخدام الكابس و باستخدام المسامير و الشاكوش",
+        "en": "Know carpentry tools and use them correctly: saw set, plane, saw, press, nails and hammer."
+      },
+      {
+        "ar": "ان تقوم بـإستخدام المصقل والمثقب (أداه لثقب الخشب)(مسحاج)",
+        "en": "Use sandpaper and a drill."
+      },
+      {
+        "ar": "ان تقوم بعمل كامل وتنتهي منه مثل صندوق أو رف أو قطعة أثاث صغيرة أو علبة لتجميع الأشياء الصغيرة إلخ ...",
+        "en": "Make and finish a complete piece, such as a box, shelf, small furniture or storage box."
+      }
+    ],
+    "source": "/badges/b9.jpg"
+  },
+  {
+    "id": "b10",
+    "category": "skill",
+    "ar": "ميكانيكي",
+    "en": "Mechanic",
+    "requirements": [
+      {
+        "ar": "ان تعرف كيف يقوم بـقراءة رسم صناعى",
+        "en": "Know how to read an industrial drawing."
+      },
+      {
+        "ar": "أن تكون لديك معلومات عن طريقة تشغيل وصيانة الأجزاء الميكانيكية مثل الموتور والماكينات إلخ ......",
+        "en": "Know how to run and maintain mechanical parts such as motors and machines."
+      },
+      {
+        "ar": "ان تقوم بـإختيار ماكينة من سيارة أو دراجة بخارية أو ماكينة زراعية أو أدوات آلية وتعرف أجزائها المختلفة (أسماء – طريقة تشغيل – صيانة)وتقوم بتشغيلهـاوأيقافهـا وبتشحيمهـا وان تعرفكيفية فك وتركيب الأجزاء الرئيسية بها",
+        "en": "Choose a machine (car, motorbike, farm machine or power tool), know its parts (names, operation, maintenance), start, stop and lubricate it, and know how to take apart and refit its main parts."
+      }
+    ],
+    "source": "/badges/b10.jpg"
+  },
+  {
+    "id": "b11",
+    "category": "skill",
+    "ar": "بناء",
+    "en": "Builder",
+    "requirements": [
+      {
+        "ar": "ان تعرف خلط الجبس أو الأسمنت الذي يتحمل الماء",
+        "en": "Know how to mix plaster or water-resistant cement."
+      },
+      {
+        "ar": "ان تقوم بـإستخدام مطمار (خيط من الرصاص) و حبل رفيع (خيطالبناء ) و مسحة ( أله ملسة تنزع بها الطين ) بطريقة صحيحة",
+        "en": "Use a plumb line, a thin string (mason's line) and a trowel correctly."
+      },
+      {
+        "ar": "ان تقوم بـبناء حائط صغير له زاوية قائمة وبأرتفاع متر على الأقل",
+        "en": "Build a small wall at a right angle, at least a metre high."
+      },
+      {
+        "ar": "ان تساهم فى بناء فرن أو ممرات من الأحجار أو حظيرة صغيرة للحيوانات المستأنسة أو تسقيف إلخ....",
+        "en": "Help build an oven, stone paths, a small animal pen, a roof, etc."
+      },
+      {
+        "ar": "ان تقوم بـتجهيز أسمنت يجف بالماء والمشاركة فى بناء حوض زرع أو خندق محكم السد (لايتسرب منه الماء)ومعرفة أستخدامه ومعرفة تطبيقات الأسمنت والخرسانة",
+        "en": "Prepare water-setting cement, help build a planter or watertight ditch, and know the uses of cement and concrete."
+      }
+    ],
+    "source": "/badges/b11.jpg"
+  },
+  {
+    "id": "b12",
+    "category": "skill",
+    "ar": "كهربائي",
+    "en": "Electrician",
+    "requirements": [
+      {
+        "ar": "معرفة كيفية التعامل مع الحالات الطارئة بسبب الكهرباء",
+        "en": "Know how to handle electrical emergencies."
+      },
+      {
+        "ar": "انتقومبـشرح كيفية عمل البطارية العادية ومكوناتها وكيفية صيانتها",
+        "en": "Explain how an ordinary battery works, its parts and its care."
+      },
+      {
+        "ar": "ان تقوم بإصلاح قطع فى سلك واصلاح إنقطاع تيار فى شبكة عادية 220 فولت او ان تقوم بصنع واستخدام جهاز كهربائى مثل مغناطيسى كهربائى أو جرس أو تلغراف أو جهاز أستقبال أو أرسال أو تركيب إضاءة",
+        "en": "Repair a wire break or a fault in a normal 220 V circuit, or make and use an electrical device (electromagnet, bell, telegraph, receiver or transmitter) or install a light."
+      },
+      {
+        "ar": "رسم دائرة كهربائية (مكونة من بطارية او من الشبكة ال 220 فولت ومقاومات ومفتاح كهربائى على الاقل) وعمل الحسابات اللازمة (التوصيل المتوالى والمتوازى) وتنفيذها",
+        "en": "Draw an electrical circuit (battery or 220 V, resistors, at least one switch), do the calculations (series and parallel) and build it."
+      },
+      {
+        "ar": "معرفة الفرق ما بين الدينامو والموتور وعملهم",
+        "en": "Know the difference between a dynamo and a motor and how each works."
+      },
+      {
+        "ar": "معرفة Fuseوقواطع الدائرة )circuit breaker(وفوائد المحولات",
+        "en": "Know fuses, circuit breakers and the use of transformers."
+      },
+      {
+        "ar": "معرفة الفرق ما بين المواد العازلة والغير عازلة",
+        "en": "Know insulating and non-insulating materials."
+      },
+      {
+        "ar": "معرفة طرق توليد الطاقة المتجددة (الشمسية – الرياح-المستطحات المائية)",
+        "en": "Know ways of generating renewable energy (solar, wind, water)."
+      },
+      {
+        "ar": "معرفة الفرق ما بين التيار الثابت والمتردد",
+        "en": "Know the difference between direct and alternating current."
+      }
+    ],
+    "source": "/badges/b12.jpg"
+  },
+  {
+    "id": "b13",
+    "category": "skill",
+    "ar": "حرفي",
+    "en": "Craftsman",
+    "requirements": [
+      {
+        "ar": "ان تقوم بالاستعانة باحد التخصصات الثلاثة التالية (صناعة الخزف أو صناعة السلال أوصناعة القوالب والنموذج) وتتعرف على المادة الاولية فى اشكالها المختلفة وتعرف كيفتقدر جودتها كيف تصون ادوات العمل والمراحل المختلفةوطرق البناء",
+        "en": "Choose one of three specialities (pottery, basket-making, moulds and models), know the raw material in its forms, how to judge its quality, care for tools, the stages and methods."
+      },
+      {
+        "ar": "ان تقوم بنفسك باداء أحد الاعمال التالية:",
+        "en": "Do one of these yourself."
+      },
+      {
+        "ar": "صناعة الخزف:تقوم بعمل تصميم جانبى للشكل بسيط وتنفيذ هذا التصميم بالظن حيث يطابق الرسم تقوم بعد ذلك بتسويتها دون ان يتشقق",
+        "en": "Pottery: draw a side design of a simple shape and make it to match, then fire it without cracking."
+      },
+      {
+        "ar": "صناعة السلال:تقوم بعمل به ذوق سواء بنموذج او بدون نموذج وتقوم بعمل ثلاثة اشياء قابلة للاستخدام مثل سلة وسلة البحروكرسى",
+        "en": "Basket-making: make three useful items with taste (e.g. a basket, a sea basket, a chair), with or without a model."
+      },
+      {
+        "ar": "صناعة القوالب والنموذج:تقوم بتشكيل عن الصلصال والشمع هو مادة بلاستكية سواء باستخدام نموذج فني او بدونها ثلاثة من الموضوعات التالية (حيوان أو رأس (بارتفاع 20 سم على الاقل) أو زهرة او نبات طبيعى أو منزل لا تتعدى قياستة 20 سم من كل جهة أو شخص (انسان))",
+        "en": "Moulds and models: shape three of these in clay or wax (animal, a head at least 20 cm high, a flower or plant, a house no more than 20 cm per side, a person)."
+      }
+    ],
+    "source": "/badges/b13.jpg"
+  },
+  {
+    "id": "b14",
+    "category": "skill",
+    "ar": "صديق الطيور",
+    "en": "Bird Friend",
+    "requirements": [
+      {
+        "ar": "ان تتعرف من الطبيعة على الطيور المعروفة غناءها – عيشها – طريقة طيرانها",
+        "en": "Recognise common birds in nature: their song, life and flight."
+      },
+      {
+        "ar": "ان تقوم بـكتابة تقرير بعد الرصد والملاحظة عن تفاصيل ثلاثة أنواع من الطيور الحرة ( الطليقة ) وان تجمع المعلومات المكتوبة حول حياتها وعاداتها",
+        "en": "Write a report, after watching, on three kinds of free birds and collect written information on their lives and habits."
+      },
+      {
+        "ar": "أن تكون قد ساهمت فى حماية الطيور المفيدة من خلال أحدى الأنشطة التالية : حماية البيض اوالصغار عن طريق الاعتناء بهم اونقلهم إلى عش إصطناعى ، مصنوع ومصان وتغذيهم بنفسك ، وتغذية بالحبوب إلخ ....",
+        "en": "Help protect useful birds: protect eggs or chicks by caring for them or moving them to an artificial nest you make and maintain, feed them yourself, feed with grain, etc."
+      },
+      {
+        "ar": "ان تعرف وسائل وقاية الطيور من الحيوانات الضارة",
+        "en": "Know how to protect birds from harmful animals."
+      }
+    ],
+    "source": "/badges/b14.jpg"
+  },
+  {
+    "id": "b15",
+    "category": "skill",
+    "ar": "متخصص نبات",
+    "en": "Botanist",
+    "requirements": [
+      {
+        "ar": "ان تقوم بـالتعرف من الطبيعة على شجرة أو شجيرة وتحديد إستخدام كل منهم و10 نباتات يمكن أستخدامها (للطعام – للطب )",
+        "en": "Recognise in nature a tree or shrub and its uses, and 10 plants that can be used (for food or medicine)."
+      },
+      {
+        "ar": "ان تقوم بزيارة 3 اماكن تحتوى على خمسين نوع من النباتات على الاقل ( بينما فيها الاشجار و النباتات ) و تصنفهم متبعا طريقة و منهج مشروع مع معلومات مفيدة عن كل البيانات ( خاصة العائلات النباتية )",
+        "en": "Visit 3 places with at least fifty kinds of plants (trees and plants) and classify them with a clear method, adding useful information (especially plant families)."
+      },
+      {
+        "ar": "ان تقوم بـاظهار العلاقة بين نمو النبات و طبيعة المناخ و التربة المحلية",
+        "en": "Show the link between plant growth and the local climate and soil."
+      },
+      {
+        "ar": "ان تكون حاصل على شارة صديق نباتات",
+        "en": "Hold the Plant Friend badge."
+      }
+    ],
+    "source": "/badges/b15.jpg"
+  },
+  {
+    "id": "b16",
+    "category": "skill",
+    "ar": "متخصص حشرات",
+    "en": "Insect Specialist",
+    "requirements": [
+      {
+        "ar": "ان تقوم بـتقديم مجموعة تحتوى على خمسين نوع من الحشرات المختلفة ( بما فى ذلك الحشرات المائية ) و تعدها بنفسك و تكتب عليها المعلومات الوافية من حيث, الحياة العادات و الاضرار التى يسببونها",
+        "en": "Present a collection of fifty different insects (including water insects), prepared by you, with full notes on life, habits and the damage they cause."
+      },
+      {
+        "ar": "ان تقوم بـتقديم بالرسم الكروكى و المعلومات الملاحظات التى دونتها على كراسة عن حشرة معينة فى مراحل نموها ( فحص البيض – برقاتة ( شكل انتقالى تكون فيه بعض الحيوانات و الحشرات بعد فقسها و قبل بلوغها شكلها الشامل ) – نغفة",
+        "en": "Present, with sketches and notebook observations, one insect through its growth stages (eggs, larva, pupa)."
+      },
+      {
+        "ar": "معرفة رتب و ادوار و اشكال مستعمرات النمل و النحل وكيفية استخراج العسل من مستعمرات النحل",
+        "en": "Know the ranks, roles and forms of ant and bee colonies and how to extract honey."
+      },
+      {
+        "ar": "معرفة علاج لدغات الحشرات المختلفة",
+        "en": "Know how to treat different insect stings."
+      },
+      {
+        "ar": "معرفة البلاد التى تأكل الحشرات مع تحديد نوع الحشرات",
+        "en": "Know the countries that eat insects and which insects."
+      },
+      {
+        "ar": "ان تقوم بـمعرفة تصنيف الحشرات فى التصنيف العلمى للحيوانات و عرض اصول هذا التصنيف",
+        "en": "Know the scientific classification of insects among animals and its origins."
+      }
+    ],
+    "source": "/badges/b16.jpg"
+  },
+  {
+    "id": "b17",
+    "category": "skill",
+    "ar": "جيولوجي",
+    "en": "Geologist",
+    "requirements": [
+      {
+        "ar": "ان تقوم بـشرح الحقبات الجيولوجية الهامة مع اعطاء مثل من كل منها خاص بطبيعة التربة فى مصر او فى اوروبا . شرح على ارض الواقع اسهام القوة الطبيعية ( المياه – الجليد – الهواء ....) فى تكوين التضاريس",
+        "en": "Explain the important geological eras with an example of each for the soil of Egypt or Europe, and show in the field how natural forces (water, ice, wind…) shape the terrain."
+      },
+      {
+        "ar": "ان تعرف و تجمع عشرة انواع صخور او صخور معدنية وعشرة أحجار متحجرة ( أحجورة ) أو عشرين صخرة أو معادن مع الإشارة إلى طباقتهم على الخريطة الجيولوجية ، حقبتهم الجيولوجية واستخداماتهم العملية",
+        "en": "Know and collect ten rocks or minerals and ten fossils (or twenty rocks or minerals), noting their place on the geological map, their era and practical uses."
+      },
+      {
+        "ar": "ان تقوم بـالتعرف على طبيعة وخصائص قطعة أرض معينة ( طينية – رملية - كلسية) وعلاقتها بالزراعات و نباتات المنطقة و هيدروعرقيا ( مياه المنطقة والمساكن )",
+        "en": "Identify the nature of a piece of land (clay, sand, limestone), its link to local crops and plants, and its water."
+      }
+    ],
+    "source": "/badges/b17.jpg"
+  },
+  {
+    "id": "b18",
+    "category": "skill",
+    "ar": "متخصص أرصاد جوية",
+    "en": "Meteorologist",
+    "requirements": [
+      {
+        "ar": "ان تتعرف على الأنواع المختلفة من السحب– الرياح– هواطل (من مطر أو برد أو ثلج)",
+        "en": "Recognise different clouds, winds and precipitation (rain, hail, snow)."
+      },
+      {
+        "ar": "ان تعرف العلامات الطبيعية التى تمكن من التنبؤ بالطقس : تلاحظ على الحيوانات والناباتات والعلامات الخاصة بالمنطقة",
+        "en": "Know natural signs for forecasting the weather: animals, plants and local signs."
+      },
+      {
+        "ar": "ان تعرف التصرف المناسب فى حالة وجود عاصفة رعدية و ما هى النقاط التى تصاب بطريقة مكررة بالصاعقة والنقاط الأخرى التى يكون الخطر فيها أقل وكذلك الأشجار التى يمكن أن تضر بها الصاعقة ، وايضاً أثناء رياح الخماسين",
+        "en": "Know what to do in a thunderstorm, which points are often struck by lightning and which are safer, which trees are dangerous, and what to do in khamsin winds."
+      },
+      {
+        "ar": "انتقومبـإنشاء مركز صغير للإرصاد يحتوى على الأقل على مرياح ( أداة تدل على اتجاه الريح وسرعتها ) –مضغاط( مقياس الضغط الجوى )– ترمومتر( مقيا س للحراة / ميزان )",
+        "en": "Set up a small weather station with at least a wind vane, a barometer and a thermometer."
+      },
+      {
+        "ar": "ان تهتم لمدة شهر بدفتر ارصاد وتنبئوات",
+        "en": "Keep a weather and forecast diary for a month."
+      }
+    ],
+    "source": "/badges/b18.jpg"
+  },
+  {
+    "id": "b19",
+    "category": "skill",
+    "ar": "مترجم",
+    "en": "Translator",
+    "requirements": [
+      {
+        "ar": "ان تقوم بمحادثة بسيطة واعطاء ارشادات واضحة و دقيقة و معلومات سياحية اثناء زيارة لمنطقتة و ما يحيطها فى لغتين اجنبيتين",
+        "en": "Hold a simple conversation, give clear directions and tourist information about your area in two foreign languages."
+      },
+      {
+        "ar": "ان تقوم بـقراءة و ترجمة شفهية بدون استخدام قاموس صفحة من كتاب او عامود فى جريدة فى لغتين اجنبيتين",
+        "en": "Read and translate aloud, without a dictionary, a book page or newspaper column in two foreign languages."
+      },
+      {
+        "ar": "ان تقوم بـكتابة خطاب حسب موضوع يختاره القائد فى لغتين اجنبيتين",
+        "en": "Write a letter on a topic chosen by the leader in two foreign languages."
+      },
+      {
+        "ar": "ان تقوم بـلعب دور المترجم من خلال مقابلة بين شخصين يتحدثان بلغتين مختلفتين",
+        "en": "Act as interpreter in a meeting between two people speaking different languages."
+      }
+    ],
+    "source": "/badges/b19.jpg"
+  },
+  {
+    "id": "b20",
+    "category": "skill",
+    "ar": "سكرتير",
+    "en": "Secretary",
+    "requirements": [
+      {
+        "ar": "ان تكتب بطريقة جيدة , حسنة واضحة و مقروءة و ان تكون جيدا فى الاملاء",
+        "en": "Write in clear, good, readable handwriting and spell well."
+      },
+      {
+        "ar": "ان تكتب بدون اخطاء باللغة العربية أو غيرها رسالة عن موضوع يحدد قبلها بخمس دقائق",
+        "en": "Write without mistakes, in Arabic or another language, a letter on a topic given five minutes earlier."
+      },
+      {
+        "ar": "ان تقدم تقريرا دقيقا عن احدى نشاطات الفرقة او الطليعة معرفة ارسال تلغراف و ارسال خطاب مسجل بعلم الوصول , حوالة بريدية",
+        "en": "Give an accurate report on a troop or patrol activity; know how to send a telegram and a registered letter with acknowledgement, and a postal order."
+      },
+      {
+        "ar": "ان تكون مسئولا لمدة ثلاثة شهور عن كل او جزء منهم من سجلات الفرقة او الطليعة ( الارشيف – الحسابات) على ان ينول رضا القائد عن العمل الذى قمت به",
+        "en": "Be responsible for three months for some or all of the troop or patrol records (archive, accounts) to the leader's satisfaction."
+      },
+      {
+        "ar": "ان تقوم بتجهيز و اعداد سجل لشخص او اكثر : خط سير – جدول المواعيد – شراء تذكرة فردية او جماعية – حجز بعربون – حجز اماكن مختلفة",
+        "en": "Prepare a record for one or more people: itinerary, timetable, buying individual or group tickets, booking with a deposit, booking different places."
+      },
+      {
+        "ar": "ان تقوم باداء واحدة من الاربع اختبارات الاتية: -استخدام الالة الكاتبة أو الكمبوتر و كتابة 60 سطر فى نصف ساعة -اختزال رسالة تمت تمليتها بالسرعة العادية و معرفة قراءة ما كتبته بالاختزال -طباعة نشرة دورية للفرقة -ان تكون مسئولا ثلاثة شهور عن قائمة و سجل الاستعارة بمكتبة الفرقة",
+        "en": "Do one of: type 60 lines in half an hour; take shorthand of a dictated letter and read it back; print a periodic troop bulletin; be responsible for three months for the troop library's loan register."
+      }
+    ],
+    "source": "/badges/b20.jpg"
+  },
+  {
+    "id": "b21",
+    "category": "skill",
+    "ar": "ممرض",
+    "en": "Nurse",
+    "requirements": [
+      {
+        "ar": "ان تبرهن للفرقة عن اهتمامك الدائم بنظافتك الشخصية ( و خاصة الاظافر , الاسنان, القدمان) و النظافة العامة و الاستحمام اليومى",
+        "en": "Show the troop your constant personal cleanliness (especially nails, teeth, feet), general hygiene and daily bathing."
+      },
+      {
+        "ar": "ان تقومبـشرح و تطبيق القواعد الصحية العامة و الاحتياطات اللازمة ( الاستحمام – حمام الشمس – مياه الشرب ) اخطار المشروبات الكحولية و القواعد الصحية الخاصة بالاكل , بالراحة , بالتنفس فى ممارسة رياضة السيرو الصحة العامة فى المخيم",
+        "en": "Explain and apply general health rules and precautions (bathing, sun, drinking water), the dangers of alcohol, and rules for eating, resting, breathing, walking and camp health."
+      },
+      {
+        "ar": "ان تكون لديك معلومات عن العفونة و المطهرات التى تقى من العفونة (تطهير: جرح – حقنة – ميزان حرارة-...)",
+        "en": "Know about infection and the antiseptics that prevent it (cleaning a wound, injection, thermometer…)."
+      },
+      {
+        "ar": "ان تكون لديك موجز امن المعلومات الدقيقة من الوسائل العملية الوقائية من الامراض المعدية",
+        "en": "Know practical ways to prevent infectious diseases."
+      },
+      {
+        "ar": "ان تعرف محتويات حقيبة الأسعافات الشخصية",
+        "en": "Know what is in a personal first-aid kit."
+      },
+      {
+        "ar": "كيفية اعطاء حقن بشكل صحيح وقياس ضغط الدم و الحرارة",
+        "en": "Know how to give injections correctly and take blood pressure and temperature."
+      }
+    ],
+    "source": "/badges/b21.jpg"
+  },
+  {
+    "id": "b22",
+    "category": "skill",
+    "ar": "مرشد",
+    "en": "Guide",
+    "requirements": [
+      {
+        "ar": "أن تكون لديك معلومات عن المنطقة على مساحة عشرة كيلومترات حتى تستطيع أن ترشد شخصاً سواء فى النهار أو فى الليل وتشير إلى الوسائل العملية ليصل بها إلى جهته المنشودة",
+        "en": "Know the area within ten kilometres well enough to guide someone by day or night and point out practical ways to their destination."
+      },
+      {
+        "ar": "ان تعرف كل الطرق المختصرة فى حيز قدره عشرة كيلومترات بالنسبة للصحراء أوثلاثة كيلو مترات فى الريف أو 400 متر فى المدينة حول منزلك ( فى مدينة كبيرة ، معرفة محطات القطار ووسائل المواصلات العامة )",
+        "en": "Know all the shortcuts within 10 km (desert), 3 km (countryside) or 400 m around your home (city: train stations and public transport)."
+      },
+      {
+        "ar": "ان تقدر من الذاكرة ثلاث مسافات(بالمسافة او المدة الزمنية) بنسبة خطاء تقل عن 25 %",
+        "en": "Estimate three distances or times from memory with under 25% error."
+      },
+      {
+        "ar": "ان تستطيع تنفيذ رسم كروكى دقيق بسرعة مع وضع النسب لخط السير المطلوب اثناء رحلة او مخيم",
+        "en": "Quickly draw an accurate sketch to scale of a required route during a trip or camp."
+      },
+      {
+        "ar": "ان تعرف فى النطاق المحلى ( او فى الحى التابع له) مكان او عنوان , قسم الشرطة المستشفى, مكتب البريد , عنوان طبيبان , صيدليتان, فندقان, ورشتا اصلاح سيارات و مكان انذار حريق",
+        "en": "Know locally the address of the police station, hospital, post office, two doctors, two pharmacies, two hotels, two car repair shops and the fire alarm."
+      },
+      {
+        "ar": "ان تعرف قراءة الخريطة الرسمية و خريطة الطريق بطريقة صحيحة وانتقومبـاستخدام دليل الشوارع (لافتات الشوارع ) بطريقة سليمة",
+        "en": "Read the official map and road map correctly and use the street guide (street signs) properly."
+      },
+      {
+        "ar": "ان تقود كشافين بواسطة الخريطة و البوصلة من خلال طرق مختصرة مسافة ثلاثة الى خمسة كيلومترات حسب صعوبة الطريق",
+        "en": "Lead scouts by map and compass along shortcuts of three to five kilometres, depending on how hard the route is."
+      }
+    ],
+    "source": "/badges/b22.jpg"
+  },
+  {
+    "id": "b23",
+    "category": "skill",
+    "ar": "صياد سمك",
+    "en": "Angler",
+    "requirements": [
+      {
+        "ar": "ان تقوم بالإختبارات الاتية في المياه العذبة : -تركيب و اصلاح سنارة -تستخدم الطعم المناسب حسب السمكة -استطعام ( صيد السمك بقذف طعم بواسطة قصية ) بضرب السمك بسنارة للاعماق – --بالطعم فقط – بالشبكة ( مأوى السمك) – بالقفة ( لصيد السمك)",
+        "en": "Freshwater tests: fit and repair a fishing rod; use the right bait for each fish; fish with different methods (casting, deep rod, bait only, net, basket)."
+      },
+      {
+        "ar": "ان تقوم بالإختبارات الاتية في مياه البحر : -تركيب سنارة , وضع الطعم , سحب خيطها و ادخاله و لفه بطريقة سليمة -اعداد و استخدام شبكة الصيد و اصلاحها -سنارة بخطاف ( طافيه – سنارة عمق – سنارة عادية) و بالشبك ( مبللول- او يشجر -- -بالشبكة بالسمك) بالقفة او بالصناديق",
+        "en": "Sea tests: fit a rod, bait, draw in and wind the line properly; prepare, use and repair a fishing net; fish with hook (float, deep, ordinary) and with net, basket or boxes."
+      },
+      {
+        "ar": "ان تقوم بـاصطياد كمية مناسبة و كافية من السمك ثلاثة مرات و تقديمه الى طليعتك و عائلتك و معرفة تقدير نوع السمك معا اذا كان طازجا",
+        "en": "Catch enough fish three times and serve it to your patrol and family; know how to tell if fish is fresh."
+      },
+      {
+        "ar": "ان تكون لديك معلومات عن حياة و حجم و تكاثر السمك سواء فى مياه البحيرات او البحر فى المنطقة",
+        "en": "Know the life, size and breeding of fish in the lakes or sea of your area."
+      },
+      {
+        "ar": "ان تعرف و تطبق اللوائح العامة للصيد : امتناع الماكينات المحظورة -منعالصيد فى بعض البحيرات- الحجم الادنى للاسماك الخ....",
+        "en": "Know and follow fishing rules: banned equipment, banned lakes, minimum fish size, etc."
+      }
+    ],
+    "source": "/badges/b23.jpg"
+  },
+  {
+    "id": "b24",
+    "category": "skill",
+    "ar": "مراقب",
+    "en": "Monitor",
+    "requirements": [
+      {
+        "ar": "ان تكون قد برهنت بانتصارات مهارة وبراعة وصلابة خلال العاب وتمارين المراقبة",
+        "en": "Show skill, cleverness and toughness in observation games and exercises."
+      },
+      {
+        "ar": "ان تكتشفوالعينين مغمضتين ، أقتراب كشاف يسير بحذر",
+        "en": "Blindfolded, detect a scout creeping up carefully."
+      },
+      {
+        "ar": "فى أثناء لعبة كيم تقترب من طليعتك أو من مجموعة كشافين واقفين وتحفظ كلامهم وتنسحب بهدوء وتقدم تقرير بالملاحظات التى دونتها و تراقب من خلال لعبة طليعتك أثناء سيرها وتكشف عن نواياهم وتجهز تقريراً يستخدم اللعبة",
+        "en": "In Kim's game, approach your patrol or a group of scouts, memorise their conversation, withdraw quietly and report your notes; watch your patrol walking, uncover their intentions and prepare a report."
+      },
+      {
+        "ar": "ان تظل بدون حركة والعينين مفتوحتين وبدون إيماء لمدة دقيقة كاملة رغم وجود عدد من أصدقاءك يحاولون لفت أنتباهك عن طريق ضحكهم وبالعابهم الهزلية",
+        "en": "Stay still with your eyes open, with no gesture, for a full minute while friends try to distract you with laughter and silly games."
+      },
+      {
+        "ar": "ان تقوم بـتقديم تقرير بعد مراقبة فى الطليعة عن كل ما استطعت أن تعرفه عن حياة ثلاث حيوانات طليقة أو طيور طليقة",
+        "en": "Report after watching three free animals or birds: all you learned about their lives."
+      },
+      {
+        "ar": "ان تقدم رسم كروكى من الطبيعة ( أو صور فوتوغرافية ) لكل من الحيوانات التى راقبتها",
+        "en": "Draw a sketch (or take photos) of each animal you watched."
+      },
+      {
+        "ar": "ان تقوم بمهام الحراسة فى مخيم مع كشف كل الحركات والاصوات الغريبة",
+        "en": "Stand guard in a camp and detect all strange movements and sounds."
+      }
+    ],
+    "source": "/badges/b24.jpg"
+  },
+  {
+    "id": "b25",
+    "category": "skill",
+    "ar": "سباك",
+    "en": "Plumber",
+    "requirements": [
+      {
+        "ar": "ان تقوم بـعمل سباكى مفيد استغرق العمل به ساعتين على الاقل",
+        "en": "Do a useful plumbing job lasting at least two hours."
+      },
+      {
+        "ar": "ان تعرف كيفية تركيب قاعدة الحمام ، بانيو و الحوض بوصلات كل منهم",
+        "en": "Know how to install a toilet base, bathtub and sink with their connections."
+      },
+      {
+        "ar": "ان تعرف معدات السباك كاملة وكيفية استخدامها",
+        "en": "Know the plumber's full equipment and how to use it."
+      },
+      {
+        "ar": "ان تعرف اقطار مواسير التغذية و مواسير الصرف و اين تستخدم كل منها و كيفية توصيلها",
+        "en": "Know the diameters of supply and drain pipes, where each is used and how they connect."
+      },
+      {
+        "ar": "ان تعرف غرف التفتيش و شكلها من الداخل و كيفية تسليكها",
+        "en": "Know inspection chambers, what they look like inside and how to clear them."
+      }
+    ],
+    "source": "/badges/b25.jpg"
+  },
+  {
+    "id": "b26",
+    "category": "skill",
+    "ar": "هاوي كمبيوتر",
+    "en": "Computer Hobbyist",
+    "requirements": [
+      {
+        "ar": "معرفة اهمية ال(online safety(",
+        "en": "Know the importance of online safety."
+      },
+      {
+        "ar": "معرفة استخدام برنامج )..,power point ,excel ,word(office",
+        "en": "Know how to use Office (PowerPoint, Excel, Word…)."
+      },
+      {
+        "ar": "معرفة مكونات جهاز الكمبيوتر graphics, rom ,ram ,motherboard( )..processors ,module",
+        "en": "Know the parts of a computer (graphics, ROM, RAM, motherboard, processors, modules…)."
+      },
+      {
+        "ar": "استخدام برنامجين اخرين مع عمل install للبرامج",
+        "en": "Use two other programs and install programs."
+      },
+      {
+        "ar": "ان تكون لكبريد الكتروني خاص و تستخدمة في ارسال تقارير او ابحاث",
+        "en": "Have your own email and use it to send reports or research."
+      },
+      {
+        "ar": "كيفية ارسال و استقبال ملفات مختلفة ( zipping ,files ,pictures )",
+        "en": "Know how to send and receive different files (zipping, files, pictures)."
+      },
+      {
+        "ar": "معرفة انواع الصور)..jpeg, .png( و الملفات )..rar ,xls ,wrd ,pdf(",
+        "en": "Know image types (jpeg, png) and file types (rar, xls, doc, pdf)."
+      },
+      {
+        "ar": "استخدام برامج مضادة للفيروسات واهميتها فى حماية الجهاز الشخصى",
+        "en": "Use antivirus programs and know why they protect your device."
+      },
+      {
+        "ar": "معرفة اهمية حقوق الملكية الفكرية",
+        "en": "Know the importance of intellectual property rights."
+      }
+    ],
+    "source": "/badges/b26.jpg"
+  },
+  {
+    "id": "b27",
+    "category": "skill",
+    "ar": "قارئ",
+    "en": "Reader",
+    "requirements": [
+      {
+        "ar": "ان تكون قد اتممت قراءة 10 كتب فى 6 مواضيع مختلفة",
+        "en": "Read 10 books on 6 different subjects."
+      },
+      {
+        "ar": "ان تقوم بتلخيص ثلاثه كتب مع عرضهم (صفحتين عن كل كتاب)",
+        "en": "Summarise three books and present them (two pages each)."
+      },
+      {
+        "ar": "ان تعرف اسماء 3 مؤلفين كتب ونبذه عنهم وعن تاريخهم",
+        "en": "Know the names of 3 book authors and something about them and their time."
+      },
+      {
+        "ar": "ان تقتنى مكتبة خاصه بك",
+        "en": "Own a personal library."
+      }
+    ],
+    "source": "/badges/b27.jpg"
+  },
+  {
+    "id": "b28",
+    "category": "skill",
+    "ar": "باحث",
+    "en": "Researcher",
+    "requirements": [
+      {
+        "ar": "ان تكون قد حصلت على شارة قارئ ومضى 3 شهور على الاقل من حصولك على الشارة",
+        "en": "Hold the Reader badge, earned at least 3 months ago."
+      },
+      {
+        "ar": "ان تقوم بتقديم 3 مواضيع لقائد الفرقة وتختار موضوع لبحث تحدده مع قائد الفرقة",
+        "en": "Offer 3 topics to the troop leader and choose one research topic with the leader."
+      },
+      {
+        "ar": "ان تكتب مالا يقل عن 10 صفحات في البحث الذي اخترت موضوعه على ان تستخدم 5 اقتباسات بطريقة صحيحة على ان يتم مناقشتكمن القائد فى البحث المقدم",
+        "en": "Write at least 10 pages on your topic, using 5 quotations correctly, and discuss your research with the leader."
+      },
+      {
+        "ar": "ان تقوم بعرض موضوعه على الفرقة",
+        "en": "Present your topic to the troop."
+      },
+      {
+        "ar": "ان تعرف معنى المصدر الاول والمصدر الثاني للاقتباسات",
+        "en": "Know what primary and secondary sources of quotations are."
+      },
+      {
+        "ar": "ان تعرف ان تجد مصادر موثقة لأي موضوع على الإنترنت",
+        "en": "Know how to find reliable sources for any topic on the internet."
+      }
+    ],
+    "source": "/badges/b28.jpg"
+  },
+  {
+    "id": "b29",
+    "category": "skill",
+    "ar": "مساعد أعمال منزلية",
+    "en": "Home Helper",
+    "requirements": [
+      {
+        "ar": "ان تقوم بتنظيف وتنظيم حجرتك بصفة منتظمة ودورية مع مراجعه ذلك مع الاهل",
+        "en": "Clean and tidy your room regularly, checking it with your family."
+      },
+      {
+        "ar": "ان تجيد عمل 3 انواع من الاكل \"خضروات – ارز\"",
+        "en": "Cook well 3 kinds of food (vegetables, rice…)."
+      },
+      {
+        "ar": "ان تعرف اماكن حفظ الخزين \"ادوات الاكل والنظافة\"",
+        "en": "Know where food and cleaning supplies are stored."
+      },
+      {
+        "ar": "ان تكون مسئول عن نظافك وتنظيم ركن الطليعة \"مثال لتنظيم البيت\"",
+        "en": "Be responsible for cleaning and organising the patrol corner (like organising a home)."
+      },
+      {
+        "ar": "ان تعرف مبادئ اصلاح كهرباء – سباكة فى المنزل",
+        "en": "Know the basics of home electrical and plumbing repair."
+      }
+    ],
+    "source": "/badges/b29.jpg"
+  },
+  {
+    "id": "b30",
+    "category": "skill",
+    "ar": "مقتني",
+    "en": "Collector",
+    "requirements": [
+      {
+        "ar": "ان تكون لديك شغف باقتناء شيء قيم كالعملات أو طوابع البريد",
+        "en": "Have a passion for collecting something valuable, like coins or stamps."
+      },
+      {
+        "ar": "ان تكون لديك كمية يحتفظ بها من الاشياء التي تقتنيها",
+        "en": "Keep a stock of the items you collect."
+      },
+      {
+        "ar": "ان تكون لديك معلومات تاريخية عن الاشياء التي تقتنيها وتستطيع ان تشرحها",
+        "en": "Know the history of the items you collect and be able to explain it."
+      },
+      {
+        "ar": "ان تقوم بعمل معرض صغير لأفراد الفرقة بالتنسيق مع القائد تعرض فيه مقتنياتك وتشرحها للكشافين",
+        "en": "Hold a small exhibition for the troop, coordinated with the leader, showing and explaining your collection."
+      }
+    ],
+    "source": "/badges/b30.jpg"
+  },
+  {
+    "id": "b31",
+    "category": "skill",
+    "ar": "لاعب شطرنج",
+    "en": "Chess Player",
+    "requirements": [
+      {
+        "ar": "عمل بحث عن تاريخ اللعبة على ان يتضمن developing critical thinking( and how ,and decision-making skills ,concentration skills ,skills )these skills can help you in other areas of your life",
+        "en": "Research the history of the game, including how it develops critical thinking, decision-making and concentration, and how these skills help in other areas of your life."
+      },
+      {
+        "ar": "اداب اللعبة",
+        "en": "Know the etiquette of the game."
+      },
+      {
+        "ar": "معرفة 5 خطط محفوظة فى اللعبة",
+        "en": "Know 5 memorised plans (openings) in the game."
+      },
+      {
+        "ar": "معرفة 3 استراتيجيات",
+        "en": "Know 3 strategies."
+      },
+      {
+        "ar": "يمكن الاستغناء عن اخر بندين اذا كنتحاصل على مركز متقدم فى بطولة لللعبة( بطولة معتمدة)",
+        "en": "The last two items can be skipped if you've placed highly in an approved tournament."
+      },
+      {
+        "ar": "معرفة واقعة تاريخية للاعب معين قام بقلب الاوضاع لصالحه باستخدام حركة خاصة كان لها تأثير كبير",
+        "en": "Know a historical event where a particular player turned the game around with a special move that had a big effect."
+      }
+    ],
+    "source": "/badges/b31.jpg"
+  },
+  {
+    "id": "b32",
+    "category": "skill",
+    "ar": "بحار",
+    "en": "Sailor",
+    "requirements": [
+      {
+        "ar": "تستعمل الاسترشاد بالفلك الليلى",
+        "en": "Use night astronomy to find your way."
+      },
+      {
+        "ar": "تمضى ليلة فى البحر",
+        "en": "Spend a night at sea."
+      },
+      {
+        "ar": "تعرف الفرق بين الكنة و المجرى الملاحى",
+        "en": "Know the difference between the wake and the shipping channel."
+      },
+      {
+        "ar": "تعرف كيفية حركة السفن بالنسبة للامواج",
+        "en": "Know how ships move relative to waves."
+      },
+      {
+        "ar": "معرفة ظاهرة المد و الجزر و النوات و مواعيدهم",
+        "en": "Know about tides and storms and their timings."
+      },
+      {
+        "ar": "معرفة 5 انواع اسماك و اماكن صيدها",
+        "en": "Know 5 kinds of fish and where they're caught."
+      },
+      {
+        "ar": "ان تكون قد حصلت على شارة مراكبى",
+        "en": "Hold the Boatman badge."
+      }
+    ],
+    "source": "/badges/b32.jpg"
+  },
+  {
+    "id": "b33",
+    "category": "skill",
+    "ar": "قافز مظلات",
+    "en": "Parachutist",
+    "requirements": [
+      {
+        "ar": "ان تكون معك شهادة ممارسة على تمرين القفز بالمظلات",
+        "en": "Hold a certificate of practice in parachute jumping."
+      },
+      {
+        "ar": "القفز مرتين على الاقل بالمظلة",
+        "en": "Jump with a parachute at least twice."
+      },
+      {
+        "ar": "معرفة انواع القفزات و انواع المظلات المختلفة",
+        "en": "Know the types of jumps and different parachutes."
+      },
+      {
+        "ar": "معرفة كيفية الهبوط الامن وطريقة الهبوط على مختلف انواع الاراضى",
+        "en": "Know how to land safely and how to land on different kinds of ground."
+      }
+    ],
+    "source": "/badges/b33.jpg"
+  },
+  {
+    "id": "b34",
+    "category": "skill",
+    "ar": "صديق الغابات",
+    "en": "Forest Friend",
+    "requirements": [
+      {
+        "ar": "ان تعرف انواع الغابات(5 انواع)",
+        "en": "Know the types of forest (5 types)."
+      },
+      {
+        "ar": "ان تختار نوع غابة ويشرح : الحياة البرية- انواع الحيوانات – نباتات نافعة و ضارة – انواع الاشجار – الحيوانات المعرضة للانقراض",
+        "en": "Choose a forest type and explain its wildlife, animals, useful and harmful plants, trees and endangered animals."
+      },
+      {
+        "ar": "معرفة انواع الفطر السام و الصالح",
+        "en": "Know poisonous and edible mushrooms."
+      },
+      {
+        "ar": "كيفية استخراج – تنقية مياه من الطبيعة",
+        "en": "Know how to collect and purify water from nature."
+      },
+      {
+        "ar": "معرفة اماكن الغابات على خريطة العالم",
+        "en": "Know where the forests are on a world map."
+      },
+      {
+        "ar": "معرفة طريقة استخدام البلطة و انواعها و استخدام الخنجر",
+        "en": "Know how to use an axe, its types, and the dagger."
+      },
+      {
+        "ar": "ايقاد نار بدون كبريت (بالبطارية والخ)",
+        "en": "Light a fire without matches (battery, etc.)."
+      },
+      {
+        "ar": "ان تقوم بطهى على نار الصياد والشوى على السيخ",
+        "en": "Cook on a hunter's fire and grill on a skewer."
+      },
+      {
+        "ar": "مناقشة مع القائد فى كيفية بناء مأوى من المواد المحيطة فى الغابة",
+        "en": "Discuss with the leader how to build a shelter from forest materials."
+      }
+    ],
+    "source": "/badges/b34.jpg"
+  },
+  {
+    "id": "b35",
+    "category": "skill",
+    "ar": "صانع أفلام",
+    "en": "Filmmaker",
+    "requirements": [
+      {
+        "ar": "اظهار تقنيات تصوير الصور المتحركة التالية: )1(باستخدام حامل ثلاثي القوائم )2(تنظيف الكاميرا )3(تأطير الصورة )4(اختيار زاوية )5(اختيار الإضاءة المناسبة (6) التصوير اليدوى",
+        "en": "Show these filming techniques: (1) using a tripod, (2) cleaning the camera, (3) framing, (4) choosing an angle, (5) choosing the right lighting, (6) handheld shooting."
+      },
+      {
+        "ar": "اختيار موضوع و عمل فيديو عنه لا يقل عن 10 دقائق بإستخدام احدى برامج صنع الافلام (مثل moviemaker....) ويجب ان يحتوى الفيلم على عناصر الصوت والصورة و حسن اختيار الكادر و توظيف الإضاءة",
+        "en": "Choose a subject and make a video of at least 10 minutes with film-making software (e.g. Movie Maker), with sound and picture, good framing and use of light."
+      },
+      {
+        "ar": "يجب ان يتم عمل مونتاج للفيديوالمختار او اى فيديو اخر لا يقل ايضا عن 10 دقائق",
+        "en": "Edit a chosen video, or another, of at least 10 minutes."
+      },
+      {
+        "ar": "عمل فيديو بصور فرقتك فى مخيم او اجتماع او رحلة او اى احتفال للفرقة بطريقة عرض مميزة",
+        "en": "Make a video of your troop's photos from a camp, meeting, trip or celebration, with a distinctive presentation."
+      }
+    ],
+    "source": "/badges/b35.jpg"
+  },
+  {
+    "id": "b36",
+    "category": "sport",
+    "ar": "سباح",
+    "en": "Swimmer",
+    "requirements": [
+      {
+        "ar": "ان تقومبالسباحة 200 متر بالطريقة التى تفضلها",
+        "en": "Swim 200 metres in your preferred stroke."
+      },
+      {
+        "ar": "ان تقومبالسباحة 100 متر علىظهرك",
+        "en": "Swim 100 metres on your back."
+      },
+      {
+        "ar": "ان تعرف ممارسة نوعين أخرين غير سباحة الصدر",
+        "en": "Know two strokes other than breaststroke."
+      },
+      {
+        "ar": "انتقومبـالغطس بطريقة صحيحة للأمام ( غطسة أنطلاق ) القفز من على أرتفاع والأرجل للأمام",
+        "en": "Dive correctly forward (racing dive) and jump from a height feet-first."
+      },
+      {
+        "ar": "ان تقومبـالسباحة لمدة ثلاثين ثانية تحت الماء",
+        "en": "Swim underwater for thirty seconds."
+      }
+    ],
+    "source": "/badges/b36.jpg"
+  },
+  {
+    "id": "b37",
+    "category": "sport",
+    "ar": "الرامي",
+    "en": "Archer",
+    "requirements": [
+      {
+        "ar": "ان تقوم بـاصابة لوحة تصويب فى وضع راسى مساحته 2م *2م على بعد عشرة امتار بخمسة عشرة كرة من اصل عشرين",
+        "en": "Hit a vertical 2 m × 2 m target 10 m away with fifteen of twenty balls."
+      },
+      {
+        "ar": "ان تستقبل كرة تقذف لك بطريقة صحيحة من على بعد 30 متر ثلاثة مرات متتالية",
+        "en": "Correctly catch a ball thrown from 30 m away three times in a row."
+      },
+      {
+        "ar": "ان تقوم بـقذف حصاة لمسافة 60 مترا و قذف حجر على سطح الماء",
+        "en": "Throw a pebble 60 m and skim a stone on water."
+      },
+      {
+        "ar": "ان تقوم بـقذف جله تزن خمسة كيلوجرامات لمسافة سبعة امتار باستخدام اليد الاقوى",
+        "en": "Throw a 5 kg shot 7 m with your stronger arm."
+      },
+      {
+        "ar": "ان تقوم بـقذف حبل ثلاثة مرات متتالية على هدف بطول كشاف و على بعد متر",
+        "en": "Throw a rope three times in a row at a target a scout's length wide, one metre away."
+      },
+      {
+        "ar": "ان تقوم بـقذف عصا و غرزها على مسافة عشرين متر ويتم قذفها بطريقة الرمح",
+        "en": "Throw a stick and stick it in the ground twenty metres away, thrown like a spear."
+      },
+      {
+        "ar": "ان تكون متميزا فى ثلاثة العاب تستخدم فيها الكرة ( كرة القدم – صياد بين السمك – كرة سلة – الكرة الطائرة – كرة اليد – و الهوكى –الخ...)",
+        "en": "Be outstanding in three ball games (football, dodgeball, basketball, volleyball, handball, hockey…)."
+      }
+    ],
+    "source": "/badges/b37.jpg"
+  },
+  {
+    "id": "b38",
+    "category": "sport",
+    "ar": "عجلاتي",
+    "en": "Cyclist",
+    "requirements": [
+      {
+        "ar": "ان تمتلك دراجة فى حالة جيدة و تتعهد باستخدامها فى خدمة الفرقة او الناس ( بناء على طلب من القائد)",
+        "en": "Own a bike in good condition and promise to use it in service of the troop or people (at the leader's request)."
+      },
+      {
+        "ar": "ان تعرف القطع المختلفة و تقوم بتركيب: العجل – الكرسى – المقود ( الجادون) – تعرف ان تصلح ثقب فى الاطار – تعرف ان يغير الفرامل و تعرف كيفية صيانة الدراجة",
+        "en": "Know the parts and fit: wheel, seat, handlebars; repair a puncture; change the brakes; know how to maintain the bike."
+      },
+      {
+        "ar": "ان تستخدم الدراجة في مشاويرتستلزم استخدام الشوارع الرئيسية وان تعرف شروط الأمان لسيرالدارجة",
+        "en": "Ride on trips that need main roads and know the safety rules for cycling."
+      },
+      {
+        "ar": "ان تقرأ خريطة الطريق بطريقة سليمة",
+        "en": "Read a road map correctly."
+      },
+      {
+        "ar": "انتقوم باستخدامالدراجةلمسافة 120 كم منهم 20 اثناء الليل , تقوم برحلة من اجل مهمة يحدده لك القائد ( يختار مكان لرحلة او مخيم , التعرف على خط سير الخ....)",
+        "en": "Ride 120 km, 20 of them at night, on a trip for a mission set by the leader (choose a trip or camp site, find the route, etc.)."
+      }
+    ],
+    "source": "/badges/b38.jpg"
+  },
+  {
+    "id": "b39",
+    "category": "sport",
+    "ar": "متسلق جبال",
+    "en": "Mountain Climber",
+    "requirements": [
+      {
+        "ar": "ان تستطيع السير لمدة يوم كامل فى الجبل حاملاً حقيبة تزن ثمانية كيلو جرامات على الأقل بدون تعب غير طبيعى",
+        "en": "Walk a full day in the mountains carrying at least 8 kg without unusual fatigue."
+      },
+      {
+        "ar": "ان تعرف تحضير حقيبة وتجهيز نفسك لرحلة ( حذاء – ملابس- أكل – معدات ) و تقدم المعلومات الأساسية لكيفية الاستعداد والتصرفات اللازمة لرحلة سير إلى إرتفاع متوسط ( الزمن – خط السير .... إلخ )",
+        "en": "Know how to pack a bag and prepare for a trip (shoes, clothes, food, equipment) and give the basics of preparing and acting on a hike to medium height (time, route…)."
+      },
+      {
+        "ar": "أن تكون قد قمت بعمل رحلة فى صورة أختبار مع متسلق له خبرة يحتوى على: تسلق صخور سهله - ممر ملىء بالثلوج (ان امكن) - معرفة الهبوط من الوضع جالساَ - معرفة أختيار أفضل خط سير فى ممر حجرى مغطى بالثلوج (ان امكن)",
+        "en": "Make a test trip with an experienced climber: easy rock climbing, a snow-filled pass (if possible), descending from a seated position, choosing the best route on a rocky snow-covered path (if possible)."
+      },
+      {
+        "ar": "ان تكون قد امضيتليلة على ارتفاع 1000 متر",
+        "en": "Spend a night at 1000 m."
+      },
+      {
+        "ar": "ان تكون قد قمت بثلاث رحلات مع متسلق له خبرة",
+        "en": "Make three trips with an experienced climber."
+      },
+      {
+        "ar": "ان تتعرف على ثلاث انواع نباتات جبلية ( ارتفاع 2000 متر) و التعرف على ثلاثة حيوانات متوحشة جبلية",
+        "en": "Recognise three mountain plants (at 2000 m) and three wild mountain animals."
+      },
+      {
+        "ar": "ان تعرف الاخطار الرئسية للجبال و كيفية تجنبها ( العاصفة – الصاعقة – الثلوج – الانهيارات الجليدية او الصخرية – دوار الجبل ) و معرفة العلامات المناخية الرئيسية",
+        "en": "Know the main mountain dangers and how to avoid them (storm, lightning, snow, ice or rock slides, altitude sickness) and the main weather signs."
+      }
+    ],
+    "source": "/badges/b39.jpg"
+  },
+  {
+    "id": "b40",
+    "category": "sport",
+    "ar": "نشانجي",
+    "en": "Marksman",
+    "requirements": [
+      {
+        "ar": "ان تجهز بنفسك ادوات القوس: قوس يتحمل الرمى لمسافة 50 مترعلى الاقل ثلاثة اسهم لها ريش لوحة تصويب",
+        "en": "Make your own bow, strong enough to shoot at least 50 m, with three feathered arrows and a target."
+      },
+      {
+        "ar": "ان تستخدم استخدام السهم و القوس من على بعد 20 متر على لوحة تصويب قطرها متر و يجب الحصول على 12 نقطة كل عشرة رميات ( دائرة سوداء قطرها 50 سم نحسب بنقتطين – دائرة بيضاء قطرها متر تحسب بنقطة واضحة )",
+        "en": "Shoot arrows from 20 m at a target one metre wide and score 12 points per ten shots (50 cm black circle = 2 points, white circle one metre = 1 point)."
+      },
+      {
+        "ar": "ان تستخدم القوس و النيشان فى الهواء و اطلاق ثلاثة اسهم متتالية قبل ان تقع اى منها على الارض",
+        "en": "Use the bow and sight in the air and shoot three arrows in a row before any hits the ground."
+      },
+      {
+        "ar": "ان تقوم بـاصابة هدف قطره 30 سم ثلاثة مرات من اصل خمسة على ارتفاع 15 متر",
+        "en": "Hit a 30 cm target three times out of five at 15 m."
+      },
+      {
+        "ar": "بما ان وضع الرامى يعد اختياريا فيجب ان تنفذ حسب اختيارك نشان من الاتيين و تجمع على الاقل 18 نقطة من عشرة خرطوشات : -نشان بالبندقية على بعد نحو 200 متر و على لوحة تصويب من الفئة أ -نشان ببندقية قصيرة ( قطر مسورتها 5.50 م) على بعد 30 متر و على لوحة تصويب من الفئة ب شروط قاطعة فيما يختص بالنشان بالسهم - لا تتم اختبارات الشارة الا فى ظل ظروف امنه و من جهة اخرى تتعهد انت(الكشاف) الا تهدف شخص ابدا",
+        "en": "Since the shooter's position is optional, do one of these and score at least 18 points from ten cartridges: a rifle shot at about 200 m on a class A target, or a short rifle (5.5 mm bore) at 30 m on a class B target. Strict rule on archery: badge tests are only done in safe conditions, and you promise never to aim at a person."
+      }
+    ],
+    "source": "/badges/b40.jpg"
+  },
+  {
+    "id": "b41",
+    "category": "sport",
+    "ar": "مراكبي",
+    "en": "Boatman",
+    "requirements": [
+      {
+        "ar": "ان تقوم بـالسباحة لمسافة خمسين مترا مرتديا ملابسك كاملة ( بنطلون – قميص- شراب و حذاء)",
+        "en": "Swim fifty metres fully dressed (trousers, shirt, socks and shoes)."
+      },
+      {
+        "ar": "ان تستخدم عمليا مركب بالاستعانة بـمجاديف جديدة معقوبة او مجداف خلفى وان تقوم بالتجديف بطريقة صحيحة وان تستطيع بلوغ رصيف الميناء او مركب , تقود زورقا و تسحبه",
+        "en": "Use a boat in practice with new oars or a stern oar, row correctly, reach a pier or boat, steer and tow a small boat."
+      },
+      {
+        "ar": "ان تقذف من المركب حبل الربط لمسافة عشرة امتار",
+        "en": "Throw a mooring rope ten metres from the boat."
+      },
+      {
+        "ar": "ان تعمل ثلاثة عقد لحبك الحبل و حفظه",
+        "en": "Tie three knots for braiding and keeping rope."
+      },
+      {
+        "ar": "ان تعرف صيانة مركب فى اثناء سيره او فى ورشتة الصيانة",
+        "en": "Know how to maintain a boat while it's moving and in the workshop."
+      },
+      {
+        "ar": "ان تقوم بـبناء طوق ( خشب مستديرة , قش , براميل , خيرازان- الخ....) تستطيع ان تحمل كشاف لمسافة عشرة امتار",
+        "en": "Build a float ring (round wood, straw, barrels, cane…) that can carry a scout ten metres."
+      },
+      {
+        "ar": "ان تكون قد قمت برحلة نهرية لمدة يوم كامل تقوم فيها باداء دورا مفيدا اثناء قيادة الزورق",
+        "en": "Make a river trip of a full day in which you play a useful role steering the boat."
+      }
+    ],
+    "source": "/badges/b41.jpg"
+  },
+  {
+    "id": "b42",
+    "category": "sport",
+    "ar": "رياضي - مستوى أول",
+    "en": "Athlete – Level 1",
+    "requirements": [
+      {
+        "ar": "ان تحظى فى العادة بسلوك قويم سواء فى الجلوس او الوقوف او السير",
+        "en": "Habitually keep good posture sitting, standing and walking."
+      },
+      {
+        "ar": "ان تعرف الوظائف الرئيسية للجسم البشرى ( التنفس – التغذية – الدورة الدموية ) و تشرح تاثير الهواء و الماء و الشمس الذى يلق بالتدريبات البدنية .",
+        "en": "Know the main body functions (breathing, nutrition, circulation) and explain the effect of air, water and sun on exercise."
+      },
+      {
+        "ar": "ان تقوم باداء التمرينات الصباحية",
+        "en": "Do morning exercises."
+      },
+      {
+        "ar": "ان تبرهن عن نتائج تدريباتك الشخصية و التحسن الملحوظ على مدار فترة شهرين على الاقل",
+        "en": "Show your personal training results and clear improvement over at least two months."
+      },
+      {
+        "ar": "ان تقوم بـتحقيق النتائج التالية : -السرعة: عدو مسافة 40 متر فى 7 ثوانى و 3 من الثانية -مهارة القذف : 7 كرات من اصل 20 كرة هدف افقى مساحتة 2م * 2 م و على مسافة عشرة امتار - تسلق جبل بدون عقد: بالارجل لمسافة 11 متر - الوثب العالى باندفاع: 98سم - الوثب الطويل: 2م 11سم - السباحة: 150م سباحة حرة انطلاق مع الغطس",
+        "en": "Reach these results: 40 m sprint in 7.3 s; throwing, 7 of 20 balls at a 2 m × 2 m target 10 m away; rope climbing without knots, 11 m with the legs; running high jump 98 cm; long jump 2.11 m; swimming 150 m freestyle with a racing dive."
+      }
+    ],
+    "source": "/badges/b42.jpg"
+  },
+  {
+    "id": "b43",
+    "category": "sport",
+    "ar": "رياضي - مستوى ثاني",
+    "en": "Athlete – Level 2",
+    "requirements": [
+      {
+        "ar": "ان تقوم بـتحقيق النتائج التالية : — السرعة: عدو مسافة 60 متر فى عشر ثوان — مباراة السرعة: عدو 300 متر فى 56 ثانية و 9 من الثانية — مهارة القذف: 6 كرات من اصل 20 على هدف افقى مساحتة 2 م * 2م على بعد 12 متر — تسلق جبل بدون عقد: بالارجل لمسافة 12م و 50 سم — قذف جله: وزنها 5 كجم لمسافة 7م 43سم بالذراع الاقوى — الوثب العالى باندفاع: 1م 4 سم — الوثب الطويل: 3م 42سم — السباحة: 200م سباحة حرة انطلاق مع الغطس",
+        "en": "Reach these results: 60 m sprint in 10 s; 300 m in 56.9 s; throwing, 6 of 20 balls at a 2 m × 2 m target 12 m away; rope climbing without knots, 12.5 m with the legs; 5 kg shot put 7.43 m with the stronger arm; running high jump 1.04 m; long jump 3.42 m; swimming 200 m freestyle with a racing dive."
+      }
+    ],
+    "source": "/badges/b43.jpg"
+  },
+  {
+    "id": "b44",
+    "category": "sport",
+    "ar": "فارس",
+    "en": "Horse Rider",
+    "requirements": [
+      {
+        "ar": "ان تعرف ركوب الفرس بثلاثة اشكال مختلفة للسير",
+        "en": "Know how to ride a horse at three different gaits."
+      },
+      {
+        "ar": "ان تقطع مسافة 2 كم على اراضى متنوعة",
+        "en": "Ride 2 km over varied terrain."
+      },
+      {
+        "ar": "انتعرف السلوك السليم للفارس",
+        "en": "Know proper rider behaviour."
+      },
+      {
+        "ar": "ان تعرف ان تسرج الجواد و تثبته و تعرض عيوب سرج او لجام عثر مثبت و معد جيدا",
+        "en": "Know how to saddle and fix a horse's saddle and spot faults in a saddle or bridle."
+      },
+      {
+        "ar": "ان تقوم بـاطعام حصان ومعرفة تحديد كمية الطعام وان تفرض حصانا ( تنظفه بالفرشاه) ومعرفة الاحتياجات اللازم اتباعها للعناية بارجل الحصان",
+        "en": "Feed a horse, know how much to give, groom it, and know how to care for its legs."
+      }
+    ],
+    "source": "/badges/b44.jpg"
+  },
+  {
+    "id": "b45",
+    "category": "sport",
+    "ar": "لاعب فنون قتالية",
+    "en": "Martial Artist",
+    "requirements": [
+      {
+        "ar": "ان تقوم باداء مرضى امام معلم ذو خبرة هجوم فى لعبتين رياضيين من العاب القتال الاتيه:الكونج فو- الكراتيه- الاى كيدو- كابويرا- كيك بوكسينج- MMA– الشيش - الملاكمة الفرنسية/ الملاكمة الانجلبزية - المصارعة الرومانية – الجودو",
+        "en": "Perform satisfactorily in front of an experienced instructor in two of these combat sports: kung fu, karate, aikido, capoeira, kickboxing, MMA, fencing, French or English boxing, wrestling, judo."
+      },
+      {
+        "ar": "ان تعرف قوانين اللعبة و تعليمات الامان فى اللعبتين و تاريخ لعبة",
+        "en": "Know the rules and safety instructions of both sports and the history of one."
+      },
+      {
+        "ar": "ان تتعهد بعدم ايذاء الآخرين و عدم استخدام القوة الا فى حالة الضرورة",
+        "en": "Promise not to hurt others and not to use force except when necessary."
+      },
+      {
+        "ar": "ان تعرض بعض الحركات الاساسية للعبتين المختارتين امام الفرقة",
+        "en": "Show some basic moves of your two chosen sports to the troop."
+      }
+    ],
+    "source": "/badges/b45.jpg"
+  },
+  {
+    "id": "b46",
+    "category": "sport",
+    "ar": "غطاس",
+    "en": "Diver",
+    "requirements": [
+      {
+        "ar": "قد قمت بـالغطس على عمق لا يقل عن 5 متر على يد غطاس لمدة لا تقل عن 20 دقيقة",
+        "en": "Have dived to at least 5 m with a diver for at least 20 minutes."
+      },
+      {
+        "ar": "ان تعرف معدات الغطس كاملة (بدلة الغطس - الزعانف - انبوبة - حزام الرصاص - ماسك... الخ)",
+        "en": "Know all diving equipment (suit, fins, tank, weight belt, mask…)."
+      },
+      {
+        "ar": "ان تعرف معلومات عن معدات الغطس مثل مادة بدلة الغطس و انواعها - ما تحتويه الانبوبة و انواعها - نسبة وزن الرصاص لعمق الغطس",
+        "en": "Know about the equipment: suit material and types, what the tank holds and its types, how weight relates to depth."
+      },
+      {
+        "ar": "ان تعرف عن معادلة الضغط تحت الماء و كيفية الاشارة للمحادثة و الشهادات المعترف بها فى رياضة الغطس و كيفية التعامل فى حالة حادثة الغطس و انواع الغطس و انواع الاسماك السامة",
+        "en": "Know about pressure equalisation, underwater signals, recognised diving certificates, how to act in a diving accident, kinds of diving and poisonous fish."
+      }
+    ],
+    "source": "/badges/b46.jpg"
+  },
+  {
+    "id": "b47",
+    "category": "sport",
+    "ar": "متخصص رياضي",
+    "en": "Sports Specialist",
+    "requirements": [
+      {
+        "ar": "ان تكون مشترك في فريق في نادي",
+        "en": "Be a member of a team in a club."
+      },
+      {
+        "ar": "ان تكون قد شارك في بطولات ان وجد",
+        "en": "Have taken part in tournaments, if any."
+      },
+      {
+        "ar": "ان تكون علي دراية بقوانين اللعبة بالكامل وتكون لديك بعض المعلومات التاريخية عنها",
+        "en": "Know the full rules of the sport and some of its history."
+      },
+      {
+        "ar": "ان تكون قد حصلت على شارة رياضى",
+        "en": "Hold the Athlete badge."
+      }
+    ],
+    "source": "/badges/b47.jpg"
+  },
+  {
+    "id": "b48",
+    "category": "art",
+    "ar": "رسام هندسي",
+    "en": "Technical Drafter",
+    "requirements": [
+      {
+        "ar": "ان تعرف مبادىء الرسم الاساسية ( رسم تخطيطى و خطوط مقوسة و رسم ظلال و منظور متساوى الحجم و المقياس منظور خطى ( رسم منظورى) و كذلك معرفة استخدام و صيانة ادوات الرسم",
+        "en": "Know the basics of drawing (sketching, curves, shading, isometric and linear perspective) and how to use and care for drawing tools."
+      },
+      {
+        "ar": "ان تعرف القوانين الرياضية التى تتيح حساب المسطحات ( المساحات ) والأحجام المستخدمة العادية",
+        "en": "Know the maths for calculating areas and common volumes."
+      },
+      {
+        "ar": "ان تقوم بـعمل رسم لشىء مألوف ثم تقوم بعمل كروكى للناحية الجانبية لهذا الشىء المألوف",
+        "en": "Draw a familiar object, then make a side-view sketch of it."
+      },
+      {
+        "ar": "ان تعرف وتقوم بـرسم تنفيذى حسب الأرتفاعات المدونة فى تصميم ما",
+        "en": "Know and produce a working drawing from the heights given in a design."
+      },
+      {
+        "ar": "ان تقوم بـعرض شىء بالمنظور المتساوى الحجم والقياس",
+        "en": "Show an object in isometric view."
+      },
+      {
+        "ar": "ان تقوم بـرسم لوحة هندسية بالمنظور الافقى و الواجهة",
+        "en": "Draw a technical drawing in horizontal perspective and front view."
+      }
+    ],
+    "source": "/badges/b48.jpg"
+  },
+  {
+    "id": "b49",
+    "category": "art",
+    "ar": "معماري",
+    "en": "Architect",
+    "requirements": [
+      {
+        "ar": "ان تعرف القواعد الرئيسية للرسم المعمارى و طريقة استخدام و صيانة ادوات الرسم",
+        "en": "Know the main rules of architectural drawing and how to use and care for drawing tools."
+      },
+      {
+        "ar": "ان تقوم بعمل رسم صحيح لتفاصيل معمارية او لرسم تخطيطى لمنزل ( مكان اعاشة)",
+        "en": "Make a correct drawing of architectural details or a sketch plan of a house."
+      },
+      {
+        "ar": "ان تقوم بـعمل تصميم معمارى يشتمل على التخطيط و المقاسات المرفوعة",
+        "en": "Make an architectural design with the plan and measured dimensions."
+      },
+      {
+        "ar": "ان تعرف القوانين الهندسية التى تسمح لكبحساب المساحات و الاحجام المستخدمة وان تكون لديك معلومات اولية عن متانة الخامات و عن التكنولوجيا",
+        "en": "Know the geometry for calculating areas and volumes, and basic knowledge of material strength and technology."
+      },
+      {
+        "ar": "ان تعرف اساليب البناء المختلفة فى منطقتك و الاساليب المعمارية الرئيسية",
+        "en": "Know the different building methods in your area and the main architectural styles."
+      },
+      {
+        "ar": "ان تكون قد درست الفن المعمارى لكنيسة ( رفع التخطيط ( الخريطة) الرسم الكروكى – الصور الفوتغرافية)",
+        "en": "Have studied a church's architecture (plan survey, sketch, photos)."
+      },
+      {
+        "ar": "ان تتعرف فى مرحلة البقاء العناصر الاساسية للمبنى الاساسات مثل الادوار و السطح و البناء و النجارة",
+        "en": "Know the basic parts of a building: foundations, floors, roof, structure and carpentry."
+      },
+      {
+        "ar": "ان تقوم بنفسك او تقود تنفيذ بناء صغير ذو فائدة على ان يكون مخطط مسبقا كل ما يخص مقياس البناء مخطط المساحة المقاطع و الارتفاعات",
+        "en": "Build, or lead the building of, a small useful structure that is planned in advance (scale, area plan, sections, heights)."
+      }
+    ],
+    "source": "/badges/b49.jpg"
+  },
+  {
+    "id": "b50",
+    "category": "art",
+    "ar": "صانع يدوي",
+    "en": "Handicraft Maker",
+    "requirements": [
+      {
+        "ar": "أن تكون قد برهنت على مهارتك اليدوية سواء فى الفرقة او فى منزلة",
+        "en": "Show your handiness, in the troop or at home."
+      },
+      {
+        "ar": "ان تقوم باجراء اربع من السبع اختبارات التالية — الطلاء : تطلى حسب اختيارك : باب – بانيو – قطعة اثاث - النوافذ الخ... — السباكة: اصلاح ماسورة( وصلة) مياه – او وضع صنبور . القيام بعمل وصلة او لحام — صناعة الاقفال: فك و تركيب قفل و وضع مفصلات لباب — كهرباء: تركب وتصلح دائرة كهربية صغيرة( جرس – اضاءة – مكواه – مدفاءة). تغيير قاطع التيار الرصاصى — اعمال الزجاج : قطع و وضع و تنظيف قطعة زجاج لنافذة — نجارة: صنع و تركيب حسب الاخيار رف صغير. مجموعة رفوف ....الخ — الصيانة: سد شقوق ابواب و نوافذ او صنع قدره ترويجية ( صندوق مولد للحرارة يحتوى قدرا فى حالة الغليان يستمر فيها السلق بلا نار )",
+        "en": "Pass four of these seven tests. Painting: paint a door, bath, furniture or windows. Plumbing: repair a pipe joint or fit a tap, make a joint or solder. Locksmithing: remove and fit a lock and door hinges. Electricity: install and repair a small circuit (bell, light, iron, heater), change a fuse. Glasswork: cut, fit and clean a window pane. Carpentry: make and fit a small shelf or shelves. Maintenance: seal gaps in doors and windows, or make a hay-box cooker."
+      }
+    ],
+    "source": "/badges/b50.jpg"
+  },
+  {
+    "id": "b51",
+    "category": "art",
+    "ar": "موسيقى",
+    "en": "Music",
+    "requirements": [
+      {
+        "ar": "ان تمتلك و تقوم بـصيانة آلة موسيقية تختارها",
+        "en": "Own and maintain a musical instrument of your choice."
+      },
+      {
+        "ar": "ان تستطيع قراءة النوتة حسب الالة التي تلعبها إذا كانت الة إيقاعية أو نغمية",
+        "en": "Read music for your instrument, whether percussion or melodic."
+      },
+      {
+        "ar": "ان تستعين بألتك لتعزف عن ظهر قلب بذوق وبطريقة صحيحة عشرة مقطوعات موسيقية بسيطة",
+        "en": "Play ten simple pieces by heart on your instrument, with taste and correctly."
+      },
+      {
+        "ar": "ان تصاحب مجموعة بسيطة مجموعة الآلات أو مجموعة أصوات وألالات",
+        "en": "Accompany a small group of instruments, or voices and instruments."
+      },
+      {
+        "ar": "انتحلل وتقرأ بطريقة سليمة خمسة مقطوعات موسيقية",
+        "en": "Analyse and read correctly five pieces of music."
+      },
+      {
+        "ar": "ان تتعلم بطريقة سريعة عن طريق السمع خمسة الحان بسيطة وتقوم بعزفهم حسب النبرة المناسبة للآلة الموسيقة",
+        "en": "Learn five simple tunes quickly by ear and play them in the right key for your instrument."
+      }
+    ],
+    "source": "/badges/b51.jpg"
+  },
+  {
+    "id": "b52",
+    "category": "art",
+    "ar": "هزلي",
+    "en": "Comedian",
+    "requirements": [
+      {
+        "ar": "أن تكون معروفاً فى الفرقة بطبيعتك الفكاهية ، أن تعرف كيف ترفه عن الفرقة فى كل المناسبات بدون فظاظة وسوقية",
+        "en": "Be known in the troop for your sense of humour, and entertain the troop on all occasions without rudeness or vulgarity."
+      },
+      {
+        "ar": "أن تكون قادراً على الترفيه عن الفرقة أو عن جمهور مختلط لمدة ربع ساعة على الأقل لوحدك أو من خلال مجموعة تقودها وذلك بأختيار برنامج ملىء بالمنوعات ، مشاهد تمثيلية ، أغانى ، موسيقى ، رقصات ، ألعاب سهارية ، عرائس متحركة بالخيطان",
+        "en": "Entertain the troop or a mixed audience for at least a quarter of an hour, alone or leading a group, with a varied programme: sketches, songs, music, dances, campfire games, string puppets."
+      },
+      {
+        "ar": "ان تقرأ بطريقة فكاهية قصص حكاية أو قصة مع إضافة عدة تفاصيل من تأليفك (فن الالقاء الهزلى)",
+        "en": "Read a story or tale in a funny way, adding details of your own (comic delivery)."
+      },
+      {
+        "ar": "ان تغنى بطريقة سليمة وعن ظهر قلب عشرة أغانى كشفية أو غيرها على الأقل",
+        "en": "Sing correctly, by heart, at least ten scout or other songs."
+      }
+    ],
+    "source": "/badges/b52.jpg"
+  },
+  {
+    "id": "b53",
+    "category": "art",
+    "ar": "مغني",
+    "en": "Singer",
+    "requirements": [
+      {
+        "ar": "ان تغنى لوحدك وعن ظهر قلب 15 أغنية تستخدم فى نطاق الفرقة",
+        "en": "Sing alone, by heart, 15 songs used in the troop."
+      },
+      {
+        "ar": "أن تقوم بغناء جزء سهل عن ظهر قلب وسط مجموعة تغنى بعدة طبقات مختلفة",
+        "en": "Sing an easy part by heart in a group singing in several voices."
+      },
+      {
+        "ar": "ان تغنى لوحدك عن ظهر قلب خمسة أغانى بمصاحبة موسيقية",
+        "en": "Sing alone, by heart, five songs with musical accompaniment."
+      },
+      {
+        "ar": "ان تتعلم بسرعة عن طريق السمع أغنيتان بسيطتان",
+        "en": "Learn two simple songs quickly by ear."
+      },
+      {
+        "ar": "ان تعطى فى الفرقة برهان عن تشجيع الفرقة بأغانى تلقائية وفى الوقت المناسب",
+        "en": "Show in the troop that you cheer it up with spontaneous songs at the right time."
+      },
+      {
+        "ar": "أن تمتلك كراسة أغانى شخصية",
+        "en": "Own a personal songbook."
+      }
+    ],
+    "source": "/badges/b53.jpg"
+  },
+  {
+    "id": "b54",
+    "category": "art",
+    "ar": "ممثل",
+    "en": "Actor",
+    "requirements": [
+      {
+        "ar": "ان تظهر سلاسة حركتك وتمتلك أسلوب جيد فى القاء",
+        "en": "Show smooth movement and good delivery."
+      },
+      {
+        "ar": "ان تقوم بنجاح بألقاء دور غير الكومبارس أو تقوم بالتمثيل خلال ثلاث عروض تمثيلية كشفية ( أثناء حفلة أو حفلة سمر ) وتكون حافظاً لسيناريو دورك عن ظهر قلب فى أحد هذه العروض",
+        "en": "Successfully play a speaking part (not an extra) or act in three scout shows (party or campfire) and know your script by heart in one of them."
+      },
+      {
+        "ar": "ان تقوم بأداء تمثيلى بدون أستخدام ملحقات ( أكسسوار ) لثلاثة موضوعات بسيطة ، تقلد ثلاثة أشخاص عن طريق التمثيل الصامت يحددهم لك القائد قبل الأختبار بربع ساعة ( على أن تكون مدة العرض من دقيقة إلى ثلاث دقائق)",
+        "en": "Act without props three simple subjects, and imitate three people in mime chosen by the leader a quarter of an hour before the test (one to three minutes each)."
+      },
+      {
+        "ar": "ان تقوم بالتنكر بطريقة تنم عن ذوق رفيع بأستخدام أدوات أولية",
+        "en": "Disguise yourself tastefully using basic materials."
+      },
+      {
+        "ar": "انتقوم بـأختيار أكسسوارات خاصة لمشهد أثناء حفلة السمر ليتم إستغلالها بطريقة جيدة",
+        "en": "Choose props for a campfire scene so that they are used well."
+      }
+    ],
+    "source": "/badges/b54.jpg"
+  },
+  {
+    "id": "b55",
+    "category": "art",
+    "ar": "رسام",
+    "en": "Artist",
+    "requirements": [
+      {
+        "ar": "ان تقدم كتيب او البوم يحتوى على حوالى ثلاثين رسم كروكى لحيوانات حية , اشخاص تتحرك , مناظر طبيعية على ان تنفذ ذلك على الطبيعة",
+        "en": "Present a booklet or album of about thirty sketches of live animals, moving people and landscapes, drawn from nature."
+      },
+      {
+        "ar": "انتقومبـتقديم ثلاثة رسومات منتهية و بالالوان ( اشخاص – مناظر – طبيعية – اثار)",
+        "en": "Present three finished coloured works (people, landscapes, monuments)."
+      },
+      {
+        "ar": "ان تتعرف على الاساليب الرئسية لفن العمارة او لفن الاثاث: معرفة الاساليب المختلفة للفن المعمارى فى الكنائس",
+        "en": "Know the main styles of architecture or furniture, and the different styles of church architecture."
+      },
+      {
+        "ar": "أن تكون قد تدربت على الأدوات المختلفة : الفرشاه ( الرسم بالألوان المائية – بالجواش – بألوان الزيت ) – قلم فحم – أقلام الألوان ( الألوان الخشبية – الريشة – العامود )",
+        "en": "Have practised with different tools: brush (watercolour, gouache, oil), charcoal, coloured pencils."
+      },
+      {
+        "ar": "أن تقوم فعلياً بعملين من الأعمال الأتية :- ديكور رسم أو نحت لعنصر مهم فى دار الفرقة ( قطعة أثاث – باب – عامود فى الجدار – زخارف لمدخل دار الفرقة – لوحة إعلانات .... ) أو مشروع ركن الطليعة أوتشكيل من الصلصال أو الطين لرأس أو شكل مصغر ( أنسان أو حيوان ) أوصنع قناع ( كحفلة السمر ) أوتصميم وتنفيذ عصا مزينه أونحت على خشب لأنسان أو حيوان أوعمل كتيب مرسوم للنباتات أوقائمة بظلال أشجار محددة ومرسومه من الطبيعة أوتصميم أطقم ملابس لحفلة السمر ليتم استخدامهافعلياً أوعمل برامج وملصقات للحفلات أوتقديم تقرير يصاحبه رسومات توضيحية أو تقديم رسوما توضيحية عن الأعمال التى قامت بها الطليعة لمدة ثلاث أشهر",
+        "en": "Do two of these: decorate, draw or sculpt an important element of the troop house (furniture, door, column, entrance decoration, notice board…), or a patrol corner project, or clay figures, a mask, a decorated stick, wood carving, a drawn plant booklet, costumes for a campfire, programmes and posters, or illustrated reports of the patrol's work for three months."
+      }
+    ],
+    "source": "/badges/b55.jpg"
+  },
+  {
+    "id": "b56",
+    "category": "art",
+    "ar": "مخترع",
+    "en": "Inventor",
+    "requirements": [
+      {
+        "ar": "ان تقوم بـعمل اختراع يستخدم في الحياة الكشفية",
+        "en": "Make an invention for use in scouting."
+      },
+      {
+        "ar": "ان تقوم بـاعادة استخدام خامات مستخدمة سابقا في عدد 2 اختراع يطلبهم منكالقائد",
+        "en": "Reuse previously used materials for 2 inventions the leader asks for."
+      },
+      {
+        "ar": "ان تكون علي دراية بمعلومات عن 10 اختراعات مستخدمة بالفعل في الحياة العامة ( مثل : التليفون – مصباح الكهربائي - السيارات - ...............الخ )",
+        "en": "Know about 10 inventions in everyday use (telephone, light bulb, cars…)."
+      },
+      {
+        "ar": "ان تقوم بعرض اختراعك على الفرقة وتناقشه مع قادة فرقتك وتنول رضاهم",
+        "en": "Present your invention to the troop, discuss it with your leaders and win their approval."
+      }
+    ],
+    "source": "/badges/b56.jpg"
+  },
+  {
+    "id": "b57",
+    "category": "scout",
+    "ar": "مسعف - مستوى أول",
+    "en": "First Aider – Level 1",
+    "requirements": [
+      {
+        "ar": "أن تكون لديك معلومات عن تشريح الجسم وعلم وظائف الأعضاء فيما يختص بأجهزة الجسم المختلفة : ووصف الحوادث التى قد تحدث وعرض كيفية التصرف فى كل حالة على حدة .",
+        "en": "Know body anatomy and physiology for each body system, describe the accidents that can happen and how to act in each case."
+      },
+      {
+        "ar": "الجهاز التنفسى : نزيف – ضربة شمس – نوبات نزيف الأنف",
+        "en": "Respiratory system: bleeding, sunstroke, nosebleeds."
+      },
+      {
+        "ar": "الجهاز الهضمى : قىء – مغص – عسر هضم – أسهال",
+        "en": "Digestive system: vomiting, colic, indigestion, diarrhoea."
+      },
+      {
+        "ar": "ان تستطيع وصف الحالات الأتية وعرض وعرض طريقة التصرف فى كل منها: برد الأصابع - الحروق – دخول جسم غريب بالعين – لسعة حشرة – انواع الجروح المختلفة",
+        "en": "Describe and handle: frostbitten fingers, burns, a foreign object in the eye, insect stings, different types of wounds."
+      },
+      {
+        "ar": "ان تتخذ الإحتياطات ومنح العناية الأولية : تطهير الأيدى تعقيم وعاء واداة معدنية – كمادات ساخنة – مشروب من الأعشاب المغلية – مراقبة درجة حرارة الجسم – قياس النبض",
+        "en": "Take precautions and give first care: disinfect hands, sterilise a container and metal tool, hot compresses, herbal drinks, monitor body temperature, take the pulse."
+      }
+    ],
+    "source": "/badges/b57.jpg"
+  },
+  {
+    "id": "b58",
+    "category": "scout",
+    "ar": "مسعف - مستوى ثاني",
+    "en": "First Aider – Level 2",
+    "requirements": [
+      {
+        "ar": "أن تكون لديك معلومات عن تشريح الجسم وعلم وظائف الأعضاء فيما يختص بأجهزة الجسم المختلفة : ووصف الحوادث التى قد تحدث وعرض كيفية التصرف فى كل حالة على حدة .",
+        "en": "Know anatomy and physiology of the body systems, describe possible accidents and how to act in each."
+      },
+      {
+        "ar": "الهيكل العظمى : ألتواء مفصلى – خلع – كسر ( منع الحركة والنقل )",
+        "en": "Skeleton: sprained joint, dislocation, fracture (immobilising and transporting)."
+      },
+      {
+        "ar": "الجهاز التنفسى : الأختناق ( الغرق – الأختناق – إغماء – غازات سامة ) العلاج بطريقة التنفس الصناعى",
+        "en": "Respiratory system: suffocation (drowning, choking, fainting, toxic gas), treated with artificial respiration."
+      },
+      {
+        "ar": "ان تقوم بـوصف الحالات الأتية وعرض طريقة التصرف فى كل منها: لدغة عقرب – لدغة ثعبان – عضة الكلب - جرح قطعي عميق – نزيف – حرق خطير - التواء - خلع – التواء المفاصل",
+        "en": "Describe and handle: scorpion sting, snake bite, dog bite, deep cut, bleeding, serious burn, sprain, dislocation."
+      },
+      {
+        "ar": "ان تعرف معلومات عن التعامل في الجلطات - بلع اللسان - توقف القلب - ثقب في الرئة – كسر رقبة – ضلع – ترقواه",
+        "en": "Know how to deal with blood clots, swallowed tongue, cardiac arrest, punctured lung, broken neck, rib or collarbone."
+      },
+      {
+        "ar": "ان تعرف التصرفات المناسبة فى الحالات الأتية: تغطية بالرمال – غرق – صعق بالتيار",
+        "en": "Know the right actions for: being buried in sand, drowning, electric shock."
+      },
+      {
+        "ar": "ان تعرف العلاج بالاعشاب والثمار الطبيعية",
+        "en": "Know treatment with herbs and natural fruits."
+      }
+    ],
+    "source": "/badges/b58.jpg"
+  },
+  {
+    "id": "b59",
+    "category": "scout",
+    "ar": "المخيم - مستوى أول",
+    "en": "Camper – Level 1",
+    "requirements": [
+      {
+        "ar": "ان تكون قد مضيت خمسة عشر ليلة تحت الخيام ليس بالضرورة ان يكونوا متتاليين معطيا مثال للمهارة و الالتزام و احترام الطبيعة و الصحة الشخصية",
+        "en": "Spend fifteen nights in tents (not necessarily consecutive), setting an example of skill, commitment, respect for nature and personal health."
+      },
+      {
+        "ar": "ان تقوم بـتجهيز ادوات مخيم: اعداد خريطة مكان التخيم - اعداد وحمل المعدات - ان تبحث عن مكان للمنشات - ان تقود عملية نصب الخيمة - ان تعد بمفردك منشاة نموذجية - ان تسلم ارض المخيم الى ما كانت عليه فى البداية - ان تسلم المعدات بنظام و بحالة جيدة عند العودة ( اصلاحات فى الخيمة – صيانة الحلل و الادوات)",
+        "en": "Prepare camp equipment: map the camp site, prepare and carry gear, find a place for structures, lead tent pitching, build a model structure alone, hand the site back as you found it, return equipment in good order (tent repairs, pot and tool care)."
+      },
+      {
+        "ar": "ان تقوم بـاخذ مياه للمخيم مع مراعاة الاحتياطات الصحية و جعلها صالحة للشرب",
+        "en": "Fetch water for the camp with health precautions and make it drinkable."
+      },
+      {
+        "ar": "ان تقوم بـاعداد اربعة وجبات لطليعتك . يمكن ان يساعدكزملاؤك الذين يتركون لك المهام الاساسية و القيادة الفعلية",
+        "en": "Prepare four meals for your patrol (teammates may help, leaving you the main tasks and leadership)."
+      },
+      {
+        "ar": "ان تقوم بـنصب خيمة في 30 دقيقة مع شخص اخر",
+        "en": "Pitch a tent in 30 minutes with one other person."
+      }
+    ],
+    "source": "/badges/b59.jpg"
+  },
+  {
+    "id": "b60",
+    "category": "scout",
+    "ar": "المخيم - مستوى ثاني",
+    "en": "Camper – Level 2",
+    "requirements": [
+      {
+        "ar": "ان تكون قد مضيت ثلاثين ليلة تحت الخيام ليس بالضرورة ان يكونوا متتاليين معطيا مثال للمهارة و الالتزام و احترام الطبيعة و الصحة الشخصية",
+        "en": "Spend thirty nights in tents (not necessarily consecutive), setting an example of skill, commitment, respect for nature and personal health."
+      },
+      {
+        "ar": "ان تكون قد شاركت فى مخيم متنقل لمدة ثلاثة ايام على الاقل يمتد على عشرين كيلومتر",
+        "en": "Take part in a mobile camp of at least three days covering twenty kilometres."
+      },
+      {
+        "ar": "ان تعد لمخيم فردى لمدة عدة ايام باقل الاشياء الممكنة و تقدم شنطة الظهر كاملة",
+        "en": "Prepare for a solo multi-day camp with as little as possible and present your full backpack."
+      },
+      {
+        "ar": "ان تقوم بـبناء مأوى لثلاثة كشافين بالاستعانة بمعدات طبيعية او بناء خيمة الطليعة و استخدام المعدات الموجودة ( اكياس قديمة – غطاء - ......)",
+        "en": "Build a shelter for three scouts from natural materials, or build the patrol tent using available gear (old sacks, covers…)."
+      },
+      {
+        "ar": "ان تستطيع إبقاء نار والمحافظة عليها مشتعلة في كل ظروف الطقس حتى الهواء الطلق (العواصف والأمطار)",
+        "en": "Keep a fire lit in all weather, even outdoors (storms, rain)."
+      },
+      {
+        "ar": "ان تعرف الاحتيطات اللازمة لإعداد موقد نار والطريقة التى تكافح بها الحريق",
+        "en": "Know the precautions for setting up a fireplace and how to fight a fire."
+      },
+      {
+        "ar": "ان تستطيع استخدام ثلاث طرق مختلفة لتنقية المياه وجعلها صالحة للشرب وتحلية المياه",
+        "en": "Use three different methods to purify water and make it drinkable, and desalinate water."
+      },
+      {
+        "ar": "ان تقوم بـنصب خيمة في 15دقيقة مع شخص اخر",
+        "en": "Pitch a tent in 15 minutes with one other person."
+      }
+    ],
+    "source": "/badges/b60.jpg"
+  },
+  {
+    "id": "b61",
+    "category": "scout",
+    "ar": "طباخ - مستوى أول",
+    "en": "Cook – Level 1",
+    "requirements": [
+      {
+        "ar": "ان تقوم بـتجربة ناجحة لاستخدام خمسة مواقد نيران مختلفة . استخدام انواع مختلفة من الاخشاب مع مراعاة حسن اشتعالهم ( الخشب الابيض – الخشب الجاف – الخشب الصمغى )",
+        "en": "Successfully try five different fire setups, using different woods and noting how well each burns (white wood, dry wood, resinous wood)."
+      },
+      {
+        "ar": "ان تقوم بـاعداد قائمة طعام كاملة و متوازنة للطليعة لمدة خمسة ايام اثناء مخيم تحديد الكميات اللازمةلطليعة مكونة من ثمان اشخاص و الاسعار المطابقة للكميات (بعد الذهاب الى السوق)",
+        "en": "Prepare a full, balanced five-day camp menu for a patrol of eight, with quantities and prices (after visiting the market)."
+      },
+      {
+        "ar": "ان تقوم بإعداد ما يلى: مشروب مغلى : شاى – قهوة – اعشاب و عمل سلطة",
+        "en": "Prepare a hot drink (tea, coffee or herbs) and make a salad."
+      },
+      {
+        "ar": "ان تقوم بعمل مكرونة على ان تكون غير معجنة",
+        "en": "Cook pasta so that it isn't mushy."
+      },
+      {
+        "ar": "ان تقوم بطهي الطعام خلوي الاتي: خبزعيش – بيض مسلوق ومقلي – بتنجان - بطاطس",
+        "en": "Cook outdoors: bread, boiled and fried eggs, aubergine, potatoes."
+      }
+    ],
+    "source": "/badges/b61.jpg"
+  },
+  {
+    "id": "b62",
+    "category": "scout",
+    "ar": "طباخ - مستوى ثاني",
+    "en": "Cook – Level 2",
+    "requirements": [
+      {
+        "ar": "ان تقوم بـتجربة ناجحة لعمل و ايقاد نار تحت المطر",
+        "en": "Successfully light and keep a fire in the rain."
+      },
+      {
+        "ar": "ان تقوم بعمل نار الخندق",
+        "en": "Make a trench fire."
+      },
+      {
+        "ar": "ان تعرف مخاطر المياه الملوثة و جعلها صالحة للشرب",
+        "en": "Know the dangers of contaminated water and how to make it safe to drink."
+      },
+      {
+        "ar": "ان تقوم بـعمل منشاة نموذجية لمطبخ الطليعة",
+        "en": "Build a model kitchen structure for the patrol."
+      },
+      {
+        "ar": "ان تقوم بـقيادة المطبخ لطهى وجبتين على الاقل – تقوم بتنظيم العمل بطريقة تتيح لك طهى الوجبة جيدا على ان تصل ساخنة على المائدة , وتقوم بـتقطيع اللحم بطريقة صحيحة",
+        "en": "Lead the kitchen to cook at least two meals, organising the work so the food is well cooked and reaches the table hot, and carve meat correctly."
+      },
+      {
+        "ar": "ان تقوم باحضار 3 اطباق من بين الاتى , خضروات جافة - لحم بمرق التوابل – لحم مشوى – دجاج – مقليات ( سمك مقلى) – محليات ( حلويات) – معجنات",
+        "en": "Prepare 3 dishes from: dried vegetables, meat in spiced broth, grilled meat, chicken, fried food (fried fish), sweets, pastries."
+      },
+      {
+        "ar": "ان تقوم بعمل أرز على ان يكون غير معجن",
+        "en": "Cook rice so that it isn't mushy."
+      }
+    ],
+    "source": "/badges/b62.jpg"
+  },
+  {
+    "id": "b63",
+    "category": "scout",
+    "ar": "رائد - مستوى أول",
+    "en": "Pioneer – Level 1",
+    "requirements": [
+      {
+        "ar": "ان تقوم بـعمل عقد السقالات بطريقة صحيحة ( الصليبة المعينة على عوارض دائرية و مريحة) حبك الحبل و حفظة – اصلاح الحبل – عمل وصلات من النباتات المتسلقة من الاعشابمن الاغصان اللينة",
+        "en": "Tie lashings correctly (square and diagonal, on round poles), braid and care for rope, mend rope, make ties from climbing plants, grasses or soft branches."
+      },
+      {
+        "ar": "ان تنفذ حسب الاحتياج و اختيار القائد منشاة مخيم الطليعة منضدة – حاجز – سلم – ساري علم – برج مراقبة",
+        "en": "Build, as needed and chosen by the leader, patrol camp structures: table, fence, ladder, flagpole, lookout tower."
+      },
+      {
+        "ar": "ان تعرف الفرق بين العقد والربطات و الدورات و ان تقوم بعمل 5 من كل نوع",
+        "en": "Know the difference between knots, hitches and bends, and tie 5 of each."
+      },
+      {
+        "ar": "ان تستطيع عمل و استخدام العقد الآتة :الأفقية - السماك – الوتدية – الخلبة – التوصيلية (الثمانيه) - رجل الوزة – رجل البطة- الهلب – الراهب – التقصيرية - حفظ الحبل",
+        "en": "Tie and use the knots listed on the original page (square, fisherman's, clove hitch, bowline, figure-eight, sheepshank, rope storage…)."
+      },
+      {
+        "ar": "ان تعرف تصميم منشأ وحصر كل اعداده من عقد وطول حبل وعدد العصيان – اتزان – تقدير وقت التنفيذ بعدد الأفراد – قيادة التنفيذ (منشأ مكون من 30-20 عصا)",
+        "en": "Design a structure and list everything needed (knots, rope length, poles, balance), estimate build time by number of people, and lead the build (a structure of 20–30 poles)."
+      }
+    ],
+    "source": "/badges/b63.jpg"
+  },
+  {
+    "id": "b64",
+    "category": "scout",
+    "ar": "رائد - مستوى ثاني",
+    "en": "Pioneer – Level 2",
+    "requirements": [
+      {
+        "ar": "ان تستطيع سن و المحافظة ( بالاستعانة بمسن .... حجر ملىء بالزيت – مبرد – سير) ادواتك الشخصية و ادوات الطليعة البلط السكاكين – المناشير – او مثقب – ( اداة لثقب الخشب) تغير يد بلطة او فاس . حمل بلطة بحرص داخل العنيصة ( الغابة)",
+        "en": "Sharpen and maintain your personal and patrol tools (axes, knives, saws, drill) using an oiled stone, file or strop; change an axe handle; carry an axe safely in the forest."
+      },
+      {
+        "ar": "ان تستطيع قطع شجرة يتراوح قطرها بين عشرة و عشرين سم فى اتجاه معين تزيل اغصانها و تنشرها و تربح شكل دائرى فيها",
+        "en": "Fell a tree 10–20 cm in diameter in a chosen direction, trim its branches and saw it into round sections."
+      },
+      {
+        "ar": "ان تعرف تصميم منشأ وحصر كل اعداده من عقد وطول حبل وعدد العصيان – اتزان – تقدير وقت التنفيذ بعدد الأفراد – قيادة التنفيذ (منشأ مكون من 100-80 عصا)",
+        "en": "Design a structure and list everything needed (knots, rope length, poles, balance), estimate time by number of people and lead the build (80–100 poles)."
+      }
+    ],
+    "source": "/badges/b64.jpg"
+  },
+  {
+    "id": "s1",
+    "category": "scout",
+    "ar": "إشارجي - مستوى أول",
+    "en": "Signaller – Level 1",
+    "requirements": [
+      {
+        "ar": "أن تصنع بنفسك زوجاً من الأعلام المستخدمة في الإشارات",
+        "en": "Make your own pair of signalling flags."
+      },
+      {
+        "ar": "أن ترسل وتستقبل تلغرافاً بشفرة المورس العربي واللاتيني باستخدام قواعد وإشارات الخدمة على مسافة لا تقل عن 400 متر",
+        "en": "Send and receive a telegram in Arabic and Latin Morse, using the rules and service signals, over at least 400 m."
+      },
+      {
+        "ar": "أن ترسل وتستقبل تلغرافاً بالمورس عن طريق إشارات صوتية بسرعة 15 حرفاً ورمزاً في الدقيقة والمراسل مرئي",
+        "en": "Send and receive Morse by sound signals at 15 characters/symbols per minute, with the sender visible."
+      },
+      {
+        "ar": "أن ترسل مورس بطريقة مبتكرة لم تستخدم من قبل في الفرقة",
+        "en": "Send Morse in an original way never used before in the troop."
+      }
+    ],
+    "source": "/badges/s1.jpg"
+  },
+  {
+    "id": "s2",
+    "category": "scout",
+    "ar": "إشارجي - مستوى ثاني",
+    "en": "Signaller – Level 2",
+    "requirements": [
+      {
+        "ar": "أن تصنع بنفسك هليوغراف (مبرقة شمسية: أداة إرسال إشارات بواسطة أشعة الشمس المنعكسة على مرآة)",
+        "en": "Make your own heliograph (a device that sends signals with sunlight reflected on a mirror)."
+      },
+      {
+        "ar": "أن ترسل وتستقبل تلغرافاً بالمورس عن طريق إشارات مرئية بالعلم أو الضوء باستخدام قواعد وإشارات الخدمة على مسافة لا تقل عن 400 متر",
+        "en": "Send and receive Morse by visual signals (flag or light), using the rules and service signals, over at least 400 m."
+      },
+      {
+        "ar": "أن ترسل وتستقبل تلغرافاً بالمورس عن طريق إشارات صوتية بسرعة 30 حرفاً ورمزاً في الدقيقة والمراسل غير مرئي",
+        "en": "Send and receive Morse by sound signals at 30 characters/symbols per minute, with the sender not visible."
+      },
+      {
+        "ar": "أن ترسل وتستقبل تلغرافاً بالسيمافور باستخدام القواعد وإشارات الخدمة",
+        "en": "Send and receive by semaphore, using the rules and service signals."
+      },
+      {
+        "ar": "أن ترسل مورس بالدخان",
+        "en": "Send Morse by smoke."
+      }
+    ],
+    "source": "/badges/s2.jpg"
+  },
+  {
+    "id": "b67",
+    "category": "scout",
+    "ar": "طبوغرافي - مستوى أول",
+    "en": "Topographer – Level 1",
+    "requirements": [
+      {
+        "ar": "ان تعرف التعريف العملى للمصطلاحات الاتية : التوازن( المنواز) خط العرض , خط الطول , المرتفعات , الشمال الجغرافى , الشمال المغغاطيسى , جذور مغناطيسى و كيفية حساب الوقت بإستخدام خطوط الطول و خطوط الطول التي تقع عليها مصر",
+        "en": "Know practical definitions: parallels (latitude), longitude, heights, geographic north, magnetic north, magnetic pole; how to work out time using meridians, and the meridians Egypt lies on."
+      },
+      {
+        "ar": "ان تستطيع قراءة خريطة المنحنيات البيانية او خطوط اصطلاحية و خريطة الطريق",
+        "en": "Read a contour map and a road map."
+      },
+      {
+        "ar": "ان تحدد على الخريطة المكان الذى توجد فيه ( يجدد الوضع)",
+        "en": "Mark your current position on a map."
+      },
+      {
+        "ar": "ان ترشد طليعتك الى نقطة ثابتة على الخريطة فقط عن طريق احد احدثياتها او فى اتجاه معروف بزواية سير",
+        "en": "Guide your patrol to a fixed point on a map using only a coordinate or a known bearing."
+      },
+      {
+        "ar": "ان تقوم بـعمل رسم كروكى طبوغرافى بمقياس رسم تحدده بنفسك لارض او مكان محدد.",
+        "en": "Make a topographic sketch, at a scale you choose, of a given land or place."
+      },
+      {
+        "ar": "ان تقوم برسم خريطة طبوغرافية لمكان مجموعتك لمساحة 1 كم مربع",
+        "en": "Draw a topographic map of your group's place covering 1 square km."
+      },
+      {
+        "ar": "ان تستطيعايجاد الشمال باستخدام البوصلة صباحاً و النجم القطبي ليلا ً",
+        "en": "Find north with a compass in the morning and with the Pole Star at night."
+      },
+      {
+        "ar": "ان تجيد استخدام البوصلة و تعرفوردة الرياح و 32 إتجاه عليها",
+        "en": "Use a compass well and know the compass rose with its 32 directions."
+      }
+    ],
+    "source": "/badges/b67.jpg"
+  },
+  {
+    "id": "b68",
+    "category": "scout",
+    "ar": "طبوغرافي - مستوى ثاني",
+    "en": "Topographer – Level 2",
+    "requirements": [
+      {
+        "ar": "ان تحدد بدقة نقطة معينة بالنسبة لاحدثيات وتجيد استخدام جهاز GPS",
+        "en": "Pinpoint a location using coordinates and use a GPS device well."
+      },
+      {
+        "ar": "ان تقوم بـتحديد ارتفاع نقطة معينة عن طريق خريطة المنحنبات البيانية الخطوط الاصطلاحية",
+        "en": "Find the height of a point from a contour map."
+      },
+      {
+        "ar": "ان تقوم بـتقييم على ارض الواقع بنسبة خطا تقل عن 25 %: مسافة و ارتفاع نقطة يصعب الوصول اليها - المسافة التى تفصل بين نقطتين يصعب الوصول اليها - معرفة قياس خطوتك المزدوجة",
+        "en": "Estimate in the field with under 25% error: distance and height of a hard-to-reach point, and the distance between two hard-to-reach points; know your double-pace length."
+      },
+      {
+        "ar": "ان تجيد استخدام البوصلة على الخريطة",
+        "en": "Use the compass on a map."
+      },
+      {
+        "ar": "انتستطيعتقيم ما يأتي بأقل من 25 % لاحتماليات الخطأ بدون إستعمال أي أدوات أو طرق قياس: -مسافات أو أطوال: من صفر إلى متر - من متر إلى 100 متر - من 100 متر إلى 5 كم (ثلاثة اختبارات من كل نوع) -الارتفاعات: من صفر إلى متر - من متر إلى 50 متر - أعلى من 50 متر ( ثلاثة اختبارات من كل نوع) -الوزن: 125 جم - 500 جم - كيلو - أكثر من كيلو (ثلاثة اختبارات من كل نوع) -أعداد من الناس في تجمهر( ثلاثة اختبارات متدرجة)",
+        "en": "Estimate with under 25% error, without tools: distances (0–1 m, 1–100 m, 100 m–5 km; three tests each), heights (0–1 m, 1–50 m, over 50 m; three tests each), weights (125 g, 500 g, 1 kg, over 1 kg; three tests each), and crowd sizes (three graded tests)."
+      }
+    ],
+    "source": "/badges/b68.jpg"
+  },
+  {
+    "id": "b69",
+    "category": "scout",
+    "ar": "مطارد - مستوى أول",
+    "en": "Tracker – Level 1",
+    "requirements": [
+      {
+        "ar": "ان تبرهن انكتستطيع بنجاح اقتفاء لاثر فى الطريق الكشفية الصعبة فى وقت يكون قطارا فيه من طليعة تاتى لتضللك عن الطريق",
+        "en": "Show you can follow a trail on difficult scout routes while a patrol tries to mislead you off the path."
+      },
+      {
+        "ar": "ان تستطيع اعادة احداث مشهد بسيط عن طريق الاثار و العلاقات المتروكة من شخصين او اكثر على ارض مناسبة",
+        "en": "Reconstruct a simple scene from the traces and signs left by two or more people on suitable ground."
+      },
+      {
+        "ar": "ان تقوم بتتبع اثار الخطوات و علامات السير الاخرى لشخص معينعلى طرق يتم المرور عليها باستمرار عدة اثار اقدام على جانب الطريق و على مسافة 600 على الاقل",
+        "en": "Follow a person's footprints and other signs on frequently used routes (several footprints beside the road, at least 600 m)."
+      },
+      {
+        "ar": "ان تقوم بـالتعرف و العينين مغمضتين: بالتذوق او بالرائحة خمسة انواع طعام او نباتات - باللمس خمسة اشخاص - بالسمع , ثلاثة طرق للسير ( خطوات – عدو – حضر جرى سريع للفرس فيه وثب ) حب ( مشية الحصان السريعة)",
+        "en": "Blindfolded, identify five foods or plants by taste or smell, five people by touch, and three ways of moving by hearing (walking, running, a horse's gait…)."
+      }
+    ],
+    "source": "/badges/b69.jpg"
+  },
+  {
+    "id": "b70",
+    "category": "scout",
+    "ar": "مطارد - مستوى ثاني",
+    "en": "Tracker – Level 2",
+    "requirements": [
+      {
+        "ar": "ان تقوم عمل صب اثر بالجبس لثلاثة حيوانات و التحقيق فى الطبيعة لعدة طرقات يسير فيها الحيوانات وان يكون واحد على الاقل بارز عن الأرض وواحد على الاقل غائر",
+        "en": "Make plaster casts of the tracks of three animals, studying in nature several paths they use; at least one track raised and one sunken."
+      },
+      {
+        "ar": "ان تقوم بـحصر كمية الجبس المطلوبةلعملصب اثرمعين بنجاح",
+        "en": "Work out the amount of plaster needed for a given cast and make it successfully."
+      },
+      {
+        "ar": "ان تعرف نوع الحيوان من الاثر (على الاقل 15 نوع حيوان مختلف)",
+        "en": "Identify the animal from its track (at least 15 different animals)."
+      }
+    ],
+    "source": "/badges/b70.jpg"
+  },
+  {
+    "id": "b71",
+    "category": "scout",
+    "ar": "كاتب تقارير ووقائع",
+    "en": "Reports Writer",
+    "requirements": [
+      {
+        "ar": "أن تكتب بأسلوب مرح وحى لمدة أربعة أشهر على ألأقل تقرير عن أعمال الطليعة بينما فى ذلك جريدة حياة الفرقة والطليعة",
+        "en": "Write, in a lively and fun style for at least four months, reports on patrol activities, including for the troop and patrol life newspaper."
+      },
+      {
+        "ar": "ان تقوم بكتابة نص أو قصة خيالية أو رواية أو موضوع لحفلة السمر أو لأحتفال كشفى أو أغنية حسب أختيارك",
+        "en": "Write a text, story, novel, campfire or scout-event topic, or a song of your choice."
+      },
+      {
+        "ar": "ان تقوم بإجراء حديث حول موضوع محدد مع شخص يختاره القائد وبعدها تقوم بكتابة موجز لهذا الحديث",
+        "en": "Interview a person chosen by the leader on a set topic, then write a summary of it."
+      }
+    ],
+    "source": "/badges/b71.jpg"
+  },
+  {
+    "id": "b72",
+    "category": "scout",
+    "ar": "منقذ",
+    "en": "Lifeguard",
+    "requirements": [
+      {
+        "ar": "ان تبرهن عمليا عن كيفية التصرف فى الحوادث الغرق( خاصة ممارسة التنفس الاصطناعى) الصعقة بالكهرباء, الحريق , الرمال المتحركة, الاغماء , الجواد الهائج, عضة كلب مسعور , حادث سيارة , حادث سكك حديدية , انفجارات",
+        "en": "Show in practice how to act in: drowning (especially artificial respiration), electric shock, fire, quicksand, fainting, a bolting horse, rabid dog bite, car crash, railway accident, explosions."
+      },
+      {
+        "ar": "انتقوم بنجاح باداء الاختبارات البدنية الاتية: عدو لمسافة 100 متر فى 15 ثانية - القفز لمسافة 2 متر عمق - تسلق حائط ارتفاعة متران - تسير على عارضة طولها خمسة امتار و بارتفاع متر من على الارض",
+        "en": "Pass these physical tests: run 100 m in 15 s; jump 2 m long; climb a 2 m wall; walk a 5 m beam raised 1 m."
+      },
+      {
+        "ar": "انتقومبـقذف حبل الى نافذة فى الدور الاول او لارتفاع 20 متر و انتقذف بطريقة صحيحة من الشط الى سباح على بعد عشرة امطار حبل بخطاف او طوق نجاه وانتقومبالنزول بزميل من الدور الاول مستخدما عقدة الحلبة المزدوجة",
+        "en": "Throw a rope to a first-floor window or 20 m away; from the bank throw a rope with a hook or a lifebuoy to a swimmer 10 m away; lower a teammate from the first floor using a double bowline."
+      },
+      {
+        "ar": "ان تعرف كيفية اعطاء انذار فى حالات حرجة و ترتجل طريق نقل للمصاب: ثلاثة وسائل مختلفة على ان يكون منها نقالة",
+        "en": "Know how to raise the alarm in critical situations and improvise three ways to carry an injured person, one being a stretcher."
+      },
+      {
+        "ar": "ان تعرف طريقة استخدام طفايات الحريق المعروفة",
+        "en": "Know how to use common fire extinguishers."
+      },
+      {
+        "ar": "ان تقوم بملابسك و لكن بدون حذاء او بدون سترة بعمل طريقتين للانقاذ فى الماء",
+        "en": "In your clothes but without shoes or jacket, perform two water-rescue methods."
+      }
+    ],
+    "source": "/badges/b72.jpg"
+  },
+  {
+    "id": "b73",
+    "category": "scout",
+    "ar": "مراسل",
+    "en": "Correspondent",
+    "requirements": [
+      {
+        "ar": "ان تقوم برحلة سير لمسافة 25 كم فى 6 ساعات بدون تعب غير طبيعى",
+        "en": "Hike 25 km in 6 hours without unusual fatigue."
+      },
+      {
+        "ar": "ان تعدو لمسافة م100 فى زمن قدره 15 ثانية",
+        "en": "Run 100 m in 15 seconds."
+      },
+      {
+        "ar": "ان تقوم بـقطع مسافة فى وقت محدد مسبقا ( من عشرين الى 25 دقيقة) مسافة ثلاثة كيلومترات بالخطوة الكشفية",
+        "en": "Cover 3 km in a set time (20–25 minutes) at scout pace."
+      },
+      {
+        "ar": "ان تقوم بـسباحة لمسافة 100 مترا",
+        "en": "Swim 100 metres."
+      },
+      {
+        "ar": "ان تقوم بـكتابة ثلاثة رسائل بطريقة التلغراف",
+        "en": "Write three messages by telegraph."
+      },
+      {
+        "ar": "ان تقوم بـاخفاء رسالة معه بطريقة ما بحيث لا يتم الكشف عنها الا بعد عشرة ثوانى على الاقل عن طريق اثنان من زملاءك",
+        "en": "Hide a message on you so that two teammates only find it after at least ten seconds."
+      },
+      {
+        "ar": "ان تقوم بـتوصيل رسالة شفهية غير صريحة ( لا تحمل معناها الاصلى) مكونة من عشرين كلمة لشخص موجود على بعد 1 كم من خلال ارض بها حواجز و قواطع ( ثلاثة ) اختبارات منها اختبار خلال الليل. سوف تحاسب على امانتك فى توصيل الرسالة, و مهارة استخدام الارض و بسرعة نقلها",
+        "en": "Deliver a disguised oral message of twenty words to someone 1 km away across terrain with obstacles (three tests, one at night). You are judged on honesty, use of the ground and speed."
+      },
+      {
+        "ar": "ان تقوم برحلة على الدراجة لمسافة 30 كم فى زمن قدرة ساعتين و نصف ساعة يجب ان تشمل المسافة 2 كم فى ارض لا تستطيع قيادة الدراجة بها و تمسك الدراجة بيدك او تحملها على ظهرك و فى نهاية الرحلة تردد رسالة شفوية من عشرين كلمة سلمت اليك من نقطة الانطلاق بطريقة صحيحة",
+        "en": "Cycle 30 km in 2.5 hours, including 2 km on ground where you must push or carry the bike, then correctly repeat a twenty-word oral message given at the start."
+      }
+    ],
+    "source": "/badges/b73.jpg"
+  },
+  {
+    "id": "b74",
+    "category": "scout",
+    "ar": "مستكشف",
+    "en": "Explorer",
+    "requirements": [
+      {
+        "ar": "ان تقوم بعمل رحلة فى منطقة غير معروفة و بالنوم تحت الخيام و باعداد الطعام يتم السفر لمدة خمسة ايام متتالية ( او مرتين فى ثلاثة ايام ) تعد انت (الكشاف) لهذه المرحلة بعناية مستعينا بخريطة خط السير ( بيان الرحلة – المأوى – المراحل – البرنامج) و تقدم فى صورة مشروع صغير الى القائد و يكون تنفيذة خاضعا لموافقة القائد",
+        "en": "Make a trip into an unfamiliar area, sleeping in tents and cooking, for five consecutive days (or twice in three days). Plan it carefully with a route map (itinerary, shelter, stages, programme) and present it to the leader as a small project, subject to approval."
+      },
+      {
+        "ar": "ان تقوم بتدوين المعلومات الاتية فى كراسة الطريق بعد رحلتك و يجب ان تشتمل على ثلاثة اجزاء : -تقرير عام يتم فيه وصف مجموعة المناظر التى تمر بها ( الارض – الموارد – السكان – التاريخ) و يلحق بهذا التقرير على اقل تقدير رسم كروكى بمقياس الخريطة و لخط السير و المسافة المقطوعة و رفع طبوغرافى موجز ( قرية – موقع مهم) - وصف الرحلة و احداثها - بيان و تقرير عن المهمات الخاصة المطلوبة من القائد ( البحث عن اماكن للمخيم , تجميع عينات الفرقة الخ...)",
+        "en": "After the trip, write a route notebook in three parts: a general report (scenery, land, resources, people, history) with a scaled sketch of the route, distance and brief topographic survey; an account of the trip; a report on special tasks from the leader (finding camp sites, collecting samples…)."
+      },
+      {
+        "ar": "ان تقومبـتقديم و عرض لنص ملخص عن رحلة الاستكشاف امام الفرقة ( مغامرات المخيم – عادات لاحظتها - رسم للارض الزراعية – الخ....) مع تقديم اشياء لها طابع المستندات او اشياء جمالية تم جلبها فى الرحلة",
+        "en": "Present a summary of the expedition to the troop (camp adventures, customs noticed, sketch of farmland…) with documents or souvenirs brought back."
+      }
+    ],
+    "source": "/badges/b74.jpg"
+  },
+  {
+    "id": "b75",
+    "category": "scout",
+    "ar": "ملاحظ",
+    "en": "Observer",
+    "requirements": [
+      {
+        "ar": "ان تمتلك قوة إبصار و أن تكون قد تدربت على الرؤية من بعد و تعرف بدقة كل الخصائص والتفاصيل التى لاحظتها على شىء ( جسم ) ذى أبعاد صغيرة بعد ملاحظة بعناية ( ثلاث تدريبات مختلفة ) ( أمثلة : - مسمار برغى – مسمار برغى خشابى بالشبة طوله 1سم ذو راس مستديرة و ( نسيج ) مضلع يمين ..... ألخ )",
+        "en": "Have good eyesight, practise distance viewing, and describe precisely every detail of a small object after careful observation (three different exercises)."
+      },
+      {
+        "ar": "من خلال لعبة كيم: تذكر 23 شىء من أصل 25 بعد دقيقة من ملاحظتهم - سماع أصوات و معرفة 8 صوت من أصل 10 - إستنشاق 8 نوع من أصل 10 - تذوق 8 نوع من أصل 10",
+        "en": "Kim's game: remember 23 of 25 items after one minute; identify 8 of 10 sounds, 8 of 10 smells and 8 of 10 tastes."
+      },
+      {
+        "ar": "ان تنجح فى أداء ثلاث العاب أخرى لأختبار قوة الملاحظة",
+        "en": "Succeed in three other games that test observation."
+      },
+      {
+        "ar": "انيتم سؤالك بطريقة فوجائية و يجب ان تثبت انه لديك عادة تسجيل تفاصيل عديدة من الحياة اليومية",
+        "en": "Be asked suddenly, and show you habitually note many details of daily life."
+      },
+      {
+        "ar": "ان تحكى بطريقة واضحة ومنهجية أحداث مشهد لاحظته فى الشارع ، فى غرفة / قاعة فى المخيم وتقدر على أرض الواقع خمسة مسافات وارتفاعات داخل قاعة أو فى الخارج ، خمسة مساحات ( غرف – لوحات – أحواش ) بنسبة خطأ تقل عن 25%",
+        "en": "Clearly and methodically recount a scene seen in the street or a camp room, and estimate five distances and heights and five areas (rooms, pictures, yards) with under 25% error."
+      },
+      {
+        "ar": "ان تستطيع وصف شخص بملابسه وملامحه يحدده القائد على ان يعرف باقي أفراد طليعتك الشخص من وصفه",
+        "en": "Describe a person (clothes, features) chosen by the leader so that your patrol can identify them."
+      }
+    ],
+    "source": "/badges/b75.jpg"
+  },
+  {
+    "id": "b76",
+    "category": "scout",
+    "ar": "رحال",
+    "en": "Traveller",
+    "requirements": [
+      {
+        "ar": "ان تقوم بالسير لمسافة 12 كيلومتر في طريق ممهد",
+        "en": "Walk 12 km on a paved road."
+      },
+      {
+        "ar": "ان تقوم بالسير لمسافة 7 كيلومتر في طريق رملي",
+        "en": "Walk 7 km on a sandy road."
+      },
+      {
+        "ar": "ان تقوم بالسير لمسافة 2 كيلومتر مستخدما البوصلة",
+        "en": "Walk 2 km using a compass."
+      },
+      {
+        "ar": "ان تستطيع تمييز 5 مجموعات نجوم",
+        "en": "Recognise 5 star groups."
+      },
+      {
+        "ar": "ان تكون قد شاركت في مخيم متنقل لثلاثة اماكن عل الاقل",
+        "en": "Take part in a mobile camp covering at least three places."
+      }
+    ],
+    "source": "/badges/b76.jpg"
+  },
+  {
+    "id": "b77",
+    "category": "scout",
+    "ar": "كوزمغرافي",
+    "en": "Cosmographer",
+    "requirements": [
+      {
+        "ar": "ان تكون لديك معلومات عامة عن حركة الارض و القمر و الشمس و تاثيرهم على الفصول و على فترات النهار و الليل .و ان تكون لديك معلومات عن المد و الجزر و الكسوف و الخسوف و السديم ( نجوم بعيدة تظهر كانها سحابة رقيقة)",
+        "en": "General knowledge of the motion of the Earth, Moon and Sun and their effect on seasons and day and night; also tides, eclipses and nebulae."
+      },
+      {
+        "ar": "ان تكون قادر طوال السنة ان تشير الى عشرة مجموعات نجمية و عشرة نجوم درجة اولى و كذلك الكواكب التى يمكن رؤيتها بالعين المجردة فى السماء فى وقت ملاحظتك لها",
+        "en": "Point out ten constellations and ten first-magnitude stars, plus planets visible to the naked eye, at any time of year."
+      },
+      {
+        "ar": "انتستطيعالتعرفعلىحركةالنجوموالخريطةفوقوتحتخطالاستواء",
+        "en": "Understand star motion and the star map above and below the equator."
+      },
+      {
+        "ar": "انتكونلديكالقدرةعلىقراءةخريطةالنجوموتقديرالمسافاتبينالنجوم",
+        "en": "Read a star map and estimate distances between stars."
+      },
+      {
+        "ar": "ان تستطيع تعريف معنى الحركة النجمية فى السماء و معرفة أوجة القمر",
+        "en": "Explain star movement in the sky and know the phases of the moon."
+      },
+      {
+        "ar": "انتستطيع التعرف على خمسةمجموعات نجمية أخرى غير الدب الأكبر و الدب الأصغر",
+        "en": "Recognise five constellations other than the Great and Little Bear."
+      },
+      {
+        "ar": "ان تعرف خمسة خطوط نجمية رئيسية ايجاد الشمال عن عن طريق نجوم اخرى على النجم القطبى",
+        "en": "Know five main star lines and find north through other stars to the Pole Star."
+      }
+    ],
+    "source": "/badges/b77.jpg"
+  }
+]

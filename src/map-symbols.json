@@ -1,0 +1,452 @@
+[
+  {
+    "icon": "🏙️",
+    "en": "City",
+    "ar": "مدينة"
+  },
+  {
+    "icon": "🏘️",
+    "en": "Village",
+    "ar": "قرية"
+  },
+  {
+    "icon": "🏠",
+    "en": "Houses",
+    "ar": "مساكن"
+  },
+  {
+    "icon": "⚓",
+    "en": "Port",
+    "ar": "ميناء"
+  },
+  {
+    "icon": "⛰️",
+    "en": "Mountain",
+    "ar": "جبل"
+  },
+  {
+    "icon": "✈️",
+    "en": "Airport",
+    "ar": "مطار"
+  },
+  {
+    "icon": "🏫",
+    "en": "School",
+    "ar": "مدرسة"
+  },
+  {
+    "icon": "🏥",
+    "en": "Hospital",
+    "ar": "مستشفى"
+  },
+  {
+    "icon": "🕌",
+    "en": "Mosque",
+    "ar": "جامع"
+  },
+  {
+    "icon": "⛪",
+    "en": "Church",
+    "ar": "كنيسة"
+  },
+  {
+    "icon": "🏭",
+    "en": "Factory",
+    "ar": "مصنع"
+  },
+  {
+    "icon": "🚉",
+    "en": "Station",
+    "ar": "محطة"
+  },
+  {
+    "icon": "🛤️",
+    "en": "Railway",
+    "ar": "سكة حديد"
+  },
+  {
+    "icon": "🛣️",
+    "en": "Road",
+    "ar": "طريق"
+  },
+  {
+    "icon": "🌉",
+    "en": "Bridge",
+    "ar": "كوبري"
+  },
+  {
+    "icon": "🌴",
+    "en": "Palm",
+    "ar": "نخل"
+  },
+  {
+    "icon": "🌳",
+    "en": "Trees",
+    "ar": "شجر"
+  },
+  {
+    "icon": "🕳️",
+    "en": "Well",
+    "ar": "بئر"
+  },
+  {
+    "icon": "🗼",
+    "en": "Lighthouse",
+    "ar": "فنار"
+  },
+  {
+    "icon": "✉️",
+    "en": "Post office",
+    "ar": "مكتب بريد"
+  },
+  {
+    "icon": "📻",
+    "en": "Radio",
+    "ar": "إذاعة"
+  },
+  {
+    "icon": "⛺",
+    "en": "Camp",
+    "ar": "معسكرات"
+  },
+  {
+    "icon": "🏰",
+    "en": "Palace",
+    "ar": "قصر"
+  },
+  {
+    "icon": "🏨",
+    "en": "Hotel",
+    "ar": "فندق"
+  },
+  {
+    "icon": "🌊",
+    "en": "River",
+    "ar": "نهر"
+  },
+  {
+    "icon": "🏜️",
+    "en": "Dunes",
+    "ar": "كثبان"
+  },
+  {
+    "icon": "🌾",
+    "en": "Farm",
+    "ar": "مزرعة"
+  },
+  {
+    "icon": "🏞️",
+    "en": "Valley",
+    "ar": "وادي"
+  },
+  {
+    "icon": "🛢️",
+    "en": "Pipeline",
+    "ar": "بترول"
+  },
+  {
+    "icon": "🚩",
+    "en": "Start",
+    "ar": "بداية"
+  },
+  {
+    "icon": "🎯",
+    "en": "Target",
+    "ar": "هدف"
+  },
+  {
+    "icon": "💊",
+    "en": "Pharmacy",
+    "ar": "صيدلية"
+  },
+  {
+    "icon": "🩺",
+    "en": "Clinic",
+    "ar": "عيادة"
+  },
+  {
+    "icon": "🚑",
+    "en": "Ambulance",
+    "ar": "إسعاف"
+  },
+  {
+    "icon": "🚓",
+    "en": "Police",
+    "ar": "شرطة"
+  },
+  {
+    "icon": "🚒",
+    "en": "Fire station",
+    "ar": "مطافئ"
+  },
+  {
+    "icon": "🏦",
+    "en": "Bank",
+    "ar": "بنك"
+  },
+  {
+    "icon": "🏧",
+    "en": "ATM",
+    "ar": "صراف"
+  },
+  {
+    "icon": "🛒",
+    "en": "Market",
+    "ar": "سوق"
+  },
+  {
+    "icon": "🏪",
+    "en": "Shop",
+    "ar": "محل"
+  },
+  {
+    "icon": "🍽️",
+    "en": "Restaurant",
+    "ar": "مطعم"
+  },
+  {
+    "icon": "☕",
+    "en": "Cafe",
+    "ar": "كافيه"
+  },
+  {
+    "icon": "🥖",
+    "en": "Bakery",
+    "ar": "مخبز"
+  },
+  {
+    "icon": "⛽",
+    "en": "Fuel station",
+    "ar": "محطة وقود"
+  },
+  {
+    "icon": "🅿️",
+    "en": "Parking",
+    "ar": "موقف سيارات"
+  },
+  {
+    "icon": "🚌",
+    "en": "Bus stop",
+    "ar": "موقف أتوبيس"
+  },
+  {
+    "icon": "🚇",
+    "en": "Metro",
+    "ar": "مترو"
+  },
+  {
+    "icon": "🚕",
+    "en": "Taxi",
+    "ar": "تاكسي"
+  },
+  {
+    "icon": "🚧",
+    "en": "Roadblock",
+    "ar": "حاجز"
+  },
+  {
+    "icon": "⚠️",
+    "en": "Danger",
+    "ar": "خطر"
+  },
+  {
+    "icon": "🏗️",
+    "en": "Construction",
+    "ar": "بناء"
+  },
+  {
+    "icon": "🎓",
+    "en": "University",
+    "ar": "جامعة"
+  },
+  {
+    "icon": "📚",
+    "en": "Library",
+    "ar": "مكتبة"
+  },
+  {
+    "icon": "🏛️",
+    "en": "Museum",
+    "ar": "متحف"
+  },
+  {
+    "icon": "🏟️",
+    "en": "Stadium",
+    "ar": "استاد"
+  },
+  {
+    "icon": "🛝",
+    "en": "Playground",
+    "ar": "ملعب أطفال"
+  },
+  {
+    "icon": "⛲",
+    "en": "Fountain",
+    "ar": "نافورة"
+  },
+  {
+    "icon": "🏖️",
+    "en": "Beach",
+    "ar": "شاطئ"
+  },
+  {
+    "icon": "🏝️",
+    "en": "Island",
+    "ar": "جزيرة"
+  },
+  {
+    "icon": "⛵",
+    "en": "Boat",
+    "ar": "مركب"
+  },
+  {
+    "icon": "🚢",
+    "en": "Ship",
+    "ar": "سفينة"
+  },
+  {
+    "icon": "🏕️",
+    "en": "Camp site",
+    "ar": "موقع تخييم"
+  },
+  {
+    "icon": "🔥",
+    "en": "Campfire",
+    "ar": "نار المعسكر"
+  },
+  {
+    "icon": "💧",
+    "en": "Water source",
+    "ar": "مصدر مياه"
+  },
+  {
+    "icon": "🚰",
+    "en": "Tap",
+    "ar": "صنبور"
+  },
+  {
+    "icon": "🚻",
+    "en": "Toilets",
+    "ar": "دورات مياه"
+  },
+  {
+    "icon": "ℹ️",
+    "en": "Info point",
+    "ar": "نقطة معلومات"
+  },
+  {
+    "icon": "🌋",
+    "en": "Volcano",
+    "ar": "بركان"
+  },
+  {
+    "icon": "🪨",
+    "en": "Rocks",
+    "ar": "صخور"
+  },
+  {
+    "icon": "🌲",
+    "en": "Forest",
+    "ar": "غابة"
+  },
+  {
+    "icon": "🏔️",
+    "en": "Snow peak",
+    "ar": "قمة جبل"
+  },
+  {
+    "icon": "🐪",
+    "en": "Camel",
+    "ar": "جمل"
+  },
+  {
+    "icon": "🐎",
+    "en": "Horse",
+    "ar": "حصان"
+  },
+  {
+    "icon": "🐑",
+    "en": "Sheep",
+    "ar": "أغنام"
+  },
+  {
+    "icon": "🌽",
+    "en": "Crops",
+    "ar": "محاصيل"
+  },
+  {
+    "icon": "🏚️",
+    "en": "Ruins",
+    "ar": "أطلال"
+  },
+  {
+    "icon": "⛏️",
+    "en": "Quarry",
+    "ar": "محجر"
+  },
+  {
+    "icon": "📞",
+    "en": "Phone",
+    "ar": "هاتف"
+  },
+  {
+    "icon": "📡",
+    "en": "Antenna",
+    "ar": "هوائي"
+  },
+  {
+    "icon": "🕍",
+    "en": "Temple",
+    "ar": "معبد"
+  },
+  {
+    "icon": "🧭",
+    "en": "Compass",
+    "ar": "بوصلة"
+  },
+  {
+    "icon": "🪧",
+    "en": "Sign",
+    "ar": "لافتة"
+  },
+  {
+    "icon": "🛖",
+    "en": "Hut",
+    "ar": "كوخ"
+  },
+  {
+    "icon": "🏡",
+    "en": "House",
+    "ar": "منزل"
+  },
+  {
+    "icon": "🏢",
+    "en": "Building",
+    "ar": "مبنى"
+  },
+  {
+    "icon": "🛶",
+    "en": "Canoe",
+    "ar": "زورق"
+  },
+  {
+    "icon": "🎪",
+    "en": "Big tent",
+    "ar": "خيمة كبيرة"
+  },
+  {
+    "icon": "🏁",
+    "en": "Finish",
+    "ar": "نهاية"
+  },
+  {
+    "icon": "📍",
+    "en": "Place",
+    "ar": "مكان"
+  },
+  {
+    "icon": "⭐",
+    "en": "Star",
+    "ar": "نجمة"
+  }
+]
