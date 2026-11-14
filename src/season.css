@@ -45,4 +45,6 @@ progress,progress::-webkit-progress-bar{background:#3a4658}
 [dir=rtl] .season-kicker{letter-spacing:0}[dir=rtl] .season-banner h2{letter-spacing:0}
 @media(max-width:900px){.sign-in-screen .sign-in-page{grid-template-columns:1fr;justify-items:center;max-width:700px;gap:24px}.sign-in-page .season-banner{min-height:260px}.season-banner h2{font-size:34px}}
 @media(max-width:560px){.sign-in-screen .sign-in-page{padding:12px 20px 40px}.season-banner,.sign-in-page .season-banner{min-height:230px;border-radius:12px;background-position:62% center}.season-banner-copy{padding:26px 22px;max-width:74%}.season-banner h2{font-size:30px}.season-banner p{font-size:12px}.season-kicker{font-size:9px;letter-spacing:.12em}.season-rule{margin-top:20px}}
+/* Keep touch-device fields large enough to avoid iOS focus zoom. */
+@media(hover:none) and (pointer:coarse){input,textarea,select{font-size:16px}}
 @media print{:root{color-scheme:light;--muted:#555;--line:#ccc;--green:#254d3d}.season-banner{display:none}body,.app-shell,.main-shell,.tool-panel,.handbook-section,.requirement{background:white;color:black}}
