@@ -1,0 +1,10 @@
+.ix-loader{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;min-height:200px;padding:28px;color:var(--gold,#d8b66a)}
+.ix-loader svg{display:block;width:80px;height:72px;flex-shrink:0;overflow:visible}
+.ix-loader svg path{stroke:currentColor;stroke-width:3;stroke-linecap:square;stroke-linejoin:round}
+.ix-loader-guide{opacity:.12}.ix-loader-strokes path{stroke-dasharray:1;stroke-dashoffset:1;animation:draw-ix 2.4s ease-in-out infinite}
+.ix-loader-strokes path:nth-child(2){animation-delay:.13s}.ix-loader-strokes path:nth-child(3){animation-delay:.3s}.ix-loader-strokes path:nth-child(4){animation-delay:.43s}.ix-loader-strokes path:nth-child(5){animation-delay:.65s}
+.ix-loader-label{font-size:12px;color:var(--muted,#b7c1d0);font-weight:400;line-height:1.5}
+.ix-loader-inline{display:inline-flex;vertical-align:middle;min-height:0;padding:0;gap:0;color:currentColor}.ix-loader-inline svg{width:23px;height:23px}.ix-loader-inline svg path{stroke-width:5}
+.boot-loading{min-height:100dvh;background:#0e1624;margin:0}.boot-loading .ix-loader{min-height:100dvh}
+@keyframes draw-ix{0%,8%{stroke-dashoffset:1;opacity:.25}42%,74%{stroke-dashoffset:0;opacity:1}94%,100%{stroke-dashoffset:0;opacity:0}}
+@media(prefers-reduced-motion:reduce){.ix-loader-strokes path{animation:none;stroke-dashoffset:0;opacity:1}}

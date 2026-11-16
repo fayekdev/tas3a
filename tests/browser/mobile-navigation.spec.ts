@@ -20,8 +20,12 @@ for(const lang of ['en','ar'])test(`bottom navigation works in ${lang} without c
   const menu=page.getByRole('navigation',{name:ar?'القائمة الرئيسية':'Main navigation'});
   await expect(menu).toBeVisible();
   await expect(menu.getByRole('link',{name:ar?'الإنجازات':'Achievements',exact:true})).toHaveCount(0);
-  await menu.getByRole('link',{name:ar?'الطلائع':'Patrouilles',exact:true}).click();
+  await menu.getByRole('link',{name:ar?'قاعة الأوسمة':'Trophy hall',exact:true}).click();
   await expect(page).toHaveURL(/#patrouilles$/);
+  await expect(page.getByRole('heading',{name:ar?'قاعة الأوسمة':'Trophy hall',exact:true})).toBeVisible();
+  await expect(page.locator('.trophy-card')).toHaveCount(0);
+  await expect(page.locator('.trophy-hall-notice')).toBeVisible();
+  await expect(page.locator('.list-toolbar')).toHaveCount(0);
   await expect(bar).toBeVisible();
   await expect(more).toHaveClass('is-current');
   await more.click();await page.keyboard.press('Escape');await expect(bar).toBeVisible();
@@ -41,4 +45,14 @@ test('desktop keeps sidebar navigation and sign-out removes mobile navigation',a
   await page.getByRole('button',{name:'Sign out',exact:true}).click();
   await expect(page.getByRole('heading',{name:'Sign in',exact:true})).toBeVisible();
   await expect(page.locator('.mobile-bottom-nav')).toHaveCount(0);
+});
+
+test('administrators keep Patrouilles management',async({page})=>{
+  await mockMember(page,true);await page.goto('/#patrouilles');
+  await expect(page.getByRole('navigation',{name:'Main navigation'}).getByRole('link',{name:'Patrouilles',exact:true})).toBeVisible();
+  await expect(page.getByRole('heading',{name:'Patrouilles',exact:true})).toBeVisible();
+  await expect(page.locator('.section-title').getByRole('button')).toBeVisible();
+  await expect(page.locator('.trophy-hall')).toHaveCount(0);
+  await page.getByRole('link',{name:'Home',exact:true}).first().click();
+  await expect(page.locator('.home-shortcut').filter({hasText:'Members and leaders'})).toBeVisible();
 });

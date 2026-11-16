@@ -5,3 +5,4 @@ import './style.css';
 import './features.css';
 createRoot(document.getElementById('root')!).render(<React.StrictMode><App/></React.StrictMode>);
 import './season.css';
+import './stats.css';

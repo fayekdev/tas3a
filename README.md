@@ -1,5 +1,11 @@
 # tas3a / تاسعة
 
+Season stats: signed-in scouts see Patrouille totals and a scores-only podium under **Season stats**. Home rotates every four seconds between the season artwork, the scores-only podium, and the caller’s own season stats, with fade/slide transitions, swipe/keyboard navigation, hover/focus pause, and reduced-motion support. Administrators create/archive seasons, refresh attendance/badge totals, enter tardiness, and set active Patrouille scores. Initial roster assignments and manual tardiness are preserved on refresh. Individual scout management remains admin-only. Member program reads use a protected projection that exposes aggregate Patrouille totals and only the caller’s personal snapshot; raw program reads and writes require an administrator. Apply `supabase/season-stats.sql` after the existing schema scripts on a new backend. The shared IX drawing loader covers startup, page loads and pending account/data operations.
+
+Verification: 13 unit/data tests, 50 production-build browser flows (one optional live-account lifecycle test skipped), 12 mobile WebKit flows, TypeScript, production build, and isolated Postgres checks for season projections, admin access, private data, and badge/attendance compatibility.
+
+Medallions: members open **Trophy hall** to see only their earned awards in a compact grid. Select a medallion for its citation, season or habit, recipient and award date. Administrators issue awards under **Administration → Award medallions** by choosing a scout and award type, then entering a season/habit and citation. The same scout cannot receive the same type for the same season/habit twice (case-insensitive). Administrators can revoke an award from its details dialog. The `medallion_awards` migration is applied to the connected backend; for a new backend, apply `supabase/medallion-awards.sql` after `requests-and-accounts.sql`. Database permissions enforce personal reads and administrator-only issuance/revocation. Verify with `node tests/medallion-awards-db.mjs` and `tests/browser/medallions.spec.ts`.
+
 English/Arabic scout app built with React, TypeScript, Vite and Supabase. Deploy the frontend on Vercel from your own GitHub repository. No Sites runtime or ChatGPT sign-in is used.
 
 ## Run locally

@@ -1,3 +1,4 @@
+import LoadingIX from './LoadingIX';
 import {createContext,useContext,useEffect,useState,type ReactNode} from 'react';
 import {CalendarDays,Check,Send} from 'lucide-react';
 import {supabase} from './supabase';
@@ -15,7 +16,7 @@ export function RequestBadge({badge}:{badge:Badge}){
   const request=rows.find(r=>r.user_id===userId&&r.badge_id===badge.id);
   if(!userId)return <p className="muted">{l('Sign in to request your badge from the Chief or Assistant.','سجّل الدخول لطلب تسلّم الشارة من القائد أو المساعد.')}</p>;
   if(request)return <p className="success"><Check size={16}/>{request.status==='awarded'?l('Badge awarded','تم تسليم الشارة'):request.status==='scheduled'?l('Badge presentation scheduled','تم تحديد موعد تسليم الشارة'):l('Requested · awaiting Chief or Assistant','تم إرسال الطلب · بانتظار القائد أو المساعد')} {request.meeting_date}</p>;
-  return <div><button className="primary" disabled={busy} onClick={async()=>{if(!supabase)return;setBusy(true);setError('');try{const {error}=await supabase.from('badge_requests').insert({badge_id:badge.id,badge_title:badge[lang]});if(error)throw error;await refresh();}catch(e){setError((e as Error).message);}finally{setBusy(false);}}}><Send size={16}/>{l('Request badge presentation','طلب تسلّم الشارة')}</button>{error&&<p role="alert" className="form-error">{error}</p>}</div>;
+  return <div><button className="primary" disabled={busy} onClick={async()=>{if(!supabase)return;setBusy(true);setError('');try{const {error}=await supabase.from('badge_requests').insert({badge_id:badge.id,badge_title:badge[lang]});if(error)throw error;await refresh();}catch(e){setError((e as Error).message);}finally{setBusy(false);}}}>{busy?<LoadingIX inline label={l('Sending…','جارٍ الإرسال…')}/>:<Send size={16}/>}{l('Request badge presentation','طلب تسلّم الشارة')}</button>{error&&<p role="alert" className="form-error">{error}</p>}</div>;
 }
 export function Events({lang,admin,program,setProgram}:{lang:Lang;admin:boolean;program:Program;setProgram:(p:Program)=>void}){
   const {rows,refresh,userId,error:loadError}=useContext(Context);const [editing,setEditing]=useState(false),[error,setError]=useState(''),[busy,setBusy]=useState(false),[canReview,setCanReview]=useState(admin);const l=(en:string,ar:string)=>lang==='ar'?ar:en;

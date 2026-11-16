@@ -1,9 +1,10 @@
+import type {Season} from './statsModel';
 import original from './catalog.json';
 export type Lang='en'|'ar';
 export type Badge={id:string;category:string;en:string;ar:string;requirements:{en:string;ar:string}[];source?:string};
 export type BadgeProgress=Record<string,{checked:number[];notes:string;completed?:string}>;
 export type Achievement={id:string;en:string;ar:string;date:string;description:string;image:string;photos:string[]};
-export type Program={badges:Record<string,Partial<Badge>>;custom:Badge[];hidden:string[];handbook:Record<string,string>;achievements:Achievement[];events?:{id:string;title:string;date:string;details:string}[];archivedMeetingIds?:string[];attendanceDays?:string[];symbols:{icon:string;en:string;ar:string}[]};
+export type Program={seasons?:Season[];activeSeasonId?:string;badges:Record<string,Partial<Badge>>;custom:Badge[];hidden:string[];handbook:Record<string,string>;achievements:Achievement[];events?:{id:string;title:string;date:string;details:string}[];archivedMeetingIds?:string[];attendanceDays?:string[];symbols:{icon:string;en:string;ar:string}[]};
 export const initialProgram:Program={badges:{},custom:[],hidden:[],handbook:{},achievements:[],symbols:[]};
 export const catalog:Badge[]=original;
 export const categories={all:['All categories','كل الفئات'],rel:['Religious','دينية'],skill:['Skills','مهارية'],sport:['Sports','رياضية'],art:['Arts','فنية'],scout:['Scouting','كشفية']};

@@ -15,6 +15,7 @@ export function useDocument<T>(key:string,initial:T,userId?:string,shared=false)
   const [error,setError]=useState('');
   const current=useRef(initialCache);const ready=useRef(!userId);const queue=useRef(Promise.resolve());
   const table=shared?'program_content':'scout_documents';
+  const readTable=shared?'member_program_content':table;
   function cache(next:Cache<T>){current.current=next;try{localStorage.setItem(cacheKey,JSON.stringify(next));}catch{setError('Device storage is full. Export your work. / مساحة الجهاز ممتلئة. صدّر بياناتك.');}}
   async function save(){
     if(!userId||!supabase||!ready.current)return;
@@ -36,7 +37,7 @@ export function useDocument<T>(key:string,initial:T,userId?:string,shared=false)
     async function load(){
       if(!userId||!supabase){ready.current=true;return;}
       try {
-        let query=supabase.from(table).select('data').eq('key',shared?'program':key);
+        let query=supabase.from(readTable).select('data').eq('key',shared?'program':key);
         if(!shared)query=query.eq('user_id',userId);
         const {data,error}=await query.maybeSingle();if(error)throw error;if(!active)return;
         if(!current.current.dirty&&data){cache({value:data.data as T,dirty:false});setValue(data.data as T);}
@@ -53,7 +54,7 @@ export function useDocument<T>(key:string,initial:T,userId?:string,shared=false)
   async function retry(){
     // Re-fetch first after an initial load failure, so an unavailable server never gets overwritten with an empty document.
     if(!ready.current&&supabase&&userId){
-      let q=supabase.from(table).select('data').eq('key',shared?'program':key);if(!shared)q=q.eq('user_id',userId);
+      let q=supabase.from(readTable).select('data').eq('key',shared?'program':key);if(!shared)q=q.eq('user_id',userId);
       const {data,error}=await q.maybeSingle();if(error){setError(error.message);return;}
       if(!current.current.dirty&&data){cache({value:data.data as T,dirty:false});setValue(data.data as T);}ready.current=true;
     }

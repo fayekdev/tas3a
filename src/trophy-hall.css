@@ -1,0 +1,16 @@
+.trophy-hall{margin-block:28px}
+.trophy-hall-notice{padding:16px 20px;border:1px solid #d8b66a55;border-radius:14px;background:#d8b66a0d;color:#e4c787;line-height:1.7;margin:0 0 24px}
+.trophy-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(100px,1fr));gap:12px;max-width:1000px}
+.trophy-card{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:8px;min-width:0;padding:16px 8px;border:1px solid var(--line);border-radius:14px;background:var(--surface);color:#f5f0e6;text-align:center}
+.trophy-card:hover{background:var(--raised);border-color:var(--gold)}
+.trophy-medallion{display:grid;place-items:center;width:60px;height:60px;flex-shrink:0;border:5px double #b99a52;border-radius:50%;color:#705324;background:radial-gradient(circle at 35% 25%,#fff6d3,#d7b96d);box-shadow:0 3px 0 #9c7c3a,0 6px 16px #80642d15;margin:0 0 4px}
+.trophy-card strong{font-size:12px;line-height:1.5;overflow-wrap:anywhere}
+.medal-context{font-size:11px;color:var(--muted);overflow-wrap:anywhere}
+.medal-recipient{margin-block:24px}.medal-recipient h3{margin-bottom:14px;font-size:16px}
+.medal-award-form fieldset{padding:0;border:0;margin:0;min-width:0}
+.medal-form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 20px}
+.medal-form-grid textarea{resize:vertical}.medal-feedback{color:var(--gold);margin-block:12px}
+.medal-dialog{width:calc(100% - 32px);max-width:460px}.medal-dialog .trophy-medallion{margin-block-end:18px}
+.medal-dialog dl{margin-block:22px 8px}.medal-dialog dt{font-size:12px;color:var(--muted);margin-top:16px}.medal-dialog dd{margin:4px 0 0;overflow-wrap:anywhere;white-space:pre-wrap}
+@media(max-width:800px){.app-shell:has(.trophy-hall){padding-bottom:calc(var(--bottom-bar-height,72px) + 2px + env(safe-area-inset-bottom,0px))}}
+@media(max-width:540px){.trophy-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.medal-form-grid{grid-template-columns:1fr}}

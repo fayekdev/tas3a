@@ -12,8 +12,8 @@ test('mobile Arabic layout stays inside the viewport and navigation works',async
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBe(true);
   await page.screenshot({path:'test-results/home-mobile-arabic.png',fullPage:true});
   await page.getByRole('button',{name:'Menu',exact:true}).click();
-  await page.getByRole('link',{name:'الطلائع',exact:true}).click();
-  await expect(page.getByRole('heading',{name:'لم تُعيَّن طليعة'})).toBeVisible();
+  await page.getByRole('link',{name:'قاعة الأوسمة',exact:true}).click();
+  await expect(page.getByRole('heading',{name:'قاعة الأوسمة',exact:true})).toBeVisible();
 });
 
 test('maintainer can edit program content and publish achievement galleries',async({page})=>{
@@ -23,7 +23,7 @@ test('maintainer can edit program content and publish achievement galleries',asy
     const req=route.request(),url=new URL(req.url());
     if(url.pathname.includes('/rpc/is_admin'))return route.fulfill({json:true});
     if(url.pathname.includes('/auth/v1/logout'))return route.fulfill({status:204});
-    if(url.pathname.endsWith('/program_content')||url.pathname.endsWith('/scout_documents')){
+    if((url.pathname.endsWith('/program_content')||url.pathname.endsWith('/member_program_content'))||url.pathname.endsWith('/scout_documents')){
       if(req.method()==='POST'){const row=req.postDataJSON();writes.push(row);documents[row.key]=row.data;return route.fulfill({status:201,body:''});}
       const key=url.searchParams.get('key')?.replace('eq.','')||'';
       return route.fulfill({json:documents[key]?[{data:documents[key]}]:[]});
@@ -119,12 +119,9 @@ test('attendance and handbook bookmarks persist; Arabic Morse decodes separately
   const state=await mockMember(page);state.documents={};
   await page.goto('/#attendance');
   await page.getByRole('button',{name:'I came',exact:true}).click();
-  await page.getByLabel('Member name',{exact:true}).fill('Test scout');
-  await page.getByRole('button',{name:'Add member',exact:true}).click();
-  await page.locator('.attendance-row').filter({hasText:'Test scout'}).getByRole('button',{name:'Came',exact:true}).click();
+  await expect(page.getByRole('heading',{name:'My team',exact:true})).toHaveCount(0);
   await page.reload();
   await expect(page.getByRole('button',{name:'I came',exact:true})).toHaveAttribute('aria-pressed','true');
-  await expect(page.locator('.attendance-row').filter({hasText:'Test scout'}).getByRole('button',{name:'Came',exact:true})).toHaveAttribute('aria-pressed','true');
   await page.goto('/#tools/handbook');
   await page.getByRole('button',{name:'حفظ وعد الكشافة',exact:true}).click();
   await page.reload();
