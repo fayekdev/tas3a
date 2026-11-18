@@ -13,7 +13,7 @@ import {navigationIcons} from './NavigationIcons';
 const Workspace=lazy(()=>import('./Workspace'));
 import { symbols, validatePatrol, type Membership, type Patrol, type Profile, type PatrolSymbol } from './domain';
 
-type Page = 'home' | 'badges' | 'patrouilles' | 'tools' | 'progress' | 'attendance' | 'account' | 'admin' | 'stats';
+type Page = 'home' | 'badges' | 'patrouilles' | 'tools' | 'progress' | 'attendance' | 'account' | 'admin' | 'stats' | 'records';
 type AuthMode = 'login' | 'password';
 import {patrolIcons as iconMap} from './ScoutIcons';
 const text = {
@@ -25,6 +25,7 @@ const text = {
     "progress": "Achievements",
     "attendance": "Attendance",
     "stats": "Season stats",
+    "records": "My records",
     "account": "My account",
     "admin": "Administration",
     "login": "Sign in",
@@ -86,6 +87,7 @@ const text = {
     "progress": "الإنجازات",
     "attendance": "الحضور",
     "stats": "إحصائيات المواسم",
+    "records": "سجلاتي",
     "account": "حسابي",
     "admin": "الإدارة",
     "login": "تسجيل الدخول",
@@ -146,7 +148,7 @@ function TrailArt() { return <svg viewBox="0 0 580 400" className="trail-art" ro
 export default function App() {
   const [lang,setLang] = useState<'en'|'ar'>(()=>localStorage.getItem('scout-language')==='ar'?'ar':'en');
   const t = text[lang];
-  const readPage = ():Page => { const h=location.hash.slice(1).split('/')[0];return ['home','badges','patrouilles','tools','progress','attendance','account','admin','stats'].includes(h)?h as Page:'home'; };
+  const readPage = ():Page => { const h=location.hash.slice(1).split('/')[0];return ['home','badges','patrouilles','tools','progress','attendance','account','admin','stats','records'].includes(h)?h as Page:'home'; };
   const [page,setPage]=useState<Page>(readPage);
   const [route,setRoute]=useState(location.hash.slice(1));
   const [session,setSession]=useState<Session|null>(null);
@@ -196,8 +198,8 @@ export default function App() {
   const myProfile=profiles.find(p=>p.id===session?.user.id);
   const displayName=myProfile?.display_name||session?.user.user_metadata?.display_name||t.account;
   const attendanceAccess=canTrackAttendance(myProfile?.scout_role);
-  const nav = (['home','badges','tools','attendance','stats','patrouilles','account'] as const).filter(id=>id!=='attendance'||attendanceAccess).map(id=>({id,icon:id==='patrouilles'&&!admin?Trophy:navigationIcons[id]}));
-  const pageLabel=(id:Page)=>id==='patrouilles'&&!admin?(lang==='ar'?'قاعة الأوسمة':'Trophy hall'):t[id];
+  const nav = (['home','badges','tools','attendance','stats','records','patrouilles','account'] as const).filter(id=>id!=='attendance'||attendanceAccess).map(id=>({id,icon:id==='patrouilles'&&!admin?Trophy:navigationIcons[id]}));
+  const pageLabel=(id:Page)=>id==='records'&&route.includes('/')&&admin?(lang==='ar'?'سجلات الكشاف':'Scout records'):id==='patrouilles'&&!admin?(lang==='ar'?'قاعة الأوسمة':'Trophy hall'):t[id];
   const mobileNav=nav.filter(({id})=>['home','badges','tools',attendanceAccess?'attendance':'stats'].includes(id));
   const MoreIcon=navigationIcons.more;
   useEffect(()=>{if(!mobile)return;const close=(e:KeyboardEvent)=>{if(e.key==='Escape')setMobile(false);};window.addEventListener('keydown',close);return()=>window.removeEventListener('keydown',close);},[mobile]);
@@ -219,7 +221,7 @@ export default function App() {
     <main id="main-content">
       {!supabase&&<div className="notice">{lang==='ar'?'تسجيل الدخول غير متاح حاليًا.':'Sign-in is currently unavailable.'}</div>}
       {error&&<div className="error-banner" role="alert">{error}<button onClick={()=>void load(session)}>{t.retry}</button></div>}
-      <Suspense fallback={<LoadingIX label={t.loading}/>}><Workspace key={session?.user.id||'guest'} userId={session?.user.id} admin={admin} role={myProfile?.scout_role} roleReady={!loading} lang={lang} page={page} route={route}/></Suspense>
+      <Suspense fallback={<LoadingIX label={t.loading}/>}><Workspace key={session?.user.id||'guest'} userId={session?.user.id} admin={admin} role={myProfile?.scout_role} roleReady={!loading} profiles={profiles} lang={lang} page={page} route={route}/></Suspense>
       {page==='patrouilles'&&(loading?<LoadingIX label={t.loading}/>:admin?list:<TrophyHall key={session.user.id} lang={lang} userId={session.user.id} profiles={profiles}/>)}
       {page==='admin'&&((loading&&!admin)?<LoadingIX label={t.loading}/>:admin?<>{list}<a className="primary stats-admin-link" href="#stats">{t.stats}</a><TrophyHall key={session.user.id} lang={lang} userId={session.user.id} admin profiles={profiles}/><AdminAccounts profiles={profiles} patrols={patrols} members={members} onUpdate={()=>void load(session)} arabic={lang==='ar'}/></>:<Empty icon={ShieldCheck} title={t.restricted} description={t.restrictedDesc}>{!session?<button className="primary" onClick={()=>setAuth('login')}>{t.signInAdmin}<ArrowRight size={17}/></button>:<p className="muted">{t.help}</p>}</Empty>)}
       {page==='account'&&(!session?<Empty icon={Trophy} title={t.account} description={t.emptydesc}><button className="primary" onClick={()=>setAuth('login')}>{t.login}</button></Empty>:<Account t={t} session={session} name={myProfile?.display_name??''} role={myProfile?.scout_role??'Patrouillard'} admin={admin} onPassword={()=>setAuth('password')} onUpdate={()=>void load(session)}/>)}

@@ -43,3 +43,11 @@ The user approved pushing after the follow-up changes. Apply `supabase/season-st
 - `season_stats_records` fetches current seasonal totals automatically. Members receive only their own record plus Patrouille aggregates; admins receive individual summaries. New live records override stale published counts, including after an official mark is cleared. Legacy check-ins remain read-only and are not double-counted.
 - Add `supabase/leadership-attendance.sql` after the existing seasonal schema. The migration retains stored documents and does not fabricate or backfill attendance.
 - Local checks: 17 unit/data tests, isolated database tests, the 61-flow regression run, plus focused retry/backups/register tests. Edge mobile English/Arabic layouts pass. WebKit exits before page creation on this machine, so the follow-up Safari check could not run.
+
+## Complete existing record history follow-up
+
+- Remove the entire public Patrouille progress section; retain the scores-only podium and administrator controls.
+- Add My records for all-date attendance, badge checklist progress and presentations. Administrators can inspect a selected scout; members can access only their own history. The new read-only `scout-record-history.sql` RPC enforces this in the database and excludes private notes.
+- Use existing real data only. Official register entries override same-day historical self-check-ins. Empty histories remain explicit; no attendance, scouts or award dates are fabricated.
+- The user approved changing Samurai's start from 16 to 13 November 2026, retaining its end date. Four undated awards remain undated and separate from seasonal awards.
+- Local verification: 20 unit/data tests, TypeScript, production build, isolated Postgres permission/history tests, and the complete 69-case browser run (one optional live-account case skipped). English/Arabic layouts include narrow mobile records pages.

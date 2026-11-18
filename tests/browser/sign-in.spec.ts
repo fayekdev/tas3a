@@ -3,7 +3,7 @@ import {mockMember,uid} from './helpers';
 
 test('signed-out users see only sign-in on every route, including after Escape',async({page})=>{
  const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
- for(const route of ['','home','badges/b0','tools/map','tools/morse','tools/handbook','progress','attendance','stats','patrouilles','account','admin']){
+ for(const route of ['','home','badges/b0','tools/map','tools/morse','tools/handbook','progress','attendance','stats','records','records/00000000-0000-4000-8000-000000000002','patrouilles','account','admin']){
   await page.goto('/#'+route);await expect(page.getByRole('heading',{name:'Sign in',exact:true})).toBeVisible();await expect(page.getByLabel('Username or email')).toBeVisible();await expect(page.locator('.app-shell')).toHaveCount(0);await expect(page.locator('nav')).toHaveCount(0);await expect(page.locator('.home-shortcut')).toHaveCount(0);
  }
  await page.keyboard.press('Escape');await expect(page.getByRole('heading',{name:'Sign in',exact:true})).toBeVisible();await expect(page.getByRole('button',{name:'Close',exact:true})).toHaveCount(0);expect(errors).toEqual([]);

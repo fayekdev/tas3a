@@ -7,10 +7,10 @@ const source:StatsSource={patrols:patrols as any,scouts:[{userId:uid,name:'Scout
 const season:Season={id:'s1',name:'Samurai 2026',start:'2026-09-01',end:'2027-08-31',patrols:patrols as any,scouts:[{...source.scouts[0],tardy:1}]};
 async function setup(page:any,admin=false){const state=await mockMember(page,admin);Object.assign(state.program,{seasons:[{...season,id:'s0',name:'2025 season',start:'2025-09-01',end:'2026-08-31',closed:true,scouts:[{...source.scouts[0],attended:4,tardy:0}]},season],activeSeasonId:'s1'});return state;}
 
-test('public stats show patrol totals and scores without individual scout records',async({page})=>{
- await setup(page);await page.goto('/#stats');await expect(page.getByRole('heading',{name:'Season stats',exact:true})).toBeVisible();await expect(page.locator('.score-entry')).toHaveCount(5);await expect(page.locator('.podium-contender')).toHaveCount(3);await expect(page.locator('.patrol-stat-card')).toHaveCount(5);await expect(page.locator('.patrol-stat-card').filter({hasText:'Panthère'})).toContainText('80%');
+test('public stats show only scores without patrol progress or individual records',async({page})=>{
+ await setup(page);await page.goto('/#stats');await expect(page.getByRole('heading',{name:'Season stats',exact:true})).toBeVisible();await expect(page.locator('.score-entry')).toHaveCount(5);await expect(page.locator('.podium-contender')).toHaveCount(3);await expect(page.locator('.patrol-stats-section')).toHaveCount(0);await expect(page.getByRole('heading',{name:'Patrouille progress',exact:true})).toHaveCount(0);
  await expect(page.locator('.scout-stat-card')).toHaveCount(0);await expect(page.getByText('Scout test',{exact:true})).toHaveCount(0);await expect(page.getByLabel('Find a scout')).toHaveCount(0);await expect(page.getByRole('button',{name:'Refresh from records'})).toHaveCount(0);await expect(page.getByRole('button',{name:'Edit stats',exact:true})).toHaveCount(0);
- await expect(page.locator('.season-scoreboard')).not.toContainText('Attendance');await expect(page.locator('.season-scoreboard')).not.toContainText('badges');await page.getByRole('combobox',{name:'Season',exact:true}).selectOption('s0');await expect(page.locator('.patrol-stat-card').filter({hasText:'Panthère'})).toContainText('67%');
+ await expect(page.locator('.season-scoreboard')).not.toContainText('Attendance');await expect(page.locator('.season-scoreboard')).not.toContainText('badges');await page.getByRole('combobox',{name:'Season',exact:true}).selectOption('s0');await expect(page.locator('.stats-score-panel')).toContainText('2025 season');
 });
 
 test('admins retain scout filters and history across seasons',async({page})=>{
@@ -38,7 +38,7 @@ test('slideshow advances automatically, pauses on hover and respects reduced mot
 for(const lang of ['en','ar'])for(const width of [320,390,598])test(`scoreboard, stats and date layout ${lang} at ${width}px`,async({page})=>{
  await setup(page);await page.setViewportSize({width,height:844});await page.addInitScript(lang=>localStorage.setItem('scout-language',lang),lang);await page.emulateMedia({reducedMotion:'no-preference'});await page.clock.install();
  await page.goto('/#home');await expect(page.locator('.season-banner-copy')).toBeVisible();await page.waitForTimeout(200);await page.clock.runFor(4100);await expect(page.locator('.score-entry')).toHaveCount(5);await expect(page.locator('.score-entry').last()).toContainText('Loup');expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
- await page.goto('/#stats');await expect(page.locator('.patrol-stat-card').first()).toBeVisible();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);if(width===390)await page.screenshot({path:`test-results/stats-${lang}.png`,fullPage:true});
+ await page.goto('/#stats');await expect(page.locator('.stats-score-panel')).toBeVisible();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);if(width===390)await page.screenshot({path:`test-results/stats-${lang}.png`,fullPage:true});
  await page.goto('/#attendance');await expect(page.getByRole('heading',{name:lang==='ar'?'الحضور متاح للقيادة فقط':'Attendance access restricted',exact:true})).toBeVisible();
 });
 
