@@ -1,9 +1,14 @@
+import {attendanceAllowed} from '../../src/schedule';
+import {patrolTotals} from '../../src/statsModel';
 import type {Page} from '@playwright/test';
 export const uid='00000000-0000-4000-8000-000000000002';
 export async function mockMember(page:Page,admin=false,role='Patrouillard'){
- const state={program:{badges:{},custom:[],hidden:[],handbook:{},achievements:[],symbols:[],events:[],attendanceDays:[]},requests:[] as any[],calls:[] as any[],documents:{badges:{b0:{checked:[0,1,2,3,4,5],notes:''}}} as Record<string,any>};
+ const state={statsSource:undefined as any,registerScouts:[{userId:'00000000-0000-4000-8000-000000000003',name:'Scout One',patrolId:'p0',patrolName:'Panthère',patrolSymbol:'panthere'},{userId:'00000000-0000-4000-8000-000000000004',name:'Scout Two',patrolId:'p1',patrolName:'Gazelle',patrolSymbol:'gazelle'}],attendanceRecords:{} as Record<string,any[]>,attendanceCalls:[] as any[],program:{badges:{},custom:[],hidden:[],handbook:{},achievements:[],symbols:[],events:[],attendanceDays:[]},requests:[] as any[],calls:[] as any[],documents:{badges:{b0:{checked:[0,1,2,3,4,5],notes:''}}} as Record<string,any>};
  await page.route('https://jqrougqghcecxhhvywyx.supabase.co/**',async route=>{
   const req=route.request(),url=new URL(req.url()),path=url.pathname;
+  if(path.endsWith('/rpc/season_stats_records')){const body=req.postDataJSON(),season=(state.program as any).seasons?.find((s:any)=>s.start===body.p_start&&s.end===body.p_end);const source=state.statsSource??{patrols:season?.patrols??[],scouts:season?.scouts??[]};return route.fulfill({json:admin?source:{...source,patrolSummaries:source.patrolSummaries??(season?patrolTotals({...season,scouts:source.scouts}):[]),scouts:source.scouts.filter((s:any)=>s.userId===uid)}});}
+  if(path.endsWith('/rpc/attendance_register')){if(!['Chief','Assistant'].includes(role))return route.fulfill({status:403,json:{message:'Only Chiefs and Assistants can track attendance'}});const date=req.postDataJSON().p_date;return route.fulfill({json:{scouts:state.registerScouts,records:state.attendanceRecords[date]??[],allowed:attendanceAllowed(date,state.program.attendanceDays,new Date().toISOString().slice(0,10))}});}
+  if(path.endsWith('/rpc/save_attendance_register')){if(!['Chief','Assistant'].includes(role))return route.fulfill({status:403,json:{message:'Only Chiefs and Assistants can track attendance'}});const body=req.postDataJSON();state.attendanceCalls.push(body);const rows=new Map((state.attendanceRecords[body.p_date]??[]).map((r:any)=>[r.userId,r]));for(const r of body.p_records){if(r.status===null)rows.delete(r.userId);else rows.set(r.userId,r);}state.attendanceRecords[body.p_date]=[...rows.values()];return route.fulfill({status:204});}
   if(path.includes('/rpc/is_admin'))return route.fulfill({json:admin});
   if(path.includes('/auth/v1/logout'))return route.fulfill({status:204});
   if(path.endsWith('/accounts')){const account={id:uid,display_name:'Scout test',username:'scout.test',scout_role:role};return route.fulfill({json:req.headers().accept?.includes('vnd.pgrst.object')?account:[account]});}

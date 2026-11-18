@@ -1,6 +1,6 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {attendanceRate,patrolTotals,mergeSnapshot,scoreboard,validSeason,type Season,type ScoutStats} from '../src/statsModel.ts';
+import {attendanceRate,patrolTotals,applyLiveRecords,mergeSnapshot,scoreboard,validSeason,type Season,type ScoutStats} from '../src/statsModel.ts';
 const scout:ScoutStats={userId:'s',name:'Scout',patrolId:'p',attended:3,missed:1,completed:2,awarded:1,tardy:1,extra:{service:4}};
 const season:Season={id:'one',name:'Season one',start:'2026-09-01',end:'2027-08-31',patrols:[{id:'p',name:'Panthère',symbol:'panthere',active:true,points:20}],scouts:[scout]};
 test('attendance distinguishes missing data from a true zero percent',()=>{
@@ -23,4 +23,9 @@ test('patrol totals combine members while preserving unknown stats and server ag
  const totals=patrolTotals({...season,scouts:[scout,{...scout,userId:'other',attended:5,missed:1,tardy:null}]});assert.equal(totals[0].members,2);assert.equal(totals[0].attended,8);assert.equal(attendanceRate(totals[0]),80);assert.equal(totals[0].tardy,1);
  assert.equal(patrolTotals({...season,scouts:[]})[0].attended,null);
  const projected=patrolTotals({...season,scouts:[scout],patrolSummaries:[{id:'p',members:2,attended:8,missed:2,completed:4,awarded:2,tardy:1}]});assert.equal(projected[0].attended,8);assert.equal(projected[0].members,2);
+});
+test('live leader records replace stale attendance while retaining scores and snapshot timestamps',()=>{
+ const published={...season,updatedAt:'2026-11-01T00:00:00Z'};
+ const live=applyLiveRecords(published,{attendanceManaged:true,patrols:[{id:'p',name:'Panthère',symbol:'panthere'}],scouts:[{...scout,attended:8,tardy:2,lateMinutes:17}]});assert.equal(live.scouts[0].attended,8);assert.equal(live.scouts[0].tardy,2);assert.equal(live.scouts[0].lateMinutes,17);assert.equal(live.patrols[0].points,20);assert.equal(live.updatedAt,published.updatedAt);
+ const cleared=applyLiveRecords(published,{attendanceManaged:true,patrols:[],scouts:[{...scout,tardy:null,lateMinutes:null}]});assert.equal(cleared.scouts[0].tardy,null);assert.equal(cleared.scouts[0].lateMinutes,null);
 });

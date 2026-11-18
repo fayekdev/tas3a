@@ -35,3 +35,11 @@ Verification completed locally: 13 unit/data tests, 50 production-build browser 
 ## Release
 
 The user approved pushing after the follow-up changes. Apply `supabase/season-stats.sql`, verify deployed function/view permissions and unchanged attendance/badge workflows, then commit/push the source. Member reads now use `member_program_content`; this database update must precede the frontend release. Existing program and personal data are preserved. No QA accounts or production sample records are created.
+
+## Leadership attendance follow-up
+
+- Attendance is a shared, daily register restricted to Chief and Assistant scout roles, with no administrator override. Scouts see Stats instead in navigation.
+- `attendance_records` stores presence, late minutes, date, recorder and update time. Guarded RPCs fetch the roster and save edited rows atomically. RLS blocks self-check-ins and exposes raw attendance rows only to the owner and leadership.
+- `season_stats_records` fetches current seasonal totals automatically. Members receive only their own record plus Patrouille aggregates; admins receive individual summaries. New live records override stale published counts, including after an official mark is cleared. Legacy check-ins remain read-only and are not double-counted.
+- Add `supabase/leadership-attendance.sql` after the existing seasonal schema. The migration retains stored documents and does not fabricate or backfill attendance.
+- Local checks: 17 unit/data tests, isolated database tests, the 61-flow regression run, plus focused retry/backups/register tests. Edge mobile English/Arabic layouts pass. WebKit exits before page creation on this machine, so the follow-up Safari check could not run.

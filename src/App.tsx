@@ -5,6 +5,7 @@ import { supabase } from './supabase';
 import AdminAccounts from './AdminAccounts';
 import SeasonBanner from './SeasonBanner';
 import LoadingIX from './LoadingIX';
+import {canTrackAttendance} from './attendanceModel';
 import TrophyHall from './TrophyHall';
 import {patrolTheme} from './patrolTheme';
 import AppIcon from './AppIcon';
@@ -194,9 +195,10 @@ export default function App() {
   function go(p:Page){location.hash=p;setMobile(false);}
   const myProfile=profiles.find(p=>p.id===session?.user.id);
   const displayName=myProfile?.display_name||session?.user.user_metadata?.display_name||t.account;
-  const nav = (['home','badges','tools','attendance','stats','patrouilles','account'] as const).map(id=>({id,icon:id==='patrouilles'&&!admin?Trophy:navigationIcons[id]}));
+  const attendanceAccess=canTrackAttendance(myProfile?.scout_role);
+  const nav = (['home','badges','tools','attendance','stats','patrouilles','account'] as const).filter(id=>id!=='attendance'||attendanceAccess).map(id=>({id,icon:id==='patrouilles'&&!admin?Trophy:navigationIcons[id]}));
   const pageLabel=(id:Page)=>id==='patrouilles'&&!admin?(lang==='ar'?'قاعة الأوسمة':'Trophy hall'):t[id];
-  const mobileNav=nav.filter(({id})=>['home','badges','tools','attendance'].includes(id));
+  const mobileNav=nav.filter(({id})=>['home','badges','tools',attendanceAccess?'attendance':'stats'].includes(id));
   const MoreIcon=navigationIcons.more;
   useEffect(()=>{if(!mobile)return;const close=(e:KeyboardEvent)=>{if(e.key==='Escape')setMobile(false);};window.addEventListener('keydown',close);return()=>window.removeEventListener('keydown',close);},[mobile]);
   const filtered=patrols.filter(p=>(p.name+' '+p.motto).toLocaleLowerCase().includes(query.toLocaleLowerCase()));
@@ -217,7 +219,7 @@ export default function App() {
     <main id="main-content">
       {!supabase&&<div className="notice">{lang==='ar'?'تسجيل الدخول غير متاح حاليًا.':'Sign-in is currently unavailable.'}</div>}
       {error&&<div className="error-banner" role="alert">{error}<button onClick={()=>void load(session)}>{t.retry}</button></div>}
-      <Suspense fallback={<LoadingIX label={t.loading}/>}><Workspace key={session?.user.id||'guest'} userId={session?.user.id} admin={admin} lang={lang} page={page} route={route}/></Suspense>
+      <Suspense fallback={<LoadingIX label={t.loading}/>}><Workspace key={session?.user.id||'guest'} userId={session?.user.id} admin={admin} role={myProfile?.scout_role} roleReady={!loading} lang={lang} page={page} route={route}/></Suspense>
       {page==='patrouilles'&&(loading?<LoadingIX label={t.loading}/>:admin?list:<TrophyHall key={session.user.id} lang={lang} userId={session.user.id} profiles={profiles}/>)}
       {page==='admin'&&((loading&&!admin)?<LoadingIX label={t.loading}/>:admin?<>{list}<a className="primary stats-admin-link" href="#stats">{t.stats}</a><TrophyHall key={session.user.id} lang={lang} userId={session.user.id} admin profiles={profiles}/><AdminAccounts profiles={profiles} patrols={patrols} members={members} onUpdate={()=>void load(session)} arabic={lang==='ar'}/></>:<Empty icon={ShieldCheck} title={t.restricted} description={t.restrictedDesc}>{!session?<button className="primary" onClick={()=>setAuth('login')}>{t.signInAdmin}<ArrowRight size={17}/></button>:<p className="muted">{t.help}</p>}</Empty>)}
       {page==='account'&&(!session?<Empty icon={Trophy} title={t.account} description={t.emptydesc}><button className="primary" onClick={()=>setAuth('login')}>{t.login}</button></Empty>:<Account t={t} session={session} name={myProfile?.display_name??''} role={myProfile?.scout_role??'Patrouillard'} admin={admin} onPassword={()=>setAuth('password')} onUpdate={()=>void load(session)}/>)}

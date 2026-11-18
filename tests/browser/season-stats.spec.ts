@@ -19,14 +19,14 @@ test('admins retain scout filters and history across seasons',async({page})=>{
 });
 
 test('admin creates, refreshes, edits and archives a season; saves survive reload',async({page})=>{
- const state=await setup(page,true);let fail=false;
+ const state=await setup(page,true);state.statsSource=source;let fail=false;
  await page.route('**/rest/v1/rpc/season_stats_source',r=>r.fulfill(fail?{status:503,json:{message:'Stats temporarily unavailable'}}:{json:source}));
  await page.goto('/#stats');await page.getByRole('button',{name:'Refresh from records',exact:true}).click();await expect.poll(()=>(state.program as any).seasons[1].scouts[0].attended).toBe(8);
- await page.getByRole('button',{name:'Edit stats',exact:true}).click();const editor=page.getByRole('form',{name:'Edit scout stats'});await editor.getByLabel('Tardiness',{exact:true}).fill('2');await editor.getByRole('button',{name:'Save stats',exact:true}).click();await expect.poll(()=>(state.program as any).seasons[1].scouts[0].tardy).toBe(2);
+ await page.getByRole('button',{name:'Edit stats',exact:true}).click();const editor=page.getByRole('form',{name:'Edit scout stats'});await editor.getByLabel('Late arrivals',{exact:true}).fill('2');await editor.getByRole('button',{name:'Save stats',exact:true}).click();await expect.poll(()=>(state.program as any).seasons[1].scouts[0].tardy).toBe(2);
  await page.getByText('Manage scoreboard',{exact:true}).click();const score=page.locator('.score-edit-row').filter({hasText:'Gazelle'});await score.getByLabel('Points',{exact:true}).fill('75');await score.getByRole('button',{name:'Save score'}).click();await expect(page.locator('.podium-place-1')).toContainText('Gazelle');
  fail=true;await page.getByRole('button',{name:'Refresh from records',exact:true}).click();await expect(page.getByRole('alert')).toContainText('published snapshot is unchanged');await expect(page.locator('.podium-place-1')).toContainText('75');
  await page.reload();await expect(page.locator('.scout-stat-card')).toContainText('2');await page.getByRole('button',{name:'Archive season',exact:true}).click();await expect(page.getByRole('button',{name:'Refresh from records'})).toBeDisabled();await expect(page.getByRole('button',{name:'Edit stats',exact:true})).toHaveCount(0);
- await page.getByRole('button',{name:'Add season',exact:true}).click();await page.getByLabel('Season name',{exact:true}).fill('Next season');await page.getByLabel('Season starts',{exact:true}).fill('2027-09-01');await page.getByLabel('Season ends',{exact:true}).fill('2028-08-31');await page.getByRole('button',{name:'Create season',exact:true}).click();await expect(page.getByText('No scout records published yet.')).toBeVisible();await expect.poll(()=>(state.program as any).seasons.length).toBe(3);
+ await page.getByRole('button',{name:'Add season',exact:true}).click();await page.getByLabel('Season name',{exact:true}).fill('Next season');await page.getByLabel('Season starts',{exact:true}).fill('2027-09-01');await page.getByLabel('Season ends',{exact:true}).fill('2028-08-31');await page.getByRole('button',{name:'Create season',exact:true}).click();await expect(page.locator('.scout-stat-card')).toHaveCount(1);await expect.poll(()=>(state.program as any).seasons.length).toBe(3);
 });
 
 test('slideshow advances automatically, pauses on hover and respects reduced motion',async({page})=>{
@@ -39,7 +39,7 @@ for(const lang of ['en','ar'])for(const width of [320,390,598])test(`scoreboard,
  await setup(page);await page.setViewportSize({width,height:844});await page.addInitScript(lang=>localStorage.setItem('scout-language',lang),lang);await page.emulateMedia({reducedMotion:'no-preference'});await page.clock.install();
  await page.goto('/#home');await expect(page.locator('.season-banner-copy')).toBeVisible();await page.waitForTimeout(200);await page.clock.runFor(4100);await expect(page.locator('.score-entry')).toHaveCount(5);await expect(page.locator('.score-entry').last()).toContainText('Loup');expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
  await page.goto('/#stats');await expect(page.locator('.patrol-stat-card').first()).toBeVisible();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);if(width===390)await page.screenshot({path:`test-results/stats-${lang}.png`,fullPage:true});
- await page.goto('/#attendance');await expect(page.getByRole('heading',{name:lang==='ar'?'فريقي':'My team',exact:true})).toHaveCount(0);const date=page.locator('input[type=date]');const box=(await date.boundingBox())!,parent=(await date.locator('..').boundingBox())!;expect(box.x).toBeGreaterThanOrEqual(parent.x);expect(box.x+box.width).toBeLessThanOrEqual(parent.x+parent.width+1);expect(await date.evaluate(e=>getComputedStyle(e).fontSize)).toBe('16px');if(width===390)await page.screenshot({path:`test-results/attendance-${lang}.png`,fullPage:true});
+ await page.goto('/#attendance');await expect(page.getByRole('heading',{name:lang==='ar'?'الحضور متاح للقيادة فقط':'Attendance access restricted',exact:true})).toBeVisible();
 });
 
 test('third slide shows only the signed-in scout and the cycle returns to artwork',async({page})=>{

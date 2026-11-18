@@ -6,7 +6,7 @@ export function download(name:string,content:BlobPart,type='application/json') {
   const a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
 }
 type Cache<T>={value:T;dirty:boolean};
-export function useDocument<T>(key:string,initial:T,userId?:string,shared=false) {
+export function useDocument<T>(key:string,initial:T,userId?:string,shared=false,readOnly=false) {
   const cacheKey=`tas3a:${userId||'guest'}:${shared?'program':key}`;
   const read=():Cache<T>=>{try{return JSON.parse(localStorage.getItem(cacheKey)||'null')??{value:initial,dirty:false};}catch{return {value:initial,dirty:false};}};
   const [initialCache]=useState(read);
@@ -18,7 +18,7 @@ export function useDocument<T>(key:string,initial:T,userId?:string,shared=false)
   const readTable=shared?'member_program_content':table;
   function cache(next:Cache<T>){current.current=next;try{localStorage.setItem(cacheKey,JSON.stringify(next));}catch{setError('Device storage is full. Export your work. / مساحة الجهاز ممتلئة. صدّر بياناتك.');}}
   async function save(){
-    if(!userId||!supabase||!ready.current)return;
+    if(readOnly||!userId||!supabase||!ready.current)return;
     queue.current=queue.current.then(async()=>{
       if(!current.current.dirty)return;
       const pending=current.current;setStatus('saving');
@@ -41,13 +41,14 @@ export function useDocument<T>(key:string,initial:T,userId?:string,shared=false)
         if(!shared)query=query.eq('user_id',userId);
         const {data,error}=await query.maybeSingle();if(error)throw error;if(!active)return;
         if(!current.current.dirty&&data){cache({value:data.data as T,dirty:false});setValue(data.data as T);}
-        ready.current=true;setStatus('saved');if(current.current.dirty)void save();
+        ready.current=true;setStatus(readOnly&&current.current.dirty?'local':'saved');if(current.current.dirty&&!readOnly)void save();
       }catch(e){if(active){setStatus('offline');setError((e as Error).message);}}
     }
     void load();const online=()=>void load();window.addEventListener('online',online);
     return()=>{active=false;window.removeEventListener('online',online);};
   },[cacheKey]);
   function update(next:T|((old:T)=>T)) {
+    if(readOnly)return;
     const v=typeof next==='function'?(next as (old:T)=>T)(current.current.value):next;
     cache({value:v,dirty:true});setValue(v);if(ready.current)void save();
   }
@@ -58,6 +59,7 @@ export function useDocument<T>(key:string,initial:T,userId?:string,shared=false)
       const {data,error}=await q.maybeSingle();if(error){setError(error.message);return;}
       if(!current.current.dirty&&data){cache({value:data.data as T,dirty:false});setValue(data.data as T);}ready.current=true;
     }
+    if(readOnly){setStatus(current.current.dirty?'local':'saved');setError('');return;}
     await save();if(!current.current.dirty){setStatus('saved');setError('');}
   }
   return {value,update,status,error,retry};

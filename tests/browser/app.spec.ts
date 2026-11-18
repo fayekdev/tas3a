@@ -118,10 +118,7 @@ test('map symbols, undo, redo, named drafts and PNG export work',async({page})=>
 test('attendance and handbook bookmarks persist; Arabic Morse decodes separately',async({page})=>{
   const state=await mockMember(page);state.documents={};
   await page.goto('/#attendance');
-  await page.getByRole('button',{name:'I came',exact:true}).click();
-  await expect(page.getByRole('heading',{name:'My team',exact:true})).toHaveCount(0);
-  await page.reload();
-  await expect(page.getByRole('button',{name:'I came',exact:true})).toHaveAttribute('aria-pressed','true');
+  await expect(page.getByRole('heading',{name:'Attendance access restricted',exact:true})).toBeVisible();
   await page.goto('/#tools/handbook');
   await page.getByRole('button',{name:'حفظ وعد الكشافة',exact:true}).click();
   await page.reload();
